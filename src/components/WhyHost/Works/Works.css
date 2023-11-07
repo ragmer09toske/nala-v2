@@ -1,0 +1,83 @@
+@import '../../../components/variables.css';
+.container{
+	width: 100%;
+	max-width: var(--max-content-width);
+	padding: 0 15px;
+	margin: 90px auto 0 auto;
+}
+.heading {
+	font-size: 48px;
+	font-weight: 600;
+	margin: 0 0 38px;
+}
+.desc {
+	font-size: 18px;
+	font-weight: bold;
+}
+/** RentAll - Begin **/
+
+.whybnb {
+	padding-top: 15px;
+	margin-bottom: 84px;
+}
+h4.common {
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0 0 18px;
+}
+p.common {
+	font-size: 18px;
+	margin-bottom: 0;
+}
+.whyblock {
+	background-color: var(--common-gray-bg-color);
+	padding: 20px 24px;
+	border-radius: 6px;
+}
+.imgWidth{
+	width: 100%;
+}
+@media screen and (max-width: 991px) {
+	.whybnb {
+		padding-top: 45px;
+		margin-bottom: 0px;
+	}
+	h4.common {
+		font-size: 23px;
+		font-weight: 600;
+	}
+	.mainhedding h1 {
+		font-size: 36px;
+		line-height: 51px;
+		margin-bottom: 13px;
+	}
+	.heading {
+		margin: 32px 0 38px;
+	}
+	.centerDevice{
+		text-align: center;
+	}
+}
+@media screen and (max-width: 767px) {
+	.whybnb {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.common {
+		font-size: 23px;
+		font-weight: 600;
+	}
+
+	h4.common {
+		font-size: 20px;
+	}
+	p.common {
+		font-size: 14px;
+		line-height: 1.7;
+		font-weight: 400;
+	}
+	.heading {
+		font-size: 30px;
+		margin: 32px 0 38px;
+	}
+}

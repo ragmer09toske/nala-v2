@@ -1,0 +1,60 @@
+@import '../../../../components/common.css';
+
+.checkboxSection {
+    padding-right: 12px;
+    position: relative;
+    top: -2px;
+}
+.btnSecondary img{
+	filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(104%) contrast(102%);
+}
+.displayTypeFlex{
+    display: flex;
+    align-items: self-start;
+}
+.dot{
+    font-size: 12px;
+    margin: 0;
+}
+.iconCss{
+    position: relative;
+    top: 5px;
+}
+.applyFlex{
+    display: flex;
+    justify-content: end;
+    padding-bottom: 16px;
+}
+.showMoreBtn{
+    padding: 0 !important;
+    font-weight: 500 !important;
+    border-radius: 0px !important;
+    text-decoration: none !important;
+}
+.showMoreBtn:hover, .showMoreBtn:focus{
+padding:0 !important;
+border-radius: 0px !important;
+text-decoration: none !important;
+}
+.showMoreBtn:hover img, .showMoreBtn:focus img{
+    filter: inherit !important;
+}
+.dotCss{
+    width: 5px;
+    height: 5px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+    display: inline-block;
+    position: relative;
+    top: -1px;
+}
+.lenghtCss{
+    position: relative;
+    top:2px
+}
+.carTypeIcon{
+    width: 100%;
+    max-width: 18px;
+    min-width: 18px;
+}

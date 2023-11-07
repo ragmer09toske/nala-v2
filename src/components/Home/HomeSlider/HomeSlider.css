@@ -1,0 +1,147 @@
+@import '../../../components/variables.css';
+
+.navigationIcon {
+	display: block;
+	fill: #484848;
+	height: 36px;
+	width: 36px;
+	font-size: 36px;
+	margin: 0 auto;
+}
+
+.HRCar {
+	width: 100%;
+	padding-top: 56.80%;
+	background-size: cover;
+	background-position: 50% 73%;
+	position: relative;
+	border-radius: 6px;
+	background-color: #ccc;
+}
+
+.PerDay {
+	color: var(--common-text-color);
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.perNightCss {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.HRDetails {
+	margin: 0px 0px 6px 0px;
+}
+
+.HRRight {
+	background: var(--common-background-color) !important;
+	border-radius: 6px;
+	margin-top: 15px;
+	display: flex;
+	align-items: center;
+	padding: 12px;
+}
+
+.btn {
+	width: 100%;
+	color: #fff !important;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.margintop5 {
+	margin-top: 0px !important;
+	margin-bottom: 3px !important;
+}
+
+.sliderbackground {
+	background: #fff;
+	padding: 10px 0px 0px;
+	outline: none !important;
+}
+
+.hiddentextSlider {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	word-wrap: break-word;
+	margin: 0;
+	width: 90%;
+}
+
+.positionRelative {
+	position: relative;
+	border-radius: 4px;
+	padding: 5px 0px;
+}
+
+.boxShadow {
+	background: #FFFFFF;
+	border: 1px solid #E0E0E0;
+	border-radius: 12px;
+	padding: 15px;
+}
+
+.titleCss {
+	font-size: 18px;
+	color: var(--common-text-color);
+	margin: 5px 0 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: 400;
+}
+
+.reviewCss {
+	border-right: 1px solid var(--common-border-color);
+	padding: 0 12px 0 0;
+	display: flex;
+	color: #fff;
+	font-weight: 500;
+	align-items: baseline;
+}
+
+.arrowIconCss {
+	padding-left: 6px;
+}
+
+.trip {
+	font-size: 14px;
+	color: var(--common-text-color);
+	display: flex;
+	align-items: center;
+}
+
+.carType {
+	padding-right: 3px;
+}
+.dotCss{
+	width: 4px;
+	height: 4px;
+	background: var(--common-background-color);
+	border-radius: 50%;
+	margin: 0 4px;
+	display: inline-block;
+}
+.reviewCssImg{
+	margin-right: 4px;
+}
+.textFlow{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.instantIcon {
+	color: #ffb400;
+	height: 16px;
+	width: 16px;
+}
+@media(max-width:767px) {
+	.positionRelative {
+		padding: 5px 0;
+	}
+}

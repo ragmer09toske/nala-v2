@@ -1,0 +1,84 @@
+@import '../../components/variables.css';
+
+.btnRight {
+  margin-right: 10px;
+}
+
+.btnFlex {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.payoutTitleFlex {
+  display: flex;
+  align-items: center;
+}
+
+.paddingRight {
+  padding: 24px 18px 0px;
+}
+
+.cityWidth {
+  width: 48%;
+}
+
+.spaceBetWeen {
+  justify-content: space-between;
+}
+
+.alignItemBaseLine {
+  align-items: baseline;
+}
+
+.itemPadding {
+  padding: 0px 5px;
+  line-height: 18px;
+}
+
+.radioBtn {
+  top: 4px;
+}
+
+.fullWidth {
+  width: 100%;
+}
+.textAlignCenter{
+  text-align: center !important;
+}
+
+.tolltipMargin {
+  margin: 0px 3px 2px;
+}
+.payMinWidth{
+  min-width: 56px;
+}
+
+@media screen and (max-width: 767px) {
+  .btnFlex {
+    flex-direction: column;
+  }
+
+  .cityWidth {
+    width: 100%;
+  }
+
+  .flexColumMobile {
+    flex-direction: column;
+  }
+
+  .btnRight {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .alignLeftMb{
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .flexDirection {
+    flex-direction: column;
+    align-items: baseline;
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "name": "ViewFailedPayout",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./ViewFailedPayout.js"
+}

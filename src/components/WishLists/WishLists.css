@@ -1,0 +1,7 @@
+.createIcon{
+    width: 16px;
+}
+.flexColumn{
+    display: flex;
+    flex-wrap: wrap;
+}

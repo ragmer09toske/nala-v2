@@ -1,0 +1,13 @@
+@import '../../../components/variables.css';
+
+.titleText {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+    .panelBorder {
+        margin-bottom: 0px;
+    }
+}

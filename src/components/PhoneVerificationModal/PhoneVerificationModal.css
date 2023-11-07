@@ -1,0 +1,78 @@
+@import url('../commonStyle.css');
+@import url('../variables.css');
+
+.plusIcon {
+    max-width: 16px;
+    max-height: 16px;
+    margin-right: 4px;
+}
+
+.phoneNumberVerifySec {
+    background: var(--common-gray-bg-color);
+    border: 1px solid var(--common-border-color);
+    border-radius: 6px;
+    display: grid;
+    grid-template-columns: auto 4fr 1fr;
+    align-items: center;
+    word-break: break-word;
+    position: relative;
+}
+
+.countryCodeSec {
+    padding: 14px 17px;
+    background: var(--btn-primary-bg);
+    color: var(--btn-primary-color);
+    border-radius: 6px 0px 0px 6px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.phoneNumberSec {
+    padding: 14px 20px;
+}
+
+.clearOption {
+    padding: 14px 20px 14px 0;
+}
+
+.phoneVerifyModal {
+    border-radius: 6px;
+}
+
+.iconSize {
+    max-width: 13px;
+    max-height: 13px;
+}
+
+.sendBtn {
+    white-space: normal;
+    word-break: break-word;    
+}
+
+.confirmedText {
+    color: var(--verified-color);
+}
+
+.confirmedIcon{
+    width: 12px;
+    height: 8px;
+    margin-right: 3px;
+    vertical-align: baseline;
+}
+
+
+@media screen and (max-width:767px) {
+
+    .phoneNumberSec {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .countryCodeSec {
+        padding-inline: 12px;
+    }
+    .phoneVerifyModal{
+        padding: 15px;
+    }
+}

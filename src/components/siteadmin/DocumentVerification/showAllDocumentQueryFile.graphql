@@ -1,0 +1,22 @@
+query showAllDocument($currentPage: Int, $searchList: String){
+  showAllDocument (currentPage:$currentPage, searchList: $searchList){
+    status
+    errorMessage
+    count
+  results {
+    id,
+    email,
+     profile{
+      profileId
+          firstName
+    }
+    document{      
+       fileName
+        fileType
+        documentStatus
+    }
+    verification{
+      isIdVerification
+    }}
+  }
+}

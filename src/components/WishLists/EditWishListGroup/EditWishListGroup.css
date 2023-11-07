@@ -1,0 +1,42 @@
+.editBtnMargin {
+    margin: 0px 12px;
+}
+
+.closeWidth {
+    width: 100%;
+    max-width: 12px;
+}
+.noWishList{
+    text-align: center;
+}
+.btnlarge{
+    display: inline-block;
+    padding: 9px 19px 11px;
+}
+.iconWidth{
+    max-width: 14px;
+}
+.iconDeleteWidth{
+    max-width: 12px;
+}
+.listGrid{
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    gap: 30px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .listGrid {
+        grid-template-columns: repeat(auto-fill, 226px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .flexWrapMb{
+        flex-wrap: wrap;
+        justify-content: end;
+        gap: 12px;
+    }
+    .listGrid {
+        grid-template-columns: 100%;
+    }
+}

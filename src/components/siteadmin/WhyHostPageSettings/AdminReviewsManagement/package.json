@@ -1,0 +1,6 @@
+{
+  "name": "AdminReviewsManagement",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AdminReviewsManagement.js"
+}

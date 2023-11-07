@@ -1,0 +1,62 @@
+@import '../../variables.css';
+
+.filterModal{
+    background: var(--modal-header-bg);
+    border-bottom: unset;
+}
+.commonInput{
+    background-color: var(--background-color);
+    border: 1px solid var(--common-border-color);
+    border-radius: 6px;
+    height: 48px;
+    padding: 13px 40px 12px 19px;
+    display: flex;
+    align-items: center;
+    box-shadow: unset !important;
+}
+.filterBtnContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.paddintTop{
+    padding-top: 9px;
+}
+.cancelBtn{
+    border: 1px solid var(--border-secondary-color);
+    border-radius: 6px;
+    padding: 8px 20px;
+    color: var(--btn-primary-bg);
+    text-decoration: unset;
+    margin-right: 12px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.cancelBtn:hover,.cancelBtn:focus{
+    text-decoration: unset;
+    color: var(--btn-primary-bg);
+}
+.applyBtn{
+    background-color: var(--btn-primary-bg);
+    border: 1px solid var(--btn-primary-bg);
+    border-radius: 6px;
+    color: var(--background-color);
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    outline: unset;
+    line-height: 24px;
+}
+.applyBtn:hover,.applyBtn:focus,.applyBtn:active,.applyBtn:active:hover{
+    color: var(--background-color);
+    background-color: var(--btn-primary-bg);
+    border-color: var(--btn-primary-bg);
+}
+.filterModalHeader{
+    font-size: 20px;
+    font-weight: 600;
+}
+.noBorderBottom{
+    border-bottom: unset !important;
+}

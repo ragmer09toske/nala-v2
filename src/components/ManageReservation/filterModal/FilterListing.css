@@ -1,0 +1,42 @@
+@import '../../../../public/css/variables.css';
+
+.fieldTitle {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.buttonStyle {
+    line-height: normal;
+    padding: 8px 19px !important;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.selectField,
+.selectField:focus,
+.selectField:hover {
+    height: 48px;
+    border-radius: 6px;
+    border: 1px solid var(--common-border-color);
+    box-shadow: none;
+    padding-left: 19px;
+    padding-right: 40px;
+    background-size: 14px 7px !important;
+}
+
+.clearBtnSpaceRight {
+    margin-right: 12px;
+}
+
+@media screen and (max-width:767px) {
+    .selectField,
+    .selectField:focus,
+    .selectField:hover {
+        padding-left: 12px;
+        font-size: 14px !important;
+    }
+}

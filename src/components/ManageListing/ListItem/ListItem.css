@@ -1,0 +1,211 @@
+@import '../common.css';
+@import '../../variables.css';
+ .leanProgressContainer {
+	height: 6px;
+	background-color: #c8c8c8;
+	margin-bottom: 0px;
+	border-radius: 3px !important;
+	-webkit-border-radius: 3px !important;
+	-moz-border-radius: 3px !important;
+	-ms-border-radius: 3px !important;
+	-o-border-radius: 3px !important;
+}
+.leanProgressBar {
+	background-color: var(--common-link-color);
+	box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+	color: #fff;
+	float: left;
+	font-size: 12px;
+	height: 100%;
+	line-height: 20px;
+	text-align: center;
+	transition: width 0.6s ease 0s;
+	width: 0;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+.landingStep {
+	font-size: 14px;
+	color: #7d7d7d;
+}
+.listContent {
+	color: var(--common-text-color) !important;
+	text-decoration: none !important;
+	overflow: hidden;
+    word-break: break-word;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inherit;
+    max-width: 300px;
+}
+.noPadding {
+	padding: 0px;
+}
+.labelText {
+	font-size: 14px;
+	color: var(--btn-primary-bg);
+	font-weight: normal;
+	line-height: 1.43;
+}
+.listPhotoCover {
+	display: block;
+	min-height: 160px;
+	backface-visibility: hidden;
+	position: relative;
+	vertical-align: bottom;
+	overflow: hidden;
+	background-color: #bbb;
+	text-align: center;
+	border-radius: 6px;
+}
+.listPhotoMedia {
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	top: 0;
+}
+.imgResponsive {
+	height: 100%;
+	width: 100%;
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+}
+.listDetailContent {
+	position: relative;
+}
+.panelBody {
+	margin: 0;
+	background: #F9F9F9;
+	padding: 18px;
+	margin-bottom: 24px;
+	border-radius: 12px;
+	border:1px solid var(--common-border-color);
+}
+.panelBody:last-child {
+	margin-bottom: 0;
+}
+.iconRemove {
+	cursor: pointer;
+	position: absolute;
+	right: 15px;
+	display: none;
+	top:0;
+}
+.panelBody:hover .iconRemove {
+	display: block;
+}
+.icon {
+	font-weight: normal;
+	line-height: 1;
+	cursor: pointer;
+}
+.panelBodyAlert {
+	margin: 0;
+	padding: 24px 0px;
+	padding-top: 0px;
+	position: relative;
+}
+.panelBodyAlert:last-child{
+	padding: 0;
+}
+.alertBlock {
+	padding: 24px 24px 42px 24px;
+	background: var(--dashBoard-info-bg);
+	border: 1px solid var(--common-border-color);
+	border-radius: 12px;
+	position: relative;
+	overflow: hidden;
+}
+.h5 {
+	font-size: 18px;
+	font-weight: 500;
+}
+.alertText {
+	font-size: 16px;
+	color: var(--common-text-color);
+}
+.space2 {
+	margin-bottom: 12px;
+}
+.formSelect {
+	width: 100%;
+	height: 38px;
+	font-size: 16px;
+	border: 1px solid var(--common-link-color);
+	background-color: transparent;
+	color: var(--common-link-color);
+	font-weight: 500;
+	border-radius: 6px;
+    padding: 9px 30px 9px 15px;
+	background-size: 25px 17px !important;
+	position: relative;
+}
+.spaceTop14{
+	margin-top: 14px;
+}
+.btnPad{
+	padding: 9px 15px !important;
+}
+.noBgColor{
+	background-color: transparent !important;
+}
+.bgTransparent{
+	background-color: transparent !important;
+}
+@media screen and (max-width: 1024px) {
+	.iconRemove {
+		display: block;
+	}
+}
+@media (max-width: 991px) and (min-width: 768px) {
+.listPhotoCover{
+	min-height: 387px;
+}
+}
+@media screen and (max-width: 991px) {
+	.imgResponsive {
+		padding-top: 60%;
+	}
+	.listPhotoCover{
+		height: 100%;
+	}
+	.iconRemove{
+		position: relative;
+		right: 0;
+	}
+	.listContent {
+		margin-top: 12px;
+	}
+}
+@media screen and (max-width: 640px) {
+	
+}
+@media (max-width: 767.98px) {
+	.mrdeleteBtn{
+		width: 100%;
+		max-width: 100%;
+		display: block;
+		margin-right: 0;
+		margin-bottom: 12px;
+	}
+	.mrdeleteBtn:last-child{
+		margin-bottom: 0;
+	}
+	.mrlistingBtn{
+		width: 100%;
+		max-width: 100%;
+		margin-right: 0;
+		display: block;
+	}
+	.formSelect {
+		width: 100%;
+		max-width: 100%;
+	}
+}

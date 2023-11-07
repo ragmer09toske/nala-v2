@@ -1,0 +1,44 @@
+.expandContainer {
+  height: 38px;
+  box-shadow: 0px 8px 11px #3131310F;
+  border-radius: 6px;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  z-index: 2;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0 15px;
+}
+
+.expandContent {
+  display: inline-block;
+  margin: 0 7px;
+  position: relative;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.expandContainer img {
+  transition: all 0.3s ease;
+}
+
+.exPandIcon {
+  position: relative;
+  width: 14px;
+  height: 11px;
+}
+
+.listingIcon {
+  position: relative;
+  top: 1px;
+}
+
+@media screen and (max-width: 1199px) {
+  .expandContainer {
+    display: none;
+  }
+}

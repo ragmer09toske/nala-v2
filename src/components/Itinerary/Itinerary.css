@@ -1,0 +1,132 @@
+@import '../../components/variables.css';
+
+.container {
+	width: var(--max-container-width);
+	max-width: var(--max-listing-width);
+	position: relative;
+	margin: 0px auto;
+}
+
+.imageContent {
+	height: 100%;
+	width: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 6px;
+	padding-top: 54%;
+}
+
+.textSection {
+	margin-left: 20px;
+}
+
+.avatarImage {
+	display: grid;
+	grid-template-columns: 80px auto;
+	align-items: center;
+}
+
+.boxSection {
+	border: 1px solid var(--common-border-color);
+	padding: 24px;
+	border-radius: 12px;
+}
+
+.displayFlexDate {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.imgBgColor {
+	background-color: var(--common-gray-bg-color);
+}
+
+.dotCss {
+	width: 4px;
+	height: 4px;
+	background: var(--common-background-color);
+	border-radius: 50%;
+	margin: 0px 4px;
+	display: inline-block;
+	position: relative;
+	top: 0px;
+}
+
+.displayFlex {
+	display: flex;
+}
+
+.billingArrow {
+	margin: 0 2px;
+}
+
+.zIndex {
+	z-index: 5;
+}
+
+.zIndex a {
+	display: inline-block;
+}
+
+.discountColor,
+.discountColor:hover,
+.discountColor:focus {
+	color: #3fb34f;
+}
+
+.specialPriceIcon {
+	display: inline-block;
+	position: relative;
+}
+
+.specialPriceIcon:hover .tltip {
+	display: block;
+}
+
+.tltip {
+	position: absolute;
+	top: -46px;
+	right: 0;
+	left: -5px;
+	display: none;
+	background: #484848;
+	min-width: 280px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 4px;
+	color: #fff;
+}
+
+.relativeSection::after {
+	content: '';
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 10px;
+	right: 0;
+	top: 30px;
+	bottom: 0;
+	text-align: center;
+	background-color: #484848;
+	z-index: 1;
+	max-width: 11px;
+	max-height: 11px;
+	transform: rotate(136deg);
+}
+
+.faqImage {
+	width: 100%;
+	max-width: 19px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+	.displayFlexDateMobile {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(min-content, max-content));
+		gap: 10px;
+	}
+}

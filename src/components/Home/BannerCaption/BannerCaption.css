@@ -1,0 +1,41 @@
+/** Common - Start **/
+@import '../../variables.css';
+.noPadding {
+    padding: 0px;
+}
+
+.noMargin {
+    margin: 0px;
+}
+/** Common - End **/
+
+/** Banner caption - Start **/
+.bannerCaptionContainer {
+    position: relative;
+}
+.bannerCaptionText {
+    font-size: 48px;
+    line-height: 56px;
+    color: var(--common-text-color);
+    margin: 0px;
+    text-align: center;
+}
+.bannerCaptionHighlight {
+    font-weight: 700;
+    color: var(--btn-primary-bg);
+}
+@media (max-width:1199px) and (min-width:768px) {
+    .bannerCaptionContainer{
+        padding-top:50px;
+    }
+    }
+@media screen and (max-width: 767px) {
+    .bannerCaptionText {
+        font-size: 25px;
+        line-height: 30px;
+    }   
+    .bannerCaptionContainer{
+        padding-top: 50px;
+    } 
+}
+/** Banner caption - End **/

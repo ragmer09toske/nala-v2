@@ -1,0 +1,82 @@
+@import '../../components/variables.css';
+
+.pageContainer {
+	width: 100%;
+	max-width: var(--max-listing-width);
+	margin: 0 auto;
+}
+
+.avatarSection {
+    display: block;
+	padding: 24px 24px 0px;
+}
+
+.avatarSectionBorder {
+	border: 1px solid var(--common-border-color);
+	border-radius: 12px;
+}
+
+.bgColor {
+	background-color: var(--dashBoard-info-bg);
+}
+
+.handIconGrid {
+	display: grid;
+    grid-template-columns: 500px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnDisplayGrid {
+	display: grid;
+	grid-template-columns: 54px auto;
+	border: 1px solid var(--common-border-color);
+    border-radius: 12px;
+    padding: 12px 23px 12px 12px;
+}
+
+.btnDisplayFlex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.btnMainGrid {
+	display: grid;
+    grid-template-columns: 31% 38% 31%;
+}
+
+.reviewMargin {
+	margin: 0px 18px !important;
+}
+
+.viewProfileGrid {
+	padding: 24px;
+    grid-template-columns: 30px auto;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.avatarSection {
+		display: block;
+		padding: 24px 0 0px;
+		width: 150px;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 767px) {
+	.handIconGrid {
+		grid-template-columns: 100%;
+	}
+
+	.btnMainGrid {
+		display: grid;
+		grid-template-columns: 100%;
+	}
+
+	.reviewMargin {
+		margin: 18px 0px !important;
+	}
+	.avatarSection {
+		padding: 24px 0 0px;
+		width: 150px;
+		margin: 0 auto;
+	}
+}

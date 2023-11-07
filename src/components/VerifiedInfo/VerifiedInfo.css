@@ -1,0 +1,29 @@
+.displayGrid {
+	display: grid;
+	grid-template-columns: 30px auto;
+}
+
+.displayFlex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.infoPadding {
+	padding: 0px 24px 24px 24px;
+}
+
+.tickIcon {
+	width: 100%;
+	max-width: 12px;
+}
+.googleIcon{
+	width: 20px;
+}
+.fbIcon{
+	width: 15px;
+}
+.emailTop{
+	position: relative;
+	top: -2px;
+}

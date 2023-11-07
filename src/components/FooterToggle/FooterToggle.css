@@ -1,0 +1,48 @@
+@import url('../variables.css');
+.buttonStyle {
+    position: relative !important;
+    text-align: center ;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    width: auto;
+    font-weight: normal;
+    box-shadow: 0px 8px 11px #3131310F;
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--common-border-color);
+    z-index:9;
+    color: var(--common-text-linkcolor) !important;
+    background: rgb(255, 255, 255) !important;   
+    border-radius: 6px;
+    padding: 9px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.buttonStyle:focus, .buttonStyle:active, .buttonStyle:focus:hover {
+    outline: 0;
+    border-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 10px 4px;
+}
+
+.buttonStyle:hover {
+    color: var(--common-text-linkcolor);
+    background: rgb(255, 255, 255) !important;
+    border-color: transparent !important;
+    outline: 0;
+}
+
+.buttonPosition{
+    position: fixed !important;
+    left: 24px;
+    bottom: 13px;
+    font-weight: 500;
+} 
+.iconStyle{
+    color: var(--common-text-linkcolor);
+    margin-right: 5px;
+    width: 18px;
+    position: relative;
+    top: -1px;
+}   

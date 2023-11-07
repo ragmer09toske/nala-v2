@@ -1,0 +1,19 @@
+.noDataIconSec {
+    width: 184px;
+    height: 120px;
+}
+
+.noTransactionSectionSpace {
+    margin-top: 66px;
+    margin-bottom: 22px;
+}
+
+.noPayoutContentSection {
+    max-width: 580px;   
+}
+
+@media screen and (max-width:767px) {
+    .noPayoutContentSection {
+        max-width: 100%
+    }
+}

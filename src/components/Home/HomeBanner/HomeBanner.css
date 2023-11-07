@@ -1,0 +1,31 @@
+@import '../../../components/variables.css';
+
+.container {
+    margin: 0 auto;
+    max-width: 1274px;
+}
+
+.sectionWidth {
+    max-width: 770px;
+    margin: 0 auto;
+}
+
+.pageContainer {
+    padding-top: 48px;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0 24px;
+    }
+
+    .sectionWidth {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+@media screen and (max-width: 1024px) {
+ .pageContainerMb{
+    padding-top: 0;
+ }
+}

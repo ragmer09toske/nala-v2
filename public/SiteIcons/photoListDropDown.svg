@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <filter id="Path_29842" x="0" y="0" width="44" height="44" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_13365" data-name="Group 13365" transform="translate(-925 -492)">
+    <g id="Group_12086" data-name="Group 12086" transform="translate(934 498)">
+      <g id="Group_12121" data-name="Group 12121" transform="translate(0 0)">
+        <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Path_29842)">
+          <g id="Path_29842-2" data-name="Path 29842" transform="translate(9 6)" fill="rgba(9,11,30,0.7)">
+            <path d="M13,0A13,13,0,1,1,0,13,13,13,0,0,1,13,0Z" stroke="none"/>
+            <path d="M 13 0.7999992370605469 C 9.741260528564453 0.7999992370605469 6.677570343017578 2.069019317626953 4.373300552368164 4.373300552368164 C 2.069019317626953 6.677570343017578 0.7999992370605469 9.741260528564453 0.7999992370605469 13 C 0.7999992370605469 16.25873947143555 2.069019317626953 19.32242965698242 4.373300552368164 21.62669944763184 C 6.677570343017578 23.93098068237305 9.741260528564453 25.20000076293945 13 25.20000076293945 C 16.25873947143555 25.20000076293945 19.32242965698242 23.93098068237305 21.62669944763184 21.62669944763184 C 23.93098068237305 19.32242965698242 25.20000076293945 16.25873947143555 25.20000076293945 13 C 25.20000076293945 9.741260528564453 23.93098068237305 6.677570343017578 21.62669944763184 4.373300552368164 C 19.32242965698242 2.069019317626953 16.25873947143555 0.7999992370605469 13 0.7999992370605469 M 13 0 C 20.1796989440918 0 26 5.82029914855957 26 13 C 26 20.1796989440918 20.1796989440918 26 13 26 C 5.82029914855957 26 0 20.1796989440918 0 13 C 0 5.82029914855957 5.82029914855957 0 13 0 Z" stroke="none" fill="rgba(255,255,255,0.8)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="more" transform="translate(932.92 496.92)">
+      <circle id="Ellipse_495" data-name="Ellipse 495" cx="2.19" cy="2.19" r="2.19" transform="translate(8.08 8.08)" fill="none" stroke="#fff" stroke-width="1.4"/>
+      <circle id="Ellipse_496" data-name="Ellipse 496" cx="2.19" cy="2.19" r="2.19" transform="translate(8.08 15.701)" fill="none" stroke="#fff" stroke-width="1.4"/>
+      <circle id="Ellipse_497" data-name="Ellipse 497" cx="2.19" cy="2.19" r="2.19" transform="translate(15.701 8.08)" fill="none" stroke="#fff" stroke-width="1.4"/>
+      <circle id="Ellipse_498" data-name="Ellipse 498" cx="2.19" cy="2.19" r="2.19" transform="translate(15.701 15.701)" fill="none" stroke="#fff" stroke-width="1.4"/>
+    </g>
+  </g>
+</svg>

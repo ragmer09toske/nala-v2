@@ -1,0 +1,11 @@
+query {
+  getAdminRoles {
+    count
+    status
+    errorMessage
+    results{
+      id
+      name
+    }
+  }
+}

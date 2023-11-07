@@ -1,0 +1,136 @@
+query getThread($threadType: String, $threadId: Int){
+  getThread(threadType: $threadType, threadId: $threadId) {
+    id
+    listId
+    guest
+    host
+    listData {
+      title
+      city
+      state
+      country
+      isPublished
+      listingData {
+        basePrice
+        delivery
+        currency
+        monthlyDiscount
+        weeklyDiscount
+      }
+    }
+    threadItemForType {
+      id
+      threadId
+      reservationId
+      content
+      sentBy
+      type
+      startDate
+      endDate
+      personCapacity
+      createdAt
+      startTime
+      endTime
+      cancelData {
+        id
+        reservationId
+        cancellationPolicy
+        guestServiceFee
+        hostServiceFee
+        refundToGuest
+        payoutToHost
+        total 
+        currency
+        createdAt
+      }
+      reservation {
+        id
+        listId
+        hostId
+        guestId
+        listTitle
+        checkIn
+        checkOut
+        basePrice
+        delivery
+        total
+        currency
+        guests
+        confirmationCode
+        guestServiceFee
+        discount
+        discountType
+        createdAt
+        updatedAt
+        hostServiceFee
+        startTime
+        endTime
+        reservationState
+        securityDeposit
+        claimStatus
+        claimAmount
+        claimPayout
+        claimRefund
+        claimReason
+        claimImages
+        bookingSpecialPricing {
+          id
+          reservationId
+          blockedDates
+          isSpecialPrice
+        }
+      }
+    }
+    threadItems {
+      id
+      threadId
+      reservationId
+      content
+      sentBy
+      type
+      startDate
+      endDate
+      createdAt
+    }
+    threadItemsCount
+    guestProfile {
+      profileId
+      displayName
+      firstName
+      picture
+      location
+      reviewsCount
+      userVerification {
+        id
+        isEmailConfirmed
+        isFacebookConnected
+        isGoogleConnected
+        isIdVerification
+      }
+    }
+    guestUserData {
+      email
+      userBanStatus
+    }
+    hostProfile {
+      profileId
+      displayName
+      firstName
+      picture
+      location
+      reviewsCount
+      userVerification {
+        id
+        isEmailConfirmed
+        isFacebookConnected
+        isGoogleConnected
+        isIdVerification
+      }
+    }
+    hostUserData {
+      email
+      userBanStatus
+    }
+    status
+  }
+}

@@ -1,0 +1,6 @@
+  mutation updateWhyHostReview ($id: Int, $userName: String, $image: String, $reviewContent: String, $isEnable: Boolean) {
+      updateWhyHostReview (id: $id, userName: $userName, image: $image, reviewContent: $reviewContent, isEnable: $isEnable) {
+        status
+        errorMessage
+      }
+    }

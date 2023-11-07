@@ -1,0 +1,26 @@
+.errorMessage {
+	color: red;
+}
+.widthCss{
+	max-width: 380px;
+    width: 100%;
+    margin: 0 auto;
+}
+.fullWidth{
+	width: 100%;
+}
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+    .widthCss{
+		max-width: 100%;
+	}
+	.disPlayInline{
+		width: 50%;
+		margin: 18px auto 0;
+	
+	}
+}
+@media screen and (max-width: 767px) {
+	.widthCss{
+		max-width: 100%;
+	}
+}

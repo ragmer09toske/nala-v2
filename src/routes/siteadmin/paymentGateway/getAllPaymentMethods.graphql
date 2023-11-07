@@ -1,0 +1,16 @@
+query getAllPaymentMethods {
+    getAllPaymentMethods {
+        id
+        name
+        paymentName
+        processedIn
+        fees
+        currency
+        details
+        isEnable
+        paymentType
+        createdAt
+        updatedAt
+        status
+    }
+}

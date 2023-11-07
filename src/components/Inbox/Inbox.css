@@ -1,0 +1,452 @@
+@import '../../components/variables.css';
+.threadSubjectUnread {
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--common-text-linkcolor);
+	position: relative;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden; 
+	text-overflow: ellipsis;
+	overflow: hidden;
+	padding-left: 10px;
+}
+.threadSubjectUnread:hover,  .threadSubjectUnread:focus{
+	color: var(--common-text-linkcolor);
+	text-decoration-color: var(--common-text-linkcolor);
+}
+
+.threadSubjectUnread::before {
+	content: '\2022';
+	position: absolute;
+	top: -3px;
+	left: 0px;
+	font-size: 22px;
+	line-height: 0.9;
+	color: #FF0000;
+}
+@media screen and (max-width: 768px) {
+	.threadSubject {
+		position: absolute;
+		top: 36px;
+		left: 61.5px;
+		width: calc(100% - 105px);
+		padding-left: 24px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.threadSubject::before {
+		left: 0;
+	}
+	.inboxPaddingRight{
+		padding-right: 0;
+		padding-bottom: 15px;
+	}
+}
+.textTruncate {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.threadName {
+	font-size: 14px;
+	padding-top: 5px
+}
+.threadName div {
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.threadBody {
+	padding-top: 5px;
+}
+.textMuted {
+	color: #767676;
+	cursor: pointer;
+	font-size: 14px;
+}
+.threadLabel {
+	padding-top: 5px;
+}
+.listUnstyled {
+	padding-left: 0;
+	list-style: none;
+	line-height: 0.8;
+}
+.space1 {
+	margin-bottom: 6px;
+}
+.spaceTop1 {
+	margin-top: 6px;
+}
+.spaceTop2 {
+	margin-top: 12px;
+}
+.threadAction {
+	display: inline-block;
+}
+.iconText {
+	font-size: 14px;
+	display: none;
+}
+.PanelBody:hover .iconText {
+	display: block;
+}
+.showLg {
+	display: none !important;
+}
+.labelText {
+	font-size: 16px;
+}
+.tabs {
+	margin-bottom: 0;
+	padding: 0;
+	list-style: none;
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	font-size: inherit;
+}
+.threadRead{
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--common-text-color);
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden; 
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.threadRead:hover, .threadRead:focus{
+	color: var(--common-text-color);
+	text-decoration-color: var(--common-text-color);
+}
+.noTextLine{
+	text-decoration: none !important;
+}
+@media screen and (min-width: 1128px) {
+	.showLg {
+		display: block !important;
+	}
+}
+@media screen and (max-width: 768px) {
+	.progressContainerResponsive {
+		padding: 0;
+		margin: 0;
+		overflow: hidden;
+	}
+	.tabs {
+		width: 100%;
+		margin-bottom: 15px;
+		border-width: 1px;
+		border-bottom: 1px solid #dce0e0;
+	}
+	.h4 {
+		font-size: 17px;
+	}
+	.formControlSelect {
+		font-size: 15px;
+		width: 100%
+	}
+	.threadAuthor {
+		position: static;
+	}
+	.threadAvatar {
+		float: left;
+		padding-right: 0;
+	}
+	.threadName {
+		font-size: 16px;
+		margin-top: -5px;
+		padding-top: 0;
+		padding-left: 32px;
+		position: static;
+	}
+	.threadDate {
+		font-weight: normal;
+		font-size: 12px;
+		position: absolute;
+		top: 12px;
+		right: 0px;
+		color: #767676;
+	}
+	.threadLink {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+	}
+	.threadBody {
+		position: static;
+	}
+	.PanelBody:hover .iconText {
+		display: none;
+	}
+	.threadLabel {
+		position: absolute;
+		top: 51px;
+		left: 70px;
+		padding-top: 10px;
+	}
+}
+.panelHeader {
+	border-radius: 0;
+	box-shadow: unset;
+	border: unset;
+}
+.PanelBody {
+	margin: 0;
+	padding: 24px 0px;
+	position: relative;
+	border-bottom: 1px solid var(--common-border-color);
+}
+.formControlSelect {
+	height: 40px;
+	border-radius: 2px;
+	margin-bottom: 8px;
+	font-size: 16px;
+	padding: 8px 10px;
+	width: 100%;
+	border: 1px solid #DBDBDB;
+	background-color: #fff;
+	color: var(--common-text-color);
+	display: inline-block;
+	overflow: hidden;
+	appearance: none;
+}
+.textRight {
+	float: right;
+}
+.listLayout {
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style: none;
+	color: var(--common-text-color);
+}
+.listLayout .PanelBody:last-child {
+	border-bottom: unset;
+    padding-top: 24px;
+    padding-bottom: 0;
+}
+.listLayout .PanelBody:first-child {
+	padding-top: 0;
+}
+/*************************verification Styles end******************************************/
+
+.profileAvatarSection {
+	position: relative;
+	margin: 0 auto;
+}
+.profileAvatarLink {
+	backface-visibility: hidden;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	background-color: #bbb;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	z-index: 5;
+}
+.iconColor {
+	color: #008489;
+}
+@media screen and (max-width: 640px) {
+	.xsHidden {
+		display: none;
+	}
+	.containerResponsive {
+		margin-left: -15px;
+		margin-right: -15px;
+		width: auto;
+	}
+}
+.h4 {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.1;
+}
+.active .tabItem {
+	color: var(--common-text-color);
+	border-color: var(--common-text-linkcolor);
+	text-decoration: none;
+	font-weight: 500;
+}
+.count {
+	position: absolute;
+    top: -10px;
+    right: -18px;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    padding: 2.90px 2px;
+    min-width: 19px;
+	height: 19px;
+    font-weight: 600;
+    font-size: 10px;
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid #FF0000;
+    border: 1px solid #FF0000;
+    border: 1px solid var(--badge-primary-color);
+    background: #FF0000;
+    background: #FF0000;
+    background: var(--badge-primary-color);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    line-height: normal;
+}
+.displayTable {
+	width: 100%;
+	display: table;
+}
+.displayTableRow {
+	width: 100%;
+	display: table-row;
+}
+.displayTableCell {
+	display: table-cell;
+	vertical-align: middle;
+}
+.contentSection {
+	position: relative;
+	width: 90%;
+	vertical-align: middle;
+    background: #ffffff;
+    padding: 0px 24px;
+}
+.displayTableCellIcon {
+	display: table-cell;
+	width: 10%;
+}
+.nameWidth {
+	width: 20%;
+}
+.addressWidth {
+	width: 65%;
+}
+.btnWidth {
+	width: 15%;
+}
+.vtrImg {
+	vertical-align: middle;
+}
+.inboxHeadingText{
+	position: relative;
+}
+.inboxProfileAvatarLink{
+	backface-visibility: hidden;
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	width: 88px;
+	height: 88px;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 2px solid var(--common-text-linkcolor);
+	background-color: transparent;
+	padding: 5px;
+	position: relative;
+    z-index: 5;
+}
+.inboxProfileAvatarLink img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	background-color: var(--background-color);
+	border-radius: 50%;
+}
+.inBoxContentSection{
+	padding-left: 29px;
+    flex: 1;
+}
+.contentGridBox{
+	display: grid;
+	grid-template-columns: 28% 1fr auto;
+}
+.displayFlex {
+    display: flex;
+	align-items: center;
+}
+.iconSpace {
+    margin-right: 4px;
+    position: relative;
+    top: 2px;
+}
+.inlineBlock{
+	display: inline-block;
+}
+.inboxPaddingRight{
+	padding-right: 24px;
+}
+.displayFlexContainer{
+	display: flex;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+	.contentSection {
+		padding: 0px 12px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.displayBlock {
+		display: block;
+		width: 100% !important;
+		margin-bottom: 6px;
+	}
+	.contentSection {
+		width: 64% !important;
+	}
+	.vtrImg {
+		vertical-align: top;
+	}
+	.contentSection {
+		padding: 0px 24px;
+	}
+	.inboxProfileAvatarLink{
+		width: 70px;
+		height: 70px;
+	}
+	.count {
+		top: -8px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.nameWidth {
+		width: 30%;
+	}
+	.addressWidth {
+		width: 52%;
+	}
+	.btnWidth {
+		width: 18%;
+	}
+	.contentSection {
+		width: 88%;
+	}
+	.displayTableCellIcon {
+		display: table-cell;
+		width: 12%;
+	}
+}
+.paddingR20 {
+	padding-right: 20px;
+}
+@media (max-width: 640px) {
+	.contentGridBox{
+		grid-template-columns: 100%;
+	}
+}

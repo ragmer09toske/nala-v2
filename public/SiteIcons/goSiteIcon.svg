@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_42894" data-name="Group 42894" transform="translate(-603 -105.854)">
+    <g id="Group_42512" data-name="Group 42512" transform="translate(-40 8.854)">
+      <g id="Group_12121" data-name="Group 12121" transform="translate(643 97)">
+        <g id="Rectangle_1354" data-name="Rectangle 1354" fill="rgba(233,233,233,0.34)" stroke="#e0e0e0" stroke-width="1">
+          <rect width="24" height="24" rx="6" stroke="none"/>
+          <rect x="0.5" y="0.5" width="23" height="23" rx="5.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_42510" data-name="Group 42510" transform="translate(0.426 0.925)">
+      <g id="g537" transform="translate(608.029 110.384)">
+        <g id="g539" transform="translate(0 0)">
+          <g id="Group_42509" data-name="Group 42509" transform="translate(0 0)">
+            <g id="g547">
+              <path id="path549" d="M-565.323-161.894a2.776,2.776,0,0,1,1.082,2.211v4.667a2.773,2.773,0,0,1-2.773,2.773h-7.543a2.773,2.773,0,0,1-2.773-2.773v-4.667a2.773,2.773,0,0,1,1.091-2.205l3.772-2.877a2.773,2.773,0,0,1,3.364,0l2.09,1.593V-165" transform="translate(577.332 165.333)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            </g>
+            <g id="g551" transform="translate(4.12 5.115)">
+              <path id="path553" d="M-32.4,0a.933.933,0,0,0-.933.933.933.933,0,0,0,.933.933.933.933,0,0,0,.933-.933A.933.933,0,0,0-32.4,0" transform="translate(33.333 0)"/>
+            </g>
+            <g id="g555" transform="translate(7.104 5.115)">
+              <path id="path557" d="M-32.4,0a.933.933,0,0,0-.933.933.933.933,0,0,0,.933.933.933.933,0,0,0,.933-.933A.933.933,0,0,0-32.4,0" transform="translate(33.333 0)"/>
+            </g>
+            <g id="g559" transform="translate(4.12 8.099)">
+              <path id="path561" d="M-32.4,0a.933.933,0,0,0-.933.933.933.933,0,0,0,.933.933.933.933,0,0,0,.933-.933A.933.933,0,0,0-32.4,0" transform="translate(33.333 0)"/>
+            </g>
+            <g id="g563" transform="translate(7.104 8.099)">
+              <path id="path565" d="M-32.4,0a.933.933,0,0,0-.933.933.933.933,0,0,0,.933.933.933.933,0,0,0,.933-.933A.933.933,0,0,0-32.4,0" transform="translate(33.333 0)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

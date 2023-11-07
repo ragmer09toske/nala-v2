@@ -1,0 +1,11 @@
+@import '../../components/variables.css';
+@import '../../components/helpers.css';
+.root {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.container {
+	margin: 40px auto;
+	padding: 20px;
+	max-width: 380px;
+}

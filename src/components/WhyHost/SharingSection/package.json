@@ -1,0 +1,6 @@
+{
+  "name": "SharingSection",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SharingSection.js"
+}

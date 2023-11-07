@@ -1,0 +1,50 @@
+@import '../../../../../components/common.css';
+
+.checkBoxContainer {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+.checkBoxSection {
+    width: 1%;
+    padding-right: 10px;
+    vertical-align: top;
+}
+.checkBoxLabel {
+    width: 99%;
+}
+.checkBoxFlex{
+    display: flex;
+    align-items: flex-start;
+    padding-right: 10px;
+    word-break: break-word;
+}
+.dynamicIconCss{
+    margin: 0 4px 0 8px;
+    position: relative;
+    top: 7px
+}
+.showMoreBtn:hover, .showMoreBtn:focus{
+	padding:0 !important;
+}
+.showMoreBtn:hover img, .showMoreBtn:focus img{
+		filter: inherit !important;
+}
+.positionTop{
+    position: relative;
+    top: 4px
+}
+@media screen and (max-width: 768px) {
+    .checkBoxContainer {
+        width: 100%;
+    }
+}
+.toggleLink, .toggleLink:focus {
+    outline: 0 !important;
+    padding: 0 !important;
+    text-decoration: none !important;
+}
+.toggleIcon {
+    margin-top: -2px;
+    margin-left: 2px;
+}

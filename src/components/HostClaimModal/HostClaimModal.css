@@ -1,0 +1,150 @@
+@import '../helpers.css';
+@import '../common.css';
+@import '../variables.css';
+
+.logInModalContainer {
+	width: 495px;
+}
+
+.title {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.hostClaimModalBody {
+	padding: 0;
+}
+
+.hostClaimModalSection {
+	padding: 18px 24px 24px 24px;
+}
+
+.hostClaimFieldStyle {
+	height: 48px;
+	border-radius: 6px;
+	border: 1px solid var(--common-border-color);
+	padding: 14px 19px;
+	box-shadow: none;
+}
+
+.currencyConverterInput {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	word-break: break-word;
+}
+
+.claimNoteText {
+	color: var(--muted-text-color);
+}
+
+.buttonStyle {
+	line-height: normal;
+	padding: 8px 19px !important;
+	white-space: normal;
+	word-break: break-word;
+}
+
+.clearBtnSpaceRight {
+	margin-right: 12px;
+}
+
+.errorMessage {
+	color: red;
+	margin-inline: 0;
+	margin-bottom: 0;
+}
+
+.inputBox {
+	border: 1px solid #dddddd;
+	height: 45px;
+	color: #777777;
+	padding: 11px 16px;
+	font-size: 16px;
+	border-radius: 20px;
+	background-color: #eee;
+}
+
+.symbolCss {
+	position: relative;
+	top: 1px;
+	left: 2px;
+}
+
+.textAreaStyle {
+	min-height: 116px;
+	resize: none;
+	border-radius: 6px;
+	border: 1px solid var(--common-border-color);
+	box-shadow: none;
+	padding: 14px 19px;
+}
+
+.bgImage {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+	border-radius: 12px;
+	cursor: pointer;
+	z-index: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.closeIcon {
+	position: absolute;
+	top: -9px;
+	right: 0px;
+	width: 22px;
+	height: 22px;
+	cursor: pointer;
+}
+
+.positionRelative {
+	position: relative;
+}
+
+.alignRight {
+	text-align: right;
+}
+
+
+.disPlayInline {
+	display: inline-block;
+}
+
+.marginBottomNone {
+	margin-bottom: 0;
+}
+
+.claimDetailsBorder {
+	border-bottom: 1px solid var(--common-border-color);
+}
+
+.claimImageSection {
+	height: 0;
+	position: relative;
+	padding-top: 20%;
+}
+.grayColor{
+	background-color: #F9F9F9;
+}
+@media (max-width: 767px) {
+	.logInModalContainer {
+		width: auto;
+	}
+
+	.claimImageSection {
+		padding-top: 70%;
+	}
+
+	.closeIcon {
+		top: -8px;		
+		width: 25px;
+		height: 25px;		
+	}
+}

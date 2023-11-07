@@ -1,0 +1,29 @@
+@import '../../../../../components/common.css';
+
+.checkboxSection {
+    padding-right: 12px;
+}
+
+.displayTypeFlex {
+    display: flex;
+    align-items: self-start;
+}
+
+.dot {
+    font-size: 12px;
+    margin: 0;
+}
+
+.iconCss {
+    position: relative;
+    top: 5px;
+}
+
+.applyFlex {
+    display: flex;
+    justify-content: end;
+    padding-bottom: 24px;
+}
+.toggleIcon{
+    font-size: 24px;
+}

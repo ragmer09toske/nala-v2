@@ -1,0 +1,32 @@
+query ($lat: Float, $lng: Float, $listId: Int){
+	getSimilarListing(listId: $listId, lat: $lat, lng: $lng){
+  	id
+    title
+    personCapacity
+    beds
+    bookingType
+    coverPhoto
+    reviewsCount,
+    reviewsStarRating,
+    wishListStatus
+    isListOwner
+    transmission
+    listPhotos {
+      id
+      name
+      type
+      status
+    }
+    listingData {
+      basePrice
+      currency
+      delivery
+    }
+    settingsData {
+      listsettings {
+        id
+        itemName
+      }
+    }
+  }
+}

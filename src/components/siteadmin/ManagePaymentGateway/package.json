@@ -1,0 +1,6 @@
+{
+    "name": "Manage Payment Gateway",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./ManagePaymentGateway.js"
+}

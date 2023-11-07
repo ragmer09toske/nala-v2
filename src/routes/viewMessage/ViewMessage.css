@@ -1,0 +1,27 @@
+@import '../../components/variables.css';
+.root {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.container {
+  margin: 0px auto;
+  padding-top: 30px;
+  max-width: var(--max-listing-width);
+}
+.bgColor{
+  width:100%;
+}
+@media (max-width:1023px) and (min-width:768px) {
+  .bgColor{
+    padding: 0 10px;
+   }
+}
+@media (max-width: 767px){
+  .bgColor{
+   padding: 0 10px;
+  }
+  .root{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

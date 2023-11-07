@@ -1,0 +1,27 @@
+@import '../../../components/commonStyle.css';
+
+.root {
+  padding: 18px 24px 24px 24px;
+}
+
+
+.logInModalContainer {
+  width: 468px;
+}
+
+.logInModalBody {
+  padding: 0px;
+}
+
+
+.title {
+  font-size: 20px;  
+  font-weight: 600;
+}
+
+
+@media (max-width: 767px) {
+  .logInModalContainer {
+    width: auto;
+  }
+}

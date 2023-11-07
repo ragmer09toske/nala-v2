@@ -1,0 +1,20 @@
+@import '../../../../components/common.css';
+
+.labelText {
+    display: inline-block;
+    font-weight: normal;
+    margin-right: 10px;
+    vertical-align: middle;
+    font-size: 16px;
+    color: var(--btn-color);
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.switchSection {
+    display: inline-block;
+}
+.positionTop{
+    position: relative;
+    top: 3.5px;
+}

@@ -1,0 +1,27 @@
+.displayGrid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.firstImage {
+	height: 500px;
+    margin-right: 10px;
+	border-radius: 12px 0px 0px 12px;
+}
+
+.secondImage {
+	height: 270px;
+    margin-bottom: 10px;
+	border-radius: 0px 12px 0px 0px;
+}
+
+.thiredImage {
+	height: 220px;
+    margin-right: 5px;
+}
+
+.fouthImage {
+	height: 220px;
+    margin-left: 5px;
+	border-radius: 0px 0px 12px 0px;
+}

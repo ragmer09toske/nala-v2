@@ -1,0 +1,91 @@
+@import '../../variables.css';
+ .DiscoverHost {
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: 50% 50%;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+}
+.bannerSection {
+	color: #fff;
+	padding-bottom: 30px;
+	min-height: 500px;
+	height: auto;
+	position: relative;
+}
+.btnPrimary {
+	border-color: var(--btn-primary-bg);
+	background-color: var(--btn-primary-bg);
+	color: #fff;
+	border-radius: 60px;
+}
+.btnlarge {
+	padding: 9px 27px;
+}
+.btnPrimary:hover,
+.btnPrimary:focus,
+.btnPrimary:active,
+.btnPrimary:active:hover,
+.btnPrimary:active:focus {
+	border-color: var(--btn-primary-bg-hover);
+	background-color: var(--btn-primary-bg-hover);
+	color: #fff;
+}
+@media(min-width:1201px){
+
+.DiscoverHost {
+	background-attachment: fixed;
+}
+}
+.DiscoverHost:before {
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.4);
+}
+.container {
+	position: relative;
+	height: 100%;
+	max-width: 1080px;
+	margin: 0 auto;
+	vertical-align: middle;
+	padding: 120px 0px;
+}
+.InnerDiscover {
+	width: 100%;
+	display: table;
+	height: 100%;
+	text-align: center;
+	color: #fff;
+}
+.DiscoverTable {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 10px;
+}
+.DiscoverBtn button {
+	padding: 6px 12px 7px !important;
+}
+.DiscoverBtn {
+	margin: 25px 0 0;
+}
+@media screen and (max-width: 1170px) {
+	.containerTitle {
+		text-align: center;
+	}
+}
+@media screen and (max-width: 767px) {
+	.marginLeft {
+		margin: 0 0 24px 34px;
+	}
+}
+.margin0 {
+	margin: 0 !important;
+}

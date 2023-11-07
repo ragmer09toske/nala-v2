@@ -1,0 +1,193 @@
+@import '../../components/variables.css';
+
+.container {
+	width: 100%;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.specialPriceIcon {
+	display: inline-block;
+	position: relative;
+}
+
+.specialPriceIcon:hover .tltip {
+	display: block;
+}
+
+.faqImage {
+	width: 100%;
+	max-width: 19px;
+	vertical-align: middle;
+	margin-right: 5px;
+	position: relative;
+	top: -2px;
+}
+
+.tltip {
+	position: absolute;
+	top: -48px;
+	right: 0;
+	left: 0px;
+	display: none;
+	background: #484848;
+	min-width: 280px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 6px;
+	color: #fff;
+}
+
+.relativeSection::after {
+	content: '';
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 10px;
+	right: 0;
+	top: 34px;
+	bottom: 0;
+	text-align: center;
+	background-color: #484848;
+	z-index: 1;
+	max-width: 11px;
+	max-height: 11px;
+	transform: rotate(136deg);
+}
+
+.diplayFlex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.mainSection {
+	border: 1px solid var(--common-border-color);
+	border-radius: 12px;
+	padding: 24px;
+}
+
+.displayGridDate {
+	display: grid;
+    grid-template-columns: 40% 10% 50%;
+    align-items: flex-start;
+}
+
+.displayGridDetails {
+	display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.mainGrid {
+	display: grid;
+    grid-template-columns: 640px auto;
+}
+
+.bgColor {
+	background-color: var(--common-gray-bg-color);
+}
+
+.flexBillingSection {
+	flex-wrap: nowrap;
+	align-items: baseline;
+}
+
+.infoGrid {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: flex-start;
+}
+
+.infoDetailsPadding {
+	padding: 0px 4px 0 0;
+}
+/* 
+.tripArrowIconSec{
+	position: relative;
+	top: -9px;
+} */
+
+.carNameLink{
+	display: inline-block;
+	cursor: pointer;
+}
+
+.splitUpColOneWidth{
+	width: 60%;
+}
+
+.splitUpColTwoWidth{
+	width: 38%;
+}
+
+.displayInline{
+	display: inline-block;
+}
+
+.colSpaceRight{
+	padding-right: 15px;
+}
+.directionRTLPrint {
+    direction: rtl;
+}
+.receiptGrid{
+	display: grid;
+	grid-template-columns: 56% 41%;
+	gap: 30px;
+	position: relative;
+}
+.discountColor, .discountColor:hover, .discountColor:focus{
+	color : #3fb34f;
+}
+.paddingRight{
+	padding-right: 10px;
+}
+.positionStickey{
+	position: sticky;
+	top: 30px;
+	height: max-content
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+	.receiptGrid {
+		grid-template-columns: 56% 40%;
+	}
+}
+@media screen and (max-width: 991px) {	
+	.mainGrid {
+		display: grid;
+		grid-template-columns: 100%;
+	}
+}
+@media screen and (max-width: 767px) {
+	.tltip {
+		top: 29px;
+		right: 0;
+		min-width: 250px;
+	}
+
+	.relativeSection::after {
+		top: -3px;
+	}
+
+	.displayGridDate {
+		grid-template-columns: 42% 16% 42%;
+	}
+
+	.fullWidthMobile {
+		width: 100%;
+	}
+
+	.displayGridDetails {
+		grid-template-columns: 100%;
+	}
+	.colSpaceRight{
+		padding-right: 0;
+	}
+	.receiptGrid {
+		grid-template-columns: 100%;
+	}
+	.positionStickey{
+		height: auto;
+	}
+}

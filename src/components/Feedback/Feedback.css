@@ -1,0 +1,57 @@
+@import '../variables.css';
+ .root {
+	background: #ffffff;
+	color: #333;
+	padding: 0px;
+}
+.container {
+	max-width: var(--max-content-width);
+	margin: 0 auto;
+}
+.feedbackBox {
+	padding: 45px 35px 45px 45px !important;
+}
+.feedbackBox:last-of-type {
+	border-right: 1px solid transparent;
+}
+.feedbackRow{
+	border: 1px solid var(--common-border-color);
+	border-radius: 12px;
+	margin: 0;
+}
+.borderRight{
+	position: relative;
+}
+.borderRight::after{
+	content: '';
+	width: 1px;
+	height: 168px;
+	background: var(--common-border-color);
+	top: 70px;
+    right: 0px;
+    position: absolute;
+}
+.textColor{
+	color: var(--common-text-color) !important;
+}
+@media screen and (max-width: 1200px) {
+	.feedbackRow {
+		margin: 40px 25px 0;
+	}
+}
+@media screen and (max-width: 767px) {
+	.feedbackBox {
+		display: block;
+		float: left;
+		border-bottom: none;
+	}
+	.feedbackBox:last-of-type {
+		border-bottom: 1px solid transparent;
+	}
+	.feedbackBox {
+		padding: 25px !important;
+	}
+	.borderRight::after{
+		display: none;
+	}
+}

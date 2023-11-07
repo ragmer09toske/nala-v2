@@ -1,0 +1,302 @@
+@import '../../variables.css';
+
+.container {
+	width: 100%;
+	max-width: var(--max-listing-width);
+	margin: 0 auto;
+}
+
+.titleText {
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0;
+}
+
+.houseRules {
+	display: flex;
+}
+
+.backgroundCover {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #dce0e0;
+	border-radius: 6px;
+}
+
+.bannerImage {
+	padding-top: 54%;
+	position: relative;
+}
+
+.horizondalLine {
+	margin: 24px 0px;
+	border-top: 1px solid var(--common-border-color);
+	height: auto;
+}
+
+.hrLineSidePanelMargin {
+	margin: 18px 0px;
+}
+
+.cancelBtn {
+	margin-right: 23px;
+}
+
+.specialPriceText {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.specialPriceIcon {
+	display: inline-block;
+	position: relative;
+}
+
+.specialPriceIcon:hover .tltip {
+	display: block;
+}
+
+.tltip {
+	position: absolute;
+	top: -48px;
+	right: 0;
+	left: 0px;
+	display: none;
+	background: var(--common-text-color);
+	min-width: 280px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 4px;
+	color: #fff;
+}
+
+.relativeSection::after {
+	content: '';
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 10px;
+	right: 0;
+	top: 34px;
+	bottom: 0;
+	text-align: center;
+	background-color: var(--common-text-color);
+	z-index: 1;
+	max-width: 11px;
+	max-height: 11px;
+	transform: rotate(136deg);
+}
+
+.faqImage {
+	width: 100%;
+	max-width: 19px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.starFlex {
+	display: flex;
+}
+
+.tableFlex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cancellationSectionPayment {
+	padding: 26px;
+	border: 1px solid var(--common-border-color);
+	border-radius: 12px;
+}
+
+.cardNumberSection {
+	position: relative;
+}
+
+.cardNumberSectionOne::after {
+	content: '';
+	background-image: url('../../../../public/SiteIcons/creditIcon.svg');
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-position: 100%;
+	max-width: 25px;
+	right: 20px;
+	z-index: 0;
+}
+
+.cardNumberSectionTwo::after {
+	content: '';
+	background-image: url('../../../../public/SiteIcons/expireIcon.svg');
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-position: 100%;
+	max-width: 25px;
+	right: 20px;
+	z-index: 0;
+}
+
+.cardNumberSectionThree::after {
+	content: '';
+	background-image: url('../../../../public/SiteIcons/cvvIcon.svg');
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-position: 100%;
+	max-width: 25px;
+	right: 20px;
+	z-index: 0;
+}
+
+.cardNumberSectionFour {
+	position: relative;
+}
+
+.cardNumberSectionFour::after {
+	content: '';
+	background-image: url('../../../../public/SiteIcons/zipCodeIcon.svg');
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-position: 100%;
+	max-width: 25px;
+	right: 20px;
+}
+
+.stripeImg {
+	max-width: 170px;
+}
+
+.cardSection {
+	padding: 30px;
+	border-radius: 12px;
+	border: 1px solid var(--common-border-color);
+}
+
+.creditCardForm {
+	padding: 30px;
+	border: 1px solid var(--common-border-color);
+	border-radius: 12px;
+}
+
+.policyText {
+	color: var(--common-text-color) !important;
+	font-weight: 700;
+}
+
+.avatarImageGrid {
+	display: grid;
+	grid-template-columns: 80px auto;
+	align-items: center;
+}
+
+.textSection {
+	margin-left: 20px;
+}
+
+.payNowFlex {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.displayGridFirstName {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.firstNamePaddingRight {
+	padding-right: 12px;
+}
+
+.lastNamePaddingLeft {
+	padding-left: 12px;
+}
+
+.dateFiledGrid {
+	display: grid;
+	grid-template-columns: 32% 36% 32%;
+}
+
+.datePadding {
+	padding: 0px 24px;
+}
+
+.datePanelSection {
+	background-color: var(--common-gray-bg-color);
+	border: 1px solid var(--common-border-color);
+	border-radius: 12px;
+	padding: 24px;
+}
+
+.paymentDetailsPadding {
+	padding-right: 51px;
+}
+
+.flexWrap {
+	flex-wrap: wrap;
+}
+
+.arrowMargin {
+	margin: 0px 15px 0px 15px;
+}
+
+.discountText {
+	color: #3fb34f;
+}
+
+@media screen and (max-width: 991px) {
+	.paymentDetailsPadding {
+		padding-right: 15px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.tltip {
+		top: 29px;
+		min-width: 250px;
+	}
+
+	.relativeSection::after {
+		right: 0;
+		top: -3px;
+	}
+
+	.displayGridFirstName {
+		grid-template-columns: 100%;
+	}
+
+	.firstNamePaddingRight {
+		padding-right: 0px;
+	}
+
+	.lastNamePaddingLeft {
+		padding-left: 0px;
+	}
+
+	.dateFiledGrid {
+		grid-template-columns: 100%;
+	}
+
+	.datePadding {
+		padding: 24px 0px;
+	}
+
+	.cvvNoPadding {
+		padding: 0px 0px;
+	}
+
+	.stripeImg {
+		margin-top: 12px;
+	}
+}

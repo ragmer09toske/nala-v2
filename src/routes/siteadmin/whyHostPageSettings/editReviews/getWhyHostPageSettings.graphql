@@ -1,0 +1,11 @@
+query getWhyHostReview($reviewId: Int){
+  getWhyHostReview(reviewId: $reviewId) {
+        result{
+            id
+            userName
+            reviewContent
+            image
+            isEnable
+        }
+    }
+}

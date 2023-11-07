@@ -1,0 +1,66 @@
+@import '../../../components/variables.css';
+
+.container {
+    margin: 0 auto;
+    max-width: 1274px;
+}
+
+.pageContainer {
+    padding-top: 48px;
+}
+
+.displayGrid {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-gap: 25px;
+    margin: 0px 6px;
+}
+
+.containerTitle {
+    color: var(--common-text-color);
+    margin: 0 0 35px;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+
+.recommandBg {
+    background-color: #F5FAFB;
+    padding: 60px 0;
+}
+
+@media screen and (max-width: 1170px) {
+    .containerTitle {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0 24px;
+    }
+}
+
+@media (max-width:1200px) and (min-width:992px) {
+    .displayGrid {
+        grid-template-columns: auto auto auto;
+        grid-gap: inherit;
+        justify-content: center;
+    }
+}
+
+@media (max-width:991px) and (min-width:768px) {
+    .displayGrid {
+        grid-template-columns: 223px 223px 223px;
+        grid-gap: 25px;
+        margin: 0;
+    }
+}
+
+@media (max-width:767px) {
+    .displayGrid {
+        grid-template-columns: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+}

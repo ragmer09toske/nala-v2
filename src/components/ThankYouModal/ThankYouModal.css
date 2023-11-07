@@ -1,0 +1,17 @@
+@import '../../components/variables.css';
+
+.logInModalContainer {
+	max-width: 450px;
+	width: 100%;
+	padding: 10px;
+}
+
+.logInModalBody {
+	padding: 24px;
+}
+
+@media screen and (max-width: 640px) {
+	.logInModalContainer {
+		margin: 0px auto;
+	}
+}
