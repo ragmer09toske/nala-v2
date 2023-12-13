@@ -1,0 +1,27 @@
+.displayGridDate {
+    display: grid;
+    grid-template-columns: 32% 36% 32%;
+}
+
+.datePadding {
+    padding: 0px 8px;
+}
+
+.checkBoxGrid {
+    display: grid;
+    grid-template-columns: 24px auto;
+}
+
+.checkBoxText {
+    padding-left: 7px;
+}
+
+@media screen and (max-width: 767px) {
+    .displayGridDate {
+        grid-template-columns: 100%;
+    }
+
+    .datePadding {
+        padding: 0px;
+    }
+}

@@ -1,0 +1,15 @@
+@import '../variables.css';
+
+.logoColor {
+	color: var(--btn-primary-bg) !important;
+}
+
+.whitelogo {
+	width: 105px;
+	height: 60px;
+
+}
+
+.whiteColor {
+	color: var(--btn-primary-color);
+}

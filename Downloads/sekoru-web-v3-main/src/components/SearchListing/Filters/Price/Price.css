@@ -1,0 +1,19 @@
+@import '../../../../components/common.css';
+
+.priceRangeContainer {
+    padding: 22px 12px 0px 12px;
+}
+.btnSecondary img{
+	filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(104%) contrast(102%);
+}
+.searchFilterPopoverContent{
+    height: auto;
+}
+.floatRight{
+    float: right;
+}
+.filterDivider{
+    border-top:1px solid var(--common-border-color);
+    padding-bottom: 16px;
+    margin-top: 30px;
+}

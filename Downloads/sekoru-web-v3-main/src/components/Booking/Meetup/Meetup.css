@@ -1,0 +1,33 @@
+ .activationStepPanel {
+ 	max-width: 558px;
+ 	margin: 0 auto;
+ 	text-align: center;
+	padding: 74px 0px 0px 0px;
+ }
+
+ .highlightedIcon {
+ 	border-width: 1px !important;
+ 	background-color: #fff;
+ 	position: absolute;
+ 	border-width: 1px !important;
+ 	right: 42%;
+ 	top: 40px;
+ 	border-radius: 50%;
+ 	padding: 10px;
+ 	width: 100%;
+ 	max-width: 44px;
+	height: 44px;
+	object-fit: none;
+ }
+
+ .profileImage {
+ 	height: 130px;
+ 	width: 130px;
+ 	border-radius: 50%;
+ }
+
+ .displayFlex {
+ 	display: flex;
+ 	align-items: center;
+	justify-content: center;
+ }

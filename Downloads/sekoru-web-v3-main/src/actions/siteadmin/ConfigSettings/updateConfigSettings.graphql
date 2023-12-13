@@ -1,0 +1,55 @@
+mutation updateConfigSettings(
+                $deepLinkBundleId: String,
+                $smtpHost: String,
+                $smtpPort: String,
+                $smptEmail: String,
+                $smtpSender: String,
+                $smtpSenderEmail: String,
+                $smtpPassWord: String,
+                $twillioAccountSid: String,
+                $twillioAuthToken: String,
+                $twillioPhone: String,
+                $paypalEmail: String,
+                $paypalClientId: String,
+                $paypalSecret: String,
+                $paypalHost: String,
+                $paypalHostMode: String,
+                $maxUploadSize: String,
+                $stripePublishableKey: String,
+                $facebookAppId: String,
+                $facebookSecretId: String,
+                $googleClientId: String,
+                $googleSecretId: String,
+                $deepLinkContent: String,
+                $fcmPushNotificationKey:String
+
+            ) {
+                updateConfigSettings(
+                    deepLinkBundleId: $deepLinkBundleId,
+                    smtpHost: $smtpHost,
+                    smtpPort: $smtpPort,
+                    smptEmail: $smptEmail,
+                    smtpSender: $smtpSender,
+                    smtpSenderEmail: $smtpSenderEmail,
+                    smtpPassWord: $smtpPassWord,
+                    twillioAccountSid: $twillioAccountSid,
+                    twillioAuthToken: $twillioAuthToken,
+                    twillioPhone: $twillioPhone,
+                    paypalEmail: $paypalEmail,
+                    paypalClientId: $paypalClientId,
+                    paypalSecret: $paypalSecret,
+                    paypalHost: $paypalHost,
+                    paypalHostMode: $paypalHostMode,
+                    maxUploadSize: $maxUploadSize,
+                    stripePublishableKey: $stripePublishableKey
+                    facebookAppId: $facebookAppId,
+                    facebookSecretId: $facebookSecretId,
+                    googleClientId: $googleClientId,
+                    googleSecretId: $googleSecretId
+                    deepLinkContent: $deepLinkContent 
+                    fcmPushNotificationKey: $fcmPushNotificationKey
+                ){
+                    status
+                    errorMessage
+                }
+            }

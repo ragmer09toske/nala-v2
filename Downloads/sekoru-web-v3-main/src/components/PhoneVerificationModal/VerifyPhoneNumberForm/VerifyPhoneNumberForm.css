@@ -1,0 +1,50 @@
+.spaceRightBtn {
+    margin-right: 12px;
+}
+
+.otpField {
+    width: 100%;    
+}
+
+.cancelBtn {
+    display: inline-block;
+}
+
+.enterOtpSec{    
+    align-items: inherit;
+}
+
+.otpFieldSpace{
+    margin-right: 20px;
+}
+
+.flexWrap{
+    flex-wrap: wrap;
+}
+
+.displayFlex{
+    display: flex;
+    display: -webkit-flex; 
+}
+
+@media screen and (max-width:767px) {
+    .enterOtpSec {
+        flex-wrap: wrap;
+    }
+
+    .otpField {        
+        margin-bottom: 12px;
+    }
+    .btnSec{
+        justify-content: flex-end;
+        width: 100%;
+    }
+    .displayFlex{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width:1200px) {
+    .otpField{
+        width: 310px;
+    }
+}

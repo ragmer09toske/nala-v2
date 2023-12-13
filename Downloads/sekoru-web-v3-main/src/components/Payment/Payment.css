@@ -1,0 +1,358 @@
+@import '../../components/variables.css';
+ .pageContainer {
+	width: 1080px;
+	max-width: 1080px;
+}
+.bookItPanel {
+	font-size: 16px;
+	padding: 5px;
+}
+.textLeft {
+	text-align: left;
+}
+.textRight {
+	text-align: right;
+}
+.textGray {
+	font-size: 14px;
+}
+.chevronIcon {
+	font-size: 1.5em;
+	margin-top: 10px;
+	font-weight: normal;
+	font-style: normal;
+}
+.checkInDate {
+	font-size: 18px;
+	color: var(--common-text-linkcolor);
+	margin-bottom: 6px;
+}
+.editLink {
+	line-height: 26px;
+}
+.pullLeft {
+	float: left;
+}
+.pullRight {
+	float: right;
+}
+.h3 {
+	font-size: 24px;
+	font-weight: normal;
+}
+.bookItDetails {
+	font-size: 16px;
+}
+.space4 {
+	margin-bottom: 24px;
+}
+.spaceTop1 {
+	margin-top: 6px;
+}
+.spaceTop2 {
+	margin-top: 12px;
+}
+.spaceTop3 {
+	margin-top: 18px;
+}
+.space2 {
+	margin-bottom: 12px;
+}
+.space3 {
+	margin-bottom: 18px;
+}
+.textArea {
+	height: 110px !important;
+	border-radius: 0px;
+	margin-top: 12px;
+}
+.houseRulesPanel {
+	background-color: #f9f9f9;
+	border-style: none;
+	margin-top: 37px;
+}
+.houseRules {
+	display: flex;
+}
+.houseRuleContent {
+	white-space: pre-wrap !important;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	font-family: inherit;
+	font-size: inherit;
+	white-space: pre;
+	overflow-x: auto;
+	overflow-y: auto;
+	max-height: 60vh;
+	border: none;
+	border-radius: 0;
+	word-break: normal;
+	color: inherit;
+}
+.circleIcon {
+	font-size: 19px;
+	line-height: 1;
+	font-weight: normal;
+	font-style: normal;
+	color: #008489;
+	display: block;
+	float: right;
+}
+.textCenter {
+	text-align: center;
+}
+.button {
+	border-color: var(--btn-primary-bg-hover);
+	background-color: var(--btn-primary-bg-hover);
+	color: #fff;
+	font-size: 14px;
+}
+.button:hover {
+	background: rgba(54, 50, 119, 0.8);
+}
+.button:focus {
+	border-color: #0074c2;
+	box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);
+}
+.btnPrimary {
+	border-color: var(--btn-primary-bg);
+	background-color: var(--btn-primary-bg);
+	color: #fff;
+}
+.btnlarge {
+	padding: 7px 30px;
+}
+.btnPrimary:hover,
+.btnPrimary:focus,
+.btnPrimary:active,
+.btnPrimary:active:hover,
+.btnPrimary:active:focus {
+	border-color: var(--btn-primary-bg-hover) !important;
+	background-color: var(--btn-primary-bg-hover) !important;
+	color: #fff;
+}
+.paymentHeader {
+	padding: 5px;
+	font-size: 16px;
+}
+.headerDivider {
+	border-top-width: 2px;
+	margin: 4px 0px;
+}
+.textLeft {
+	text-align: left;
+}
+.textLight {
+	color: #bbb;
+}
+.countryName {
+	margin: 0px 0px 8px;
+}
+.textRegular {
+	font-weight: normal;
+	color: var(--common-text-color);
+	margin: 0px;
+	word-wrap: break-word;
+	font-size: 19px;
+	line-height: 24px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.selectContainer {
+	font-size: 19px;
+	line-height: 24px;
+	color: var(--common-text-color);
+	position: relative;
+	display: block;
+}
+.formControlSelect {
+	height: 48px;
+	border-radius: 6px;
+	font-size: 16px;
+	padding: 12px 20px;
+	width: 100%;
+	border: 1px solid var(--common-border-color);
+	background-color: #fff;
+	color: var(--common-text-color);
+	display: inline-block;
+	overflow: hidden;
+	appearance: none;
+	box-shadow: unset;
+}
+.summaryCard {
+	background: var(--common-gray-bg-color);
+	border: 1px solid var(--common-border-color);
+	border-radius: 12px;
+	padding: 24px;
+}
+.colCenter {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+.backgroundCover {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat
+}
+.bannerImage {
+	height: 199px;
+	border-radius: 6px;
+}
+.hostProfilePhoto {
+	margin-bottom: 0;
+	margin-right: 30px;
+	margin-top: -25px;
+}
+.profileAvatarSection {
+	position: absolute;
+	top:12px;
+	right: 12px;
+}
+.profileAvatarLink {
+	backface-visibility: hidden;
+	position: relative;
+	display: inline-block;
+	vertical-align: bottom;
+	overflow: hidden;
+	background-color: #bbb;
+	border-radius: 50%;
+	border: 2px solid #fff;
+}
+.profileAvatar {
+	height: 60px;
+	width: 60px;
+}
+.panelHeader {
+	border-radius: 0;
+	width: 100%;
+	display: block;
+	color: var(--common-text-color);
+	font-size: 16px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #dce0e0;
+}
+.textMuted {
+	color: #767676;
+	font-size: 16px;
+}
+.textMedium {
+	font-size: 14px
+}
+.textLarge {
+	font-size: 24px;
+	line-height: 30px;
+}
+.listStyle {
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style: none;
+}
+.noBorder {
+	border: 0px none !important;
+}
+.tableText {
+	font-weight: normal;
+	color: var(--common-text-color);
+}
+.totalText {
+	border: 0;
+	padding: 0;
+	width: 100%;
+	background: transparent;
+	text-align: start;
+	cursor: default;
+	pointer-events: none;
+	font-size: 24px;
+	line-height: 30px;
+}
+.totalValue {
+	border-top: 1px solid #dce0e0;
+	border-color: rgba(220, 224, 224, 0.5);
+	content: "";
+	top: -1px;
+	height: 1px;
+	left: 20px;
+	right: 20px;
+}
+.space1 {
+	margin-bottom: 6px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	cursor: pointer;
+}
+.horizondalLine {
+	margin-top: 18px;
+	margin-bottom: 18px;
+	border: 0;
+	border-top: 1px solid var(--common-border-color);
+}
+.errorMessage {
+	color: red;
+	font-size: 14px;
+	margin-bottom: 10px;
+	display: block;
+}
+.avatarImageGrid{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.paymentDetailsPadding{
+	padding-right: 42px;
+}
+.positionRelative{
+	position: relative;
+}
+.starFlex {
+	display: flex;
+}
+.tableFlex {
+	display: flex;
+	justify-content: space-between;
+}
+.cancellationSectionPayment {
+	padding: 26px;
+	border: 1px solid var(--common-border-color);
+	border-radius: 12px;
+}
+
+.hrLineSidePanelMargin {
+	margin: 12px 0px;
+}
+.discountText {
+	color: #3fb34f;
+}
+.marginLeft{
+	margin-left: 12px;
+}
+.specialPriceIcon{
+	display: none;
+    position: absolute;
+}
+.paymentToolTipContainer:hover .specialPriceIcon{
+	display: block;
+}
+.paymentToolIcon{
+	width: 19px;
+}
+@media screen and (max-width: 991px) {
+	.paymentDetailsPadding{
+		padding-right: 15px;
+	}
+	.summaryCard {
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.noPaddingRight {
+		padding-right: 0;
+	}
+	.arrowMargin{
+		margin: 0 15px;
+	}
+}

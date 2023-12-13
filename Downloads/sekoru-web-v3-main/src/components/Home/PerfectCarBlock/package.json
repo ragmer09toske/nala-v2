@@ -1,0 +1,6 @@
+{
+  "name": "PerfectCarBlock",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./PerfectCarBlock.js"
+}

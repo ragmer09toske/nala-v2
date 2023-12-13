@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.809" height="19.8" viewBox="0 0 19.809 19.8">
+  <g id="cash" transform="translate(-2.35 -2.35)">
+    <rect id="Rectangle_3647" data-name="Rectangle 3647" width="12.808" height="7.115" rx="1.52" transform="translate(8.692 3)" fill="none" stroke="#090b1e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+    <circle id="Ellipse_553" data-name="Ellipse 553" cx="1.423" cy="1.423" r="1.423" transform="translate(13.673 5.135)" fill="none" stroke="#090b1e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_41968" data-name="Path 41968" d="M3,18H5.846v7.827H3Z" transform="translate(0 -4.327)" fill="none" stroke="#090b1e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+    <path id="Path_41969" data-name="Path 41969" d="M7,24.827l4.831.512A9.528,9.528,0,0,0,15.538,25l2.135-.626,2.846-.84,1.2-.349a1.238,1.238,0,0,0,.712-1.9,1.345,1.345,0,0,0-1.423-.519L16.5,21.845a2.569,2.569,0,0,1-1.117,0L13.2,21.433a1.157,1.157,0,0,1,.249-2.3h.662a1.068,1.068,0,1,0,0-2.135H12.059a3.557,3.557,0,0,0-1.131.178L7,18.423" transform="translate(-1.154 -4.038)" fill="none" stroke="#090b1e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+  </g>
+</svg>

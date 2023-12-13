@@ -1,0 +1,46 @@
+@import '../../variables.css';
+
+.bannerContainer {
+	position: relative;
+	width: 100%;
+	transition: height .2s;
+	cursor: pointer;
+}
+
+.bannerImage {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-color: var(--common-border-color);
+}
+
+.viewPhotosBtn,
+.viewPhotosBtn:hover,
+.viewPhotosBtn:active,
+.viewPhotosBtn:focus {
+	bottom: 20px;
+	right: 30px;
+	position: absolute;
+	border-radius: 6px;
+	box-shadow: none;
+	border: none !important;
+	background-color: var(--background-color) !important;
+	display: flex;
+	align-items: center;
+	padding: 8px 12px;
+}
+
+.singleImage {
+	height: 500px;
+	border-radius: 12px;
+}
+
+.photoImage {
+	width: 100%;
+	max-width: 19px;
+}
+
+.gridPadding {
+	padding: 0px 15px;
+	display: block;
+}

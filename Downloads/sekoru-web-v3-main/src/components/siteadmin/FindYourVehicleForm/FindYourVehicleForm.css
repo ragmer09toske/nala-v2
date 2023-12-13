@@ -1,0 +1,22 @@
+@import '../admin-common.css';
+@import '../../variables.css';
+
+.addLink, .addLink:hover, .addLink:focus, .addLink:active, .addLink:active:hover{
+background-color: transparent !important;
+color: var(--common-text-linkcolor) !important;
+padding: 0;
+box-shadow: unset;
+border: unset;
+border-radius: 0 !important;
+border-bottom: 1px solid var(--common-text-linkcolor) !important;
+margin-left: 12px;
+}
+.removeColor, .removeColor:hover, .removeColor:focus, .removeColor:active, .removeColor:active:hover{
+    color: red !important;
+    border-bottom: 1px solid red !important;
+}
+@media screen and (max-width: 767px) {
+    .mobileTop{
+        margin-top: 20px;
+    }
+}

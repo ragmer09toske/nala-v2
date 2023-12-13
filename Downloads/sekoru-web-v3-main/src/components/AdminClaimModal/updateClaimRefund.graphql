@@ -1,0 +1,6 @@
+mutation updateClaimRefund($reservationId: Int!, $claimRefund: Float!){
+    updateClaimRefund(reservationId:$reservationId, claimRefund: $claimRefund){
+        status
+        errorMessage
+    }
+}

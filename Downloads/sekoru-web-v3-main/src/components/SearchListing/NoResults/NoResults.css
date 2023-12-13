@@ -1,0 +1,38 @@
+@import '../../../components/variables.css';
+
+.root{
+    margin: 0px 20px;
+}
+.container{
+  margin: 64px 40px 96px;
+}
+.headingText{
+    font-weight: 600 ;
+    color: var(--common-text-color) ;
+    margin: 0px ;
+    word-wrap: break-word ;
+    font-size: 24px ;
+    letter-spacing: -0.6px ;
+    padding-top: 28px ;
+    padding-bottom: 8px ;
+}
+.subHeading{
+    color: var(--common-text-color) ;
+    margin: 0px ;
+    word-wrap: break-word ;
+    font-size: 18px ;
+}
+.imgWidth{
+    width: 360px;
+}
+.textCenter{
+    text-align: center;
+}
+@media screen and (max-width: 767px) {
+    .imgWidth{
+        width: 100%;
+    }  
+    .container{
+        margin: 115px 40px 96px;
+      }
+}

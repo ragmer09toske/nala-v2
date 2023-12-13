@@ -1,0 +1,16 @@
+@import '../../components/variables.css';
+ .root {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.container {
+	margin: 0 auto;
+	padding-top: 30px;
+	max-width: var(--max-content-width);
+}
+.infoTitle {
+	color: var(--common-text-color);
+	font-size: 24px;
+	margin-bottom: 24px;
+	margin-top: 5px;
+}

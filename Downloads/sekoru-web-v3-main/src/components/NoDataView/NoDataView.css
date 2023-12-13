@@ -1,0 +1,15 @@
+@import '../variables.css';
+
+.imageCenter{
+    margin-inline: auto;
+}
+.commonWidth{
+    width: 100%;
+    max-width: 600px;
+}
+
+@media screen and (max-width:767px) {
+    .contentSection{
+        max-width: 100%;
+    }
+}

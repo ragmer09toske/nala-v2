@@ -1,0 +1,48 @@
+query getFailedTransaction ($id:Int!){
+  getFailedTransaction(id:$id){
+    id
+    guestServiceFee
+    hostServiceFee
+    reservationState
+    total
+    currency
+    claimPayout
+    confirmationCode
+    listData {
+      id
+      title
+      bookingType
+    }
+    hostData {
+      profileId
+      firstName
+      lastName
+      phoneNumber
+    }
+    hostPayout {
+      id
+      payEmail
+    }
+    hostTransaction {
+      id
+      reservationId
+    }
+    hostFailedTransaction {
+      id
+      reason
+      payoutType
+    }
+     claimFailedTransaction {
+      id
+      reason
+      payoutType
+    }
+    hostUser{
+      email
+    }
+    guestUser{
+      email
+    }
+    status
+  }
+}

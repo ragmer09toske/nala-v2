@@ -1,0 +1,29 @@
+@import '../admin-common.css';
+@import '../../common.css';
+.ChangeToUpperCase{
+    text-transform: uppercase;
+}
+.marginBottom{
+    margin-bottom: 20px;
+}
+.active, .active:hover, .active:focus, .active:active, .active:active:hover {
+    background-color: var(--btn-primary-bg) !important;
+    color: var(--btn-secondary-color) !important;
+}
+.marginLR{
+    margin: 0 12px;
+}
+@media screen and (max-width: 767px) {
+.mbFullWidth{
+    width: 100%;
+    margin-bottom: 12px;
+}
+.marginLR{
+    margin-bottom: 12px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.mbFullWidth:last-child{
+    margin-bottom: 0px;
+}
+}

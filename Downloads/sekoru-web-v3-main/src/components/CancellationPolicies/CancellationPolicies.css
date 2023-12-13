@@ -1,0 +1,59 @@
+@import '../../components/variables.css';
+@import url('../../components/commonStyle.css');
+
+.landingContainer {
+	max-width: 1080px;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.cancellationBg {
+	padding: 26px 30px 30px 30px;
+	border-radius: 12px;
+	border: 1px solid var(--common-border-color);
+}
+
+.cancelCard {
+	box-shadow: 0px 4px 6px #EAEAEA29;
+	border-radius: 8px;
+	padding: 24px;
+}
+
+.cancelCardOne {
+	background: var(--cancel-bg-one);
+}
+
+.cancelCardTwo {
+	background: var(--cancel-bg-two);
+}
+
+.cancelCardThree {
+	background: var(--cancel-bg-three);
+}
+
+.cancelDescSec {
+	padding: 24px;
+	background: var(--common-gray-bg-color);
+	border-radius: 8px;
+}
+
+.horizontalLine{
+	background: var(--common-border-color);
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+
+.descListSpaceLeft{
+	padding-left: 20px;
+}
+@media screen and (max-width: 767px) {
+	.pageTitle {
+		font-size: 25px;
+	}
+	.cancellationBg,
+	.cancelCard,
+	.cancelDescSec{
+		padding: 17px;
+	}
+}

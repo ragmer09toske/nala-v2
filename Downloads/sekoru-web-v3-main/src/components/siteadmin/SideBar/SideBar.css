@@ -1,0 +1,363 @@
+@import '../../../components/variables.css';
+
+.sidebarWrapper {
+	z-index: 1;
+	position: fixed;
+	width: 300px;
+}
+
+.containerWrapper {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+	overflow: auto;
+	height: 100%;
+	position: relative;
+}
+
+.sideBarWelcome {
+	padding: 19px 19px 0;
+	text-align: center;
+}
+
+.sideBarWelcome a {
+	display: inline-block;
+}
+
+.sideBarWelcome a img {
+	max-width: 180px;
+	height: 52px;
+	object-fit: contain;
+}
+
+.sidebarNav {
+	padding: 0;
+	list-style-type: none;
+}
+
+.sidebarNav li a {
+	display: flex;
+	align-items: flex-start;
+	text-decoration: none;
+	color: var(--common-text-color);
+	padding: 12px 15px;
+	margin: 0px 5px;
+	border-radius: 6px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.sidebarNav li {
+	margin-bottom: 5px;
+}
+
+.sidebarNav li a:hover {
+	background-color: var(--background-color);
+}
+
+.listItem {
+	background: #767676;
+	list-style: none;
+}
+
+.navigationIcon {
+	font-size: 19px;
+	margin-left: 10px;
+	color: var(--common-text-color);
+	padding-right: 5px;
+	max-width: 24px;
+}
+
+.navigationImage {
+	margin-left: 10px;
+	padding-right: 5px;
+	max-width: 24px;
+	position: relative;
+	top: -2px;
+}
+
+.profileAvatarSection {
+	position: relative;
+	margin: 0 auto;
+}
+
+.profileAvatarLink {
+	backface-visibility: hidden;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	background-color: #bbb;
+	border-radius: 50%;
+	border: 2px solid #fff;
+}
+
+.button {
+	text-align: center;
+	vertical-align: middle;
+	font-weight: 500;
+	font-size: 16px;
+	color: var(--common-text-color);
+	line-height: 1.43;
+	white-space: nowrap;
+	cursor: pointer;
+	border-left: 2.5px solid transparent;
+	width: 100%;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+.button:hover {
+	text-decoration: none;
+	background: #ffffff52;
+	border-left: 2.5px solid #fff;
+	color: var(--common-text-color);
+}
+
+.button:focus {
+	text-decoration: none;
+	color: var(--common-text-color);
+}
+
+.button:active:focus,
+.button:focus {
+	outline: none;
+}
+
+.noPadding {
+	padding: 12px 15px;
+}
+
+.subMenu {
+	padding: 0px;
+	margin: 0;
+	list-style-type: none;
+}
+
+.subMenu li a {
+	padding: 12px 15px;
+}
+
+.sidebarWrapper {
+	z-index: 10;
+	background: transparent linear-gradient(169deg, #F0F5FE 0%, #FFF7F7 100%) 0% 0% no-repeat padding-box;
+	box-shadow: 6px 7px 6px #EBEBEB52;
+}
+
+.sidebarNav {
+	margin-top: 8px;
+	height: calc((100vh - 132px));
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-bottom: 50px;
+}
+
+.sidebarNavParent {
+	background: transparent linear-gradient(169deg, #F0F5FE 0%, #FFF7F7 100%) 0% 0% no-repeat padding-box;
+	box-shadow: 6px 7px 6px #EBEBEB52;
+	height: 100vh;
+}
+
+.mobileHeader {
+	position: fixed;
+	width: 100%;
+	z-index: 1030;
+	background-color: var(--background-color);
+	height: 62px;
+	box-shadow: 0px 0px 10px 1px #eeebeb;
+}
+
+.logoutIcon {
+	float: right;
+	margin: 23px 15px 0 0;
+}
+
+.logoutIcon img {
+	-webkit-filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(231deg) brightness(103%) contrast(101%);
+	filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(231deg) brightness(103%) contrast(101%);
+	width: 100%;
+	max-width: 20px;
+}
+
+.sideNavitem {
+	display: block;
+}
+
+.active .sideNavitem,
+.sideNavitem:hover {
+	text-decoration: none;
+	background-color: var(--background-color);
+}
+
+.active .sideNavitem,
+.sideNavitem:active {
+	text-decoration: none;
+	background-color: var(--background-color);
+}
+
+.active .sideNavitem,
+.sideNavitem:focus {
+	text-decoration: none;
+	background-color: var(--background-color);
+	box-shadow: 0px 16px 16px #9E9E9E14;
+}
+
+.active .sideNavitem .sideNavIcon {
+	filter: invert(48%) sepia(44%) saturate(2248%) hue-rotate(195deg) brightness(88%) contrast(103%);
+}
+
+.languageIcon {
+	width: 100%;
+	max-width: 13px;
+	margin-right: 6px;
+	position: relative;
+	top: -1px;
+	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(224deg) brightness(107%) contrast(101%);
+	margin-left: 9px;
+}
+
+.welcomeHeading {
+	padding-bottom: 19px;
+	font-size: 18px;
+	font-weight: 500;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: grid;
+	grid-template-columns: 25px auto;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	justify-items: center;
+	text-align: left;
+}
+
+.welcomeHeadingContainer {
+	width: 100%;
+	max-width: 166px;
+	margin: 0 auto;
+	border-bottom: 1px dotted var(--admin-lightBorder-color);
+}
+
+.sidebarContainer {
+	position: fixed;
+	top: 0;
+	width: 273px;
+	z-index: 1031;
+}
+
+.sideNavIcon {
+	width: 19px;
+	margin-bottom: 2px;
+}
+
+.marginRight10 {
+	margin-right: 10px;
+}
+
+.buttonFlex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+}
+
+.buttonFlexItemsInfo {
+	max-width: 170px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	white-space: normal;
+}
+
+.marginX {
+	margin: 0 5px;
+}
+
+.waveHand {
+	width: 22px;
+	height: 22px;
+	object-fit: contain;
+	display: inline-block;
+	position: relative;
+	top: -2px;
+}
+
+.waveHandMarginRight {
+	margin-right: 5px;
+}
+
+.closeColor {
+	display: none;
+}
+
+.tabViewSection {
+	display: none;
+}
+
+@media screen and (max-width: 1199px) {
+	.sidebarWrapper {
+		z-index: 10;
+		position: fixed;
+		width: 100%;
+		top: 0;
+		left: -100%;
+		transition: 0.5s;
+		transition-duration: 0.5s;
+	}
+
+	.sidebarContainer {
+		position: fixed;
+		width: 40%;
+		top: 0;
+		left: -100%;
+		transition: 0.5s;
+		-webkit-transition: 0.5s;
+		-o-transition: 0.5s;
+	}
+
+	.menuOpen {
+		left: 0;
+	}
+
+	.menuClose {
+		left: -100%;
+	}
+
+	.closeColor {
+		color: #000;
+		font-weight: 600;
+		font-size: 32px;
+		position: absolute;
+		display: block;
+		top: 0;
+		padding: 0;
+		right: 0;
+		z-index: 5;
+		cursor: pointer;
+		width: 100%;
+		text-align: right;
+		padding: 2px 12px 2px 0px;
+		display: block;
+	}
+
+	.tabViewSection {
+		display: block;
+	}
+
+	.buttonFlexItemsInfo {
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.sidebarContainer {
+		width: 100%;
+	}
+}

@@ -1,0 +1,74 @@
+@import '../../../variables.css';
+@import '../../../utils.css';
+@import '../../../common.css';
+ .modalContainer {
+	border-radius: 4px;
+}
+.logInModalBody {
+	padding: 0px;
+}
+.noPadding {
+	padding: 0px;
+}
+.noMargin {
+	margin: 0px;
+}
+.modalHeading {
+	color: var(--common-text-color);
+}
+.panelBody {
+	padding: 20px;
+}
+.space2 {
+	margin-bottom: 12px;
+}
+.space3 {
+	margin-bottom: 18px;
+}
+.spaceTop2 {
+	margin-top: 12px
+}
+.panelBody {
+	padding: 18px 24px 24px;
+}
+.formControlInput {
+	display: block;
+	padding: 0px 20px;
+	width: 100%;
+	height: 48px;
+	font-size: 16px;
+	border-radius: 6px;
+	border: 1px solid var(--common-border-color);
+}
+.formGroup {
+	margin-bottom: 6px;
+}
+/*************************Panel Styles End******************************************/
+a:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.btnlarge {
+	padding: 10px 20px !important;
+	font-size: 16px;
+}
+.space1 {
+	margin-bottom: 6px;
+}
+.space2 {
+	margin-bottom: 12px;
+}
+.space4 {
+	margin-bottom: 24px;
+}
+.btnRight {
+	margin-right: 10px;
+}
+.introText {
+	color: #7d7d7d;
+}
+.flexEnd{
+	display: flex;
+	justify-content: flex-end;
+  }

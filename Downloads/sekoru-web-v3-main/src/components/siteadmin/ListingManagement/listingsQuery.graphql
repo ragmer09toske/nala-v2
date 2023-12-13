@@ -1,0 +1,37 @@
+query getAllListings($currentPage: Int, $searchList: String){
+  getAllListings(currentPage: $currentPage, searchList: $searchList) {
+    count
+    usersData{
+      id
+        title
+        city
+        state
+        street
+        buildingName
+        zipcode
+        country
+        createdAt
+        isPublished
+        isReady
+        user{
+            email
+            profile {
+                firstName
+            }
+        }
+        listPhotos {
+            name
+        }
+        settingsData {
+                listsettings {
+                id
+                itemName
+                }
+            }
+        recommend{
+            id
+            listId
+        }
+    }
+   }
+}

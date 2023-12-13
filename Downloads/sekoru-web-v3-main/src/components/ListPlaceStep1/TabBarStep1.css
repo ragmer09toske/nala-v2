@@ -1,0 +1,39 @@
+@import '../../components/variables.css';
+.tabBorder{
+	border:1px solid var(--common-border-color);
+	border-radius: 28px;
+	display: flex;
+	align-items: center;
+	padding: 9px 24px 9px 9px;
+	height: 56px;
+}
+.tabFont{
+	color: var(--common-text-color);
+	padding-left: 18px;
+}
+.iconBg{
+	width: 38px;
+	height: 38px;
+	background: #F9F9F9;
+    border: 1px solid #E9E9E9;
+	border-radius: 50%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tabBorder:hover{
+	border: 1px solid #090B1E;
+	background: #1852D80D;
+}
+.tabBorder:hover .iconBg{
+	background: #fff;
+	box-shadow: 0px 3px 6px #EFEFEF;
+}
+.active{
+	border: 1px solid #090B1E;
+	background: #1852D80D;
+}
+.active .iconBg{
+	background: #fff;
+	box-shadow: 0px 3px 6px #EFEFEF;
+}

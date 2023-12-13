@@ -1,0 +1,122 @@
+@import '../../components/variables.css';
+
+.itemSection {
+    background-color: var(--common-gray-bg-color);
+    border: 1px solid var(--common-border-color);
+    border-radius: 12px;
+    padding: 24px 30px 18px 30px;
+    word-break: break-word;
+}
+
+.displayFlex {
+    display: flex;
+}
+
+.titleFlexStyle {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatarSpaceRight {
+    margin-right: 19px;
+}
+
+.displayGrid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 25px;
+}
+
+.moreItemGrid {
+    display: grid;
+    grid-template-columns: 43.6% 32% 15%;
+    align-items: center;
+    gap: 25px;
+}
+
+.baseLine {
+    align-items: baseline;
+}
+
+.iconSpace {
+    margin-right: 4px;
+    position: relative;
+    top: 2px;
+}
+
+.reservationStatusBtn,
+.reservationStatusBtn:hover,
+.reservationStatusBtn:active,
+.reservationStatusBtn:focus,
+.reservationStatusBtn:active:hover {
+    border-radius: 19px;
+    padding: 9px 15px;
+    white-space: normal;
+    display: inline-block;
+}
+
+.errorMsg {
+    margin: 0;
+    padding-bottom: 6px;
+}
+
+.tripDropDown {    
+    text-align: end;
+}
+
+.noBackground {
+    background: transparent !important;
+}
+
+.claimDamageText{
+    list-style-type: none;
+    cursor: pointer;
+    margin-top: 2px;
+}
+.displayInlineBlock{
+    display: inline-block;
+}
+.claimBtn, .claimBtn:hover, .claimBtn:active, .claimBtn:focus{
+    background-color: transparent !important;
+    box-shadow: unset !important;
+    border: unset !important;
+    padding: 0 !important;
+    color: var(--common-text-linkcolor) !important;
+}
+@media screen and (max-width: 767px) {
+
+    .displayGrid{
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .itemSection {
+        padding-inline: 20px;
+    }
+
+    .profileAvatar {
+        width: 70px;
+        height: 70px;
+    }
+    .tripDropDown {
+        width: auto;
+        text-align: start;
+    }
+    .moreItemGrid {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .itemSection{
+        padding-inline: 15px;
+    }
+    .reservationStatusBtn,
+    .reservationStatusBtn:hover,
+    .reservationStatusBtn:active,
+    .reservationStatusBtn:focus,
+    .reservationStatusBtn:active:hover {
+        font-size: 14px;
+    }
+}

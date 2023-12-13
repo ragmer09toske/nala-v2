@@ -1,0 +1,24 @@
+@import '../admin-common.css';
+.displayTable{
+    display: table;
+    width: 100%;
+}
+.displayTableCell{
+    display: table-cell;
+    vertical-align: middle;
+}
+.displayInline{
+    display: inline-block;
+}
+.radioCss{
+    width: 10px;
+    padding-right: 2px;
+    position: relative;
+    top: -1px;
+}
+@media (max-width: 767px) {
+	.displayInline{
+        vertical-align: top;
+        margin-right: 10px;
+    }
+}

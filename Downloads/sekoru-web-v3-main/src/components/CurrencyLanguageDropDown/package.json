@@ -1,0 +1,6 @@
+{
+  "name": "CurrencyLanguageDropDown",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CurrencyLanguageDropDown.js"
+}

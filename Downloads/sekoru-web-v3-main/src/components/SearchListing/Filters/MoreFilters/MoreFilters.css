@@ -1,0 +1,103 @@
+@import '../../../../components/common.css';
+
+.filters {
+   border-bottom: 1px solid #dce0e0;
+   margin-bottom: 21px !important;
+}
+
+.filters:last-child {
+   margin-bottom: 0px !important;
+}
+
+.filtersFooter {
+   width: 100%;
+   position: sticky;
+   position: -webkit-sticky;
+   -webkit-transform: translateZ(1px);
+   transform: translateZ(1px);
+   bottom: 0;
+   left: 0px;
+   background-color: #ffffff;
+   padding: 27px 28px;
+   display: flex;
+   border-top: 1px solid #ccc;
+   justify-content: end;
+   -webkit-justify-content: flex-end;
+   align-items: flex-end;
+   -webkit-align-items: flex-end;
+   border-radius: 0 0 12px 12px;
+}
+
+.filterSection {
+   overflow-y: auto;
+   overflow-x: hidden;
+   height: 70vh;
+   padding: 28px 28px 0;
+
+}
+
+.applyTextRight {
+   text-align: right;
+}
+
+.fullWidth {
+   width: auto !important;
+   padding: 8px 15px 10px !important;
+}
+
+.paddingZero {
+   padding: 0;
+}
+
+.btnLink {
+   font-size: 16px;
+   font-weight: bold !important;
+}
+
+.btnSecondary img {
+   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(104%) contrast(102%);
+}
+
+.toggleTop {
+   margin-top: 41px;
+}
+
+.filters:last-child {
+   border-bottom: 1px solid transparent;
+}
+
+.cancelFliterBtn {
+   margin-right: 13px;
+}
+.viewResultBtn, .viewResultBtn:focus, .viewResultBtn:hover{
+   font-size: 16px !important;
+}
+@media (min-width: 1800px) and (max-width: 1920px) {
+   .filterSection {
+      height: 50vh;
+  }
+}
+@media screen and (max-width: 768px) {
+   .filtersFooter {
+      width: 100%;
+      z-index: 5;
+   }
+
+   .responsiveMargin {
+      margin-top: 45px !important;
+   }
+
+   .MoreFilters-filterSection-1kAUh {
+      padding-left: 5px;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .houseMobile {
+      padding-bottom: 40px;
+   }
+
+   .filterSection {
+      padding: 0 10px 0 5px;
+   }
+}

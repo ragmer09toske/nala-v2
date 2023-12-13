@@ -1,0 +1,127 @@
+@import '../../../components/variables.css';
+
+.userBox {
+	box-shadow: 0px 11px 16px #DCD8FF73;
+	border: 2px solid var(--border-color);
+	border-radius: 12px;
+	padding: 19px 0px 0px;
+	text-align: center;
+}
+
+.commonBg {
+	background: #F4F2FF 0% 0% no-repeat padding-box;
+	border-radius: 12px;
+	padding: 20px;
+}
+
+.userBoxBG {
+	background: transparent linear-gradient(62deg, #FFDFD9 0%, #A3B2FF 100%) 0% 0% no-repeat padding-box;
+    border: 2px solid #FFF8F2;
+}
+
+.displayGrid {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	padding: 33px 6px 0px;
+	align-items: center;
+	justify-items: center;
+	justify-content: space-between;
+}
+
+.listingBoxBg {
+	background: transparent linear-gradient(62deg, #FFD9FC 0%, #FFE991 100%) 0% 0% no-repeat padding-box;
+    border: 2px solid #FFF8F2;
+}
+
+.reservationBox {
+	background: #F9F9F9 0% 0% no-repeat padding-box;
+	border: 2px solid #FFFFFF;
+	border-radius: 12px;
+	text-align: center;
+	padding: 33px;
+}
+
+.reservationBg {
+	border: 1px solid var(--border-color);
+	padding: 20px;
+	border-radius: 12px;
+}
+
+.columnGrid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.marginOne {
+	margin: 0px 15px 30px 0px;
+}
+
+.marginTwo {
+	margin: 0px 0px 30px 15px;
+}
+
+.reservationGrid {
+	display: grid;
+	grid-template-columns: 32% 36% 32%;
+}
+
+.reservationMarginRight {
+	margin-right: 21px;
+}
+
+.reservationMarginLeft {
+	margin-left: 21px;
+}
+.backgroundBgBlur{
+	position: relative;
+}
+.backgroundBgBlur::after{
+	content: '';
+	width: 72px;
+	height: 72px;
+	background-color: #FFD8B9;
+	filter: blur(17px);
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.imgZindex{
+	position: relative;
+	z-index: 2;
+}
+.backgroundBgBlurTwo::after{
+	background-color: #FFB9B9;
+}
+@media screen and (max-width: 991px) {
+	.displayGrid {
+		grid-template-columns: 100%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.columnGrid {
+		grid-template-columns: 100%;
+	}
+
+	.reservationGrid {
+		grid-template-columns: 100%;
+	}
+
+	.reservationMarginRight {
+		margin-right: 0px;
+	}
+	
+	.reservationMarginLeft {
+		margin-left: 0px;
+	}
+
+	.marginOne {
+		margin: 0px 0px 30px 0px;
+	}
+	
+	.marginTwo {
+		margin: 0px 0px 30px 0px;
+	}
+}

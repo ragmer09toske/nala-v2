@@ -1,0 +1,242 @@
+/** Common **/
+@import '../../variables.css';
+.textEllipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/** Common **/
+
+/* List Item - Start **/
+
+.listItemContainer {
+	margin-bottom: 8px;
+	position: relative;
+}
+.listItemContainer:before {
+	bottom: -8px;
+	content: " ";
+	display: inline-block;
+	left: 50%;
+	margin-left: -8px;
+	position: absolute;
+	border-width: 8px 8px 0px;
+	border-style: solid solid solid;
+	border-color: rgba(0, 0, 0, 0.15) transparent;
+	border-image: initial;
+	border-bottom: 0px;
+}
+.listItemContainer:after {
+	bottom: -7px;
+	content: " ";
+	display: inline-block;
+	left: 50%;
+	margin-left: -8px;
+	position: absolute;
+	border-width: 8px 8px 0px;
+	border-style: solid solid solid;
+	border-color: #fff transparent;
+	border-image: initial;
+	border-bottom: 0px;
+}
+.priceCss {
+	color: var(--common-text-color);
+	padding: 5px 0px 0;
+}
+.perDaySize {
+	font-size: 12px;
+	text-align: right;
+}
+.trip {
+	font-size: 11px;
+	font-weight: normal;
+}
+@media screen and (min-width: 321px) {
+	.listItemContainer {
+		width: 100%;
+	}
+}
+.listPhotoContainer {
+	position: relative !important;
+	height: 100% !important;
+	background: #fff;
+    padding: 15px;
+	border-radius: 12px;
+	border: 1px solid var(--common-border-color);
+}
+.listPhotoCover {
+	display: block;
+	height: 145px !important;
+	backface-visibility: hidden;
+	position: relative;
+	vertical-align: middle;
+	overflow: hidden;
+	background-color: #D8D8D8;
+	text-align: center;
+}
+.listPhotoMedia {
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	top: 0;
+}
+.imgResponsive {
+	height: 100%;
+	width: auto;
+}
+.listInfo {
+	padding: 11px 0 0;
+}
+.listInfoLink {
+	cursor: pointer;
+	display: block;
+	font-family: "Outfit";
+	text-decoration: none !important;
+}
+.listingInfo {
+	word-wrap: break-word;
+	color: var(--common-text-color);
+	margin: 0px;
+	font-weight: 400;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.displayInline {
+	display: inline-block;
+}
+.textInline {
+	display: inline-block;
+	vertical-align: top;
+}
+.listingTitle {
+	word-wrap: break-word;
+	color: var(--common-text-color);
+	font-family: "Outfit";
+	margin: 3px 0 0;
+}
+.infoSpace {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: "Outfit";
+}
+.infoSpaceTop1 {
+	margin-top: 2px
+}
+.infoText {
+	color: var(--common-text-color);
+	word-wrap: break-word;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	display: inline;
+}
+.infoPrice {
+	word-wrap: break-word;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: normal;
+	color: rgb(72, 72, 72);
+	font-weight: normal;
+	display: inline;
+}
+.infoReview {
+	font-weight: 600;
+	word-wrap: break-word;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: normal;
+	color: rgb(72, 72, 72);
+	display: inline;
+}
+.infoTitle {
+	font-size: 19px;
+}
+.infoDesc {
+	font-weight: 200;
+	font-size: 14px;
+	color: #767676;
+}
+.wishListContainer {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.wishListBtn {
+	font-size: 36px;
+	color: #FFFFFF;
+}
+.wishListBtn:hover,
+.wishListBtn:focus {
+	color: #58595B;
+}
+.activeWishList {
+	color: #58595B;
+}
+.dotCss{
+	width: 4px;
+	height: 4px;
+	background: var(--common-background-color);
+	border-radius: 50%;
+	margin: 0 4px;
+	display: inline-block;
+	position: relative;
+	top: -2px;
+}
+.streeingIcon{
+	position: relative;
+	top: -1px;
+}
+@media screen and (max-width: 1280px) {
+	.listPhotoCover {
+		height: 200px;
+	}
+}
+@media screen and (max-width: 800px) {
+	.listPhotoCover {
+		height: 345px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.listPhotoCover {
+		height: 215px;
+	}
+}
+.reviewStar {
+	display: block;
+	position: relative;
+}
+.reviewText {
+	font-size: 14px;
+}
+.instantIcon {
+	color: #ffb400;
+	height: 16px;
+	width: 16px;
+}
+.HRRight {
+	background: var(--common-background-color) !important;
+    border-radius: 6px;
+	margin: 15px 0px 0px;
+	display: flex;
+	align-items: center;
+	padding: 12px;
+}
+.reviewCss{
+	border-right: 1px solid var(--common-border-color);
+	padding: 0 12px 0 0;
+    display: flex;
+    color: #fff;
+}
+.arrowIconCss{
+	padding-left: 6px;
+}
+.btn {
+	width: 100%;
+	color: #fff !important;
+	display: block;
+    text-decoration: none !important;
+    text-align: center;
+    font-size: 18px;
+}
+/* List Item - End */

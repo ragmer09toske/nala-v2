@@ -1,0 +1,23 @@
+query($currentPage: Int, $searchList: String) {
+  getAllAdminUsers(currentPage: $currentPage, searchList: $searchList) {
+    count
+    status
+    errorMessage
+    results{
+      id
+      email
+      isSuperAdmin
+      roleId
+      createdAt
+      updatedAt
+      adminRole {
+        id
+        name
+        description
+        createdAt
+        updatedAt
+        privileges
+      }
+    }
+  }
+}

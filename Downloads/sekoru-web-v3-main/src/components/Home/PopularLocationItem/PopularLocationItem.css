@@ -1,0 +1,66 @@
+@import url('../../variables.css');
+/** Common **/
+.textEllipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.imgContainer {
+    position: relative;
+    width: 100%;
+}
+
+.infoContainer {
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--common-text-color);
+}
+
+.zoomContainer{
+    position: relative;
+    margin: 6px auto 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    width:110px;
+    height:110px;
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+}
+.outLineBorder{
+    border: 1px solid var(--common-border-color);
+    padding: 30px 20px 20px;
+    border-radius: 12px;
+    position: relative;
+}
+.outLineBorder:hover{
+    background: #f4f6ff8a;
+}
+.outLineBorder::before{
+    content: "";
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background: #F5F5F5;
+    z-index: 1;
+    transition: all .5s ease;
+    border-radius: 50%;
+    top: 15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+}
+.imageContent {
+    height: 100%;
+    width: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    backface-visibility: hidden;
+    z-index: 2;
+}
+.noLine{
+    text-decoration: none !important;
+}
+/** Home slider Item - Start **/

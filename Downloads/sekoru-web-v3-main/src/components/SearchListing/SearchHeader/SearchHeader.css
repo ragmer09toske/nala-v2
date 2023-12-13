@@ -1,0 +1,68 @@
+@import '../../../components/common.css';
+
+.searchHeaderContainerBox {
+	z-index: 6;
+	height: 64px;
+	position: relative;
+	width: 100%;
+}
+
+.searchHeaderContainer {
+	width: 100%;
+	height: auto;
+	position: fixed;
+	background-color: var(--background-color);
+	z-index: 4 !important;
+	padding: 15px 25px 15px 25px;
+	right: 0;
+	left: 0;
+	border-bottom: 1px solid var(--common-border-color);
+	min-height: 64px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	top:96px;
+}
+
+.filterButtonContainer {
+	display: inline-block;
+	position: relative;
+	margin: 0 18px 0 0px;
+}
+.filterButtonContainer:last-child{
+margin: 0;
+}
+.searchHeaderFlex {
+	display: flex;
+}
+
+.filterButtonContainer button:active,
+.filterButtonContainer button:active,
+.filterButtonContainer button {
+	border-radius: 6px;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+	.fullResponsiveContainer {
+		z-index: 80;
+		height: 100%;
+	}
+}
+
+
+@media(max-width:767px) {
+
+	.searchHeaderContainer {
+		display: inherit;
+		padding: 15px 24px;
+		top: 96px;
+	}
+	.searchHeaderFlex {
+		overflow-x: auto;
+	}
+	
+}

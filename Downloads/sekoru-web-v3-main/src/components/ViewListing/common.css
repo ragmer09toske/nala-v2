@@ -1,0 +1,67 @@
+@import '../../components/variables.css';
+
+.textError {
+	color: #d43242;
+}
+
+.noBackground {
+	background-color: transparent !important;
+}
+
+.avatarImage {
+	display: grid;
+	grid-template-columns: 80px auto;
+	align-items: center;
+	gap: 20px;
+}
+
+.imageSection {
+	display: grid;
+	grid-template-columns: 56px auto;
+}
+
+.textSection {
+	margin-left: 20px;
+}
+
+.profileAvatar {
+	border-radius: 50%;
+}
+
+.profileAvatarLink {
+	border: 2px solid var(--common-text-linkcolor);
+	border-radius: 50%;
+	display: inline-block;
+	padding: 5px;
+	background-color: transparent;
+}
+
+.reviewStarSection {
+	display: flex;
+	align-items: baseline;
+}
+
+.dotSection {
+	position: relative;
+	padding-left: 14px;
+}
+
+.dotSection::before {
+	content: '';
+	position: absolute;
+	top: 8px;
+	left: 5px;
+	width: 4px;
+	height: 4px;
+	background-color: var(--common-text-color);
+	border-radius: 100%;
+}
+
+.starImageMargin {
+	margin-right: 3px;
+}
+
+.reviewCountFlex {
+	display: flex;
+	align-items: center
+}

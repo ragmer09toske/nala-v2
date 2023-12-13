@@ -1,0 +1,173 @@
+/** Common - Start **/
+
+@import '../../variables.css';
+ .btn {
+	padding: 11px 21px;
+	border-color: #c4c4c4;
+	background: white;
+	color: var(--common-text-color);
+	font-weight: bold;
+	font-size: 14px;
+}
+.btnBlock {
+	width: 100%;
+	position: relative;
+	white-space: normal;
+	display: block;
+	font-size: 18px;
+	border-radius: 6px;
+	font-weight: 500;
+	box-shadow: 0px 8px 11px #31313126;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn:hover,
+.btn:focus,
+.btn:hover:focus {
+	background: white;
+	color: var(--common-text-color);
+}
+.btnPrimary {
+	border-color: var(--btn-primary-bg) !important;
+	background-color: var(--btn-primary-bg) !important;
+	color: #fff;
+}
+.btnlarge {
+	padding: 9px 27px;
+}
+.btnPrimary:hover,
+.btnPrimary:focus,
+.btnPrimary:active,
+.btnPrimary:active:hover,
+.btnPrimary:active:focus {
+	border-color: var(--btn-primary-bg-hover) !important;
+	background-color: var(--btn-primary-bg-hover) !important;
+	color: #fff !important;
+	outline: 0 !important;
+}
+.btnPrimaryBorder {
+	border-color: var(--btn-primary-bg);
+	color: var(--btn-primary-bg);
+	background-color: #fff;
+}
+.btnPrimaryBorder:hover,
+.btnPrimaryBorder:focus,
+.btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover,
+.btnPrimaryBorder:active:focus {
+	border-color: var(--btn-primary-bg-hover);
+	color: var(--btn-primary-bg-hover);
+	background-color: #fff;
+}
+.formControlInput {
+	padding: 10px 35px 10px 10px;
+	height: 40px;
+	border-radius: 2px;
+	font-size: 14px;
+	border: none;
+	background-color: #fff;
+	color: #767676;
+}
+.formControlSelect {
+	height: 40px;
+	border-radius: 2px;
+	margin-bottom: 8px;
+	font-size: 14px;
+	max-width: 100%;
+	border: none;
+	background-color: #fff;
+	color: #767676;
+	line-height: 24px;
+	display: block;
+	overflow: hidden;
+	appearance: none;
+}
+.noPadding {
+	padding: 0px !important;
+}
+/** Common - End **/
+
+/** Search Form - Start **/
+
+.tableCell {
+	padding: 25px 0 0;
+	vertical-align: middle;
+	margin: 0;
+}
+.location,
+.dates {
+	width: 100%;
+}
+.guests {
+	width: 100%;
+}
+.search {
+	margin: 27px 0 0;
+}
+.label {
+	margin: 0 0 10px;
+	white-space: nowrap;
+	font-weight: 500;
+	color: var(--common-text-color);
+	letter-spacing: 0.1px;
+}
+.formControlInput {
+	padding: 10px 35px 10px 10px;
+	height: 40px;
+	border-radius: 2px;
+	font-size: 14px;
+	border: 1px solid #aaa;
+	background-color: #fff;
+	color: #767676;
+}
+.loadfield {
+	border: 1px solid #dce0e0 !important;
+	padding: 0 20px !important;
+	border-radius: 60px !important;
+	height: 45px;
+	font-weight: normal !important;
+	font-size: 14px !important;
+	letter-spacing: 0px !important;
+	color: var(--common-text-color) !important;
+	box-shadow: 0 1px 15px 3px #eeebeb !important;
+}
+@media screen and (max-width: 767px) {
+	.location,
+	.dates,
+	.guests {
+		width: 100%;
+	}
+	.tableCell {
+		border-right: 0px;
+		display: block;
+	}
+	.tableCell:not(first-child) {
+		border-right: inherit;
+	}
+}
+@media screen and (max-width: 640px) {
+	.selectPadding {
+		padding: 0px;
+	}
+	.btnBlock {
+		font-size: 18px;
+	}
+}
+.geoSuggestContainer {
+	width: 100% !important;
+	margin: 0px !important;
+}
+@media (max-width: 350px) {
+	.tableCell {
+		padding: 5px 0 0;
+	}
+	.label {
+		margin: 0 0 5px;
+	}
+}
+.searchElement {
+	display: block !important;
+	margin-bottom: 0px;
+}
+/** Search Form - End **/

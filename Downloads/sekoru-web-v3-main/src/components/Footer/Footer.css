@@ -1,0 +1,122 @@
+@import '../variables.css';
+
+.bgImageSection {
+	position: relative;
+	height: auto;
+	min-height: 400px;
+}
+
+.bgImage {
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	padding-top: 8%;
+	margin-top: 80px;
+}
+
+.bgColor {
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	background-color: #f9f9f9;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+}
+.bgWhite{
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	background-color: #fff;
+}
+.container {
+	margin: 0 auto;
+	max-width: var(--max-content-width);
+	padding: 0px 68px 0px;
+}
+
+.shareIcon {
+	cursor: pointer;
+	width: 100%;
+	max-width: 40px;
+	border-radius: 50%;
+	border: 1px solid var(--common-border-color);
+	padding: 7px;
+	text-align: center;
+}
+
+.shareIcon:hover img {
+	filter: invert(20%) sepia(100%) saturate(2054%) hue-rotate(214deg) brightness(103%) contrast(97%);
+}
+
+.listContainer {
+	padding: 0px;
+	list-style-type: none;
+	margin-bottom: 0;
+}
+
+.socialFlex {
+	display: flex;
+}
+
+.displayFlex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.displayGrid {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+
+.twitterMargin {
+	margin: 0px 12px 0px 12px;
+}
+
+.appStoreMargin {
+	margin-right: 23px;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+	.container {
+		padding: 0px 30px 0px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.container {
+		padding: 15px;
+	}
+
+	.displayGrid {
+		grid-template-columns: 100%;
+	}
+
+	.flexReverse {
+		flex-direction: column-reverse;
+	}
+
+	.appStoreMargin {
+		margin-right: 4px;
+	}
+
+	.siteNamePadding {
+		padding: 20px;
+	}
+
+	.bgImage {
+		padding-top: 10%;
+	}
+}

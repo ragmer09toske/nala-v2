@@ -1,0 +1,6 @@
+  mutation deleteWhyHostReview ($reviewId: Int!) {
+      deleteWhyHostReview (reviewId: $reviewId) {
+        status
+        errorMessage
+      }
+    }

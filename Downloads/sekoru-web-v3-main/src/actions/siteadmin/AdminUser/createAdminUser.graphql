@@ -1,0 +1,6 @@
+mutation ($id: String, $email: String!, $password: String, $roleId: Int!) {
+        createAdminUser (id: $id, email: $email, password: $password, roleId: $roleId) {
+        status
+        errorMessage
+        }
+    }

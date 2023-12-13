@@ -1,0 +1,37 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+@import '../../helpers.css';
+
+.sectionBorder {
+    border: 1px solid var(--border-secondary-color);
+    border-radius: 6px;
+    margin-bottom: 25px;
+    padding: 15px;
+   
+}
+.removeIcon:hover {
+    cursor: pointer;
+}
+.removeIcon{
+    width: 26px;
+}
+.whyFromGrid {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-column-gap: 22px;
+}
+.addLink, .addLink:hover, .addLink:focus, .addLink:active, .addLink:active:hover{
+    background-color: transparent !important;
+    color: var(--common-text-linkcolor) !important;
+    padding: 0;
+    box-shadow: unset;
+    border: unset;
+    border-radius: 0 !important;
+    border-bottom: 1px solid var(--common-text-linkcolor) !important;
+    margin-left: 12px;
+    }
+@media screen and (max-width: 1199px) {
+    .whyFromGrid {
+        grid-template-columns: 100%;
+    }
+}

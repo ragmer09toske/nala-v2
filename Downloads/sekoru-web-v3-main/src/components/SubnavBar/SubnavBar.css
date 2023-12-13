@@ -1,0 +1,47 @@
+@import '../../components/variables.css';
+ .progressContainer {
+	width: 100%;
+	background-color: var(--common-text-color);
+	position: relative;
+}
+.navList {
+	list-style: none;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 15px 15px;
+    display: flex;
+	overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.navList::-webkit-scrollbar{
+	display: none;
+}
+.navItem {
+    position: relative;
+    padding: 0px;
+	margin-right: 54px;
+	font-size: 16px !important;
+	color: var(--subNavbar-text-color);
+}
+.active .navItem,
+.navItem:hover {
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+.active .navItem,
+.navItem:focus {
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+.active .navItem::after {
+	content: '';
+	position: absolute;
+	top: 35px;
+	left: 0;
+	right: 0;
+	height: 3px;
+	background: #fff;
+}

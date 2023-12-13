@@ -1,0 +1,142 @@
+@import url('../commonStyle.css');
+.displayGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.paddingRight {
+    padding-right: 12px;
+}
+
+.paddingLeft {
+    padding-left: 12px;
+}
+
+.dateGridSection {
+    display: grid;
+    grid-template-columns: 100px 108px 100px;
+    justify-content: space-between;
+}
+
+.datePadding {
+    padding: 0px 10px;
+}
+
+.editSelectPadding {
+    padding: 10px 35px 10px 13px !important;
+}
+
+.specialPriceIcon {
+    position: absolute;
+    display: inline-block;
+    width: 14px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.tltip {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    left: 0px;
+    display: none;
+    background: #fff;
+    min-width: 280px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 4px;
+    color: var(--common-text-color);
+    border: 1px solid var(--border-color);
+    font-size: 14px;
+    z-index: 2;
+}
+
+.specialPriceIcon:hover .tltip {
+    display: block;
+}
+
+.relativeSection::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 12px;
+    right: 0;
+    top: -6px;
+    text-align: center;
+    background-color: #fff;
+    z-index: 0;
+    max-width: 10px;
+    max-height: 10px;
+    -webkit-transform: rotate(136deg);
+    -ms-transform: rotate(136deg);
+    transform: rotate(136deg);
+    border: 1px solid var(--border-color);
+    border-top-width: 0;
+    border-right-width: 0;
+}
+
+.faqImage {
+    width: 100%;
+    max-width: 14px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+
+.editProfileEmail:disabled,
+.editProfileEmail:disabled:hover{
+    background: var(--common-gray-bg-color) !important;
+    background-color: var(--common-gray-bg-color) !important;
+}
+
+@media (max-width:1199px) and (min-width:1024px) {
+    .tltip {
+        min-width: 145px;
+    }
+}
+
+
+@media (max-width:1023px) and (min-width:768px) {
+    .tltip {
+        min-width: 195px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .displayGrid {
+        grid-template-columns: 100%;
+    }
+
+    .dateGridSection {
+        grid-template-columns: 100%;
+    }
+
+    .paddingRight {
+        padding-right: 0px;
+    }
+
+    .paddingLeft {
+        padding-left: 0px;
+    }
+
+    .datePadding {
+        padding: 0px 0px;
+    }
+
+    .tltip {
+        left: -9px;
+        min-width: 210px;
+        z-index: 18;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .tltip {
+        left: -100px;
+    }
+
+    .relativeSection::after {
+        left: 100px;
+    }
+}

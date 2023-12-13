@@ -1,0 +1,128 @@
+@import '../../variables.css';
+
+.heading {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 36px;
+	margin-top: 0;
+}
+
+.activationStepPanel {
+	max-width: 518px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 73px;
+}
+
+.textLead {
+	font-size: 18px;
+	text-align: center;
+	margin-top: 24px;
+	margin-bottom: 18px;
+}
+
+.formControlInput {
+	width: 336px;
+	height: 48px;
+	margin: 0 auto;
+	background-color: #F9F9F9 !important;
+	border: 1px solid var(--common-border-color) !important;
+	border-radius: 6px;
+	box-shadow: unset !important;
+	color: #7D7D7D !important;
+
+}
+
+.btnPrimary,
+.btnPrimary:focus,
+.btnPrimary:hover,
+.btnPrimary:active {
+	background-color: transparent !important;
+	color: var(--common-text-linkcolor) !important;
+	border: none;
+	border-bottom: 1px solid var(--common-text-linkcolor) !important;
+	font-size: 18px;
+	border-radius: 0;
+	padding: 0;
+	box-shadow: unset;
+}
+
+.refreshImage {
+	width: 100%;
+	max-width: 30px;
+	border: 1px solid #DDDDDD;
+	border-radius: 50%;
+	padding: 3px;
+	cursor: pointer;
+	margin:  0px 7px;
+}
+.flexButton{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.specialPriceIcon {
+	display: inline-block;
+	position: relative;
+}
+
+.specialPriceIcon:hover .tltip {
+	display: block;
+}
+
+.tltip {
+	position: absolute;
+	top: -104px;
+	right: 0;
+	left: -111px;
+	display: none;
+	background: #484848;
+	min-width: 300px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 4px;
+	color: #fff;
+}
+
+.relativeSection::after {
+	content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: -31px;
+    right: 0;
+    top: 88px;
+    bottom: 0;
+    text-align: center;
+    background-color: #484848;
+    z-index: 1;
+    max-width: 11px;
+    max-height: 11px;
+    -webkit-transform: rotate(136deg);
+    -ms-transform: rotate(136deg);
+    transform: rotate(136deg);
+    margin: 0 auto;
+}
+
+.faqImage {
+	width: 100%;
+	max-width: 19px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+@media screen and (max-width: 767px) {
+	.activationStepPanel {
+		padding: 73px 10px 0;
+	}
+	.tltip {
+		left: -200px;
+	}
+	.relativeSection::after {
+		left: 145px;
+	}
+	.formControlInput{
+		width: 100%;
+	}
+}

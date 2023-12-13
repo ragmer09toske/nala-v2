@@ -1,0 +1,12 @@
+@import '../../components/variables.css';
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 0px;
+  max-width: var(--max-container-width);
+  margin-top: 1px;
+}
+
+
+
+

@@ -1,0 +1,6 @@
+ mutation ($id: String!) {
+        deleteAdminUser (id: $id) {
+        status
+        errorMessage
+        }
+    }

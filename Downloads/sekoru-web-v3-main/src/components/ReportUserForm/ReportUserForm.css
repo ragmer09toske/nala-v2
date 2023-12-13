@@ -1,0 +1,16 @@
+@import '../../components/variables.css';
+@import '../../components/utils.css';
+
+.blockRadioButton {
+	position: relative;
+	height: 1.25em;
+	width: 1.25em;
+	margin-right: 10px !important;
+	margin-top: 0px !important;
+	vertical-align: text-bottom;
+}
+
+.displayGrid {
+	display: grid;
+    grid-template-columns: 30px auto;
+}

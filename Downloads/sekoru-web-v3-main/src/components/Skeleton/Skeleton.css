@@ -1,0 +1,523 @@
+@import '../common.css';
+@import '../variables.css';
+
+/* Shimmer */
+.shimmerWrapper {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(90deg, #95979e1a 0%, #95979e1a 20%, #95979e1a 40%, #95979e1a 100%);
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* transform: translateX(-100%); */
+    /* background-size: 450px 400px; */
+    /* animation: shimmer 1s linear infinite; */
+    /* animation: shimmer 2s linear infinite; */
+}
+
+.shimmerWrapper::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    animation: shimmer 2s infinite;
+    content: '';
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.2) 20%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0));
+}
+
+.homeKindGripBorderRadius::before {
+    border-radius: 22px 22px 22px 0;
+}
+
+@keyframes loading {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-60%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes shimmer {
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.SkletonSliderPadding {
+    padding: 0 8px;
+}
+
+.skeletonBoxBg {
+    position: relative;
+}
+
+.skeletonBoxBg::before {
+    background: #f3f3f3 !important;
+}
+
+.parentBgColor {
+    background: #f3f3f3 !important;
+    position: relative !important;
+    border-radius: 6px !important;
+    overflow: hidden !important;
+    width: 299px;
+    height: 332px;
+    padding-top: 0 !important;
+
+}
+
+.skeletonContent {
+    border-radius: 15px;
+    width: 45%;
+    height: 15px;
+    overflow: hidden;
+    background-color: #e4e4e4;
+    margin-top: 10px;
+}
+
+.skeletonContent::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: inherit !important;
+    animation: shimmer 2s infinite;
+    content: '';
+}
+
+.popularSkeletonContent {
+    width: 120px;
+    height: 30px;
+    background-color: var(--background-common-color);
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 6px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+}
+
+.popularSkeletonContent::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(90deg,
+            rgba(#fff, 0) 0,
+            rgba(#fff, 0.2) 20%,
+            rgba(#fff, 0.5) 60%,
+            rgba(#fff, 0));
+    animation: shimmer 2s infinite;
+    content: '';
+}
+.popularSkeletonCircle {
+    width: 110px;
+    height: 110px;
+    background-color: var(--background-common-color);
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 6px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 78px;
+    border-radius: 50%;
+}
+
+.popularSkeletonCircle::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(90deg,
+            rgba(#fff, 0) 0,
+            rgba(#fff, 0.2) 20%,
+            rgba(#fff, 0.5) 60%,
+            rgba(#fff, 0));
+    animation: shimmer 2s infinite;
+    content: '';
+}
+.newsBoxOneSkeleton {
+    border-radius: 6px;
+    width: 246px;
+    height: 46px;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.newsBoxOneSkeleton::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(90deg,
+            rgba(#fff, 0) 0,
+            rgba(#fff, 0.2) 20%,
+            rgba(#fff, 0.5) 60%,
+            rgba(#fff, 0));
+    animation: shimmer 2s infinite;
+    content: '';
+}
+
+.newsBoxOneSkeletonMain {
+    border-radius: 6px;
+    width: 655px;
+    height: 345px;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    position: relative;
+    margin: 0 auto 30px auto;
+}
+
+.newsBoxOneSkeletonMain::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(90deg,
+            rgba(#fff, 0) 0,
+            rgba(#fff, 0.2) 20%,
+            rgba(#fff, 0.5) 60%,
+            rgba(#fff, 0));
+    animation: shimmer 2s infinite;
+    content: '';
+}
+
+.homeFindBgMain {
+    border-radius: 6px;
+    width: 100%;
+    height: 520px;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    position: relative;
+}
+
+.homeFindBgMain::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(90deg,
+            rgba(#fff, 0) 0,
+            rgba(#fff, 0.2) 20%,
+            rgba(#fff, 0.5) 60%,
+            rgba(#fff, 0));
+    animation: shimmer 2s infinite;
+    content: '';
+}
+
+.newsSkeletonPosition {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.homeKindOneSkeleton {
+    border-radius: 6px;
+    width: 200px;
+    height: 15px;
+    overflow: hidden;
+    background-color: #ececec;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.homeKindOneSkeleton::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(90deg,
+            rgba(#fff, 0) 0,
+            rgba(#fff, 0.2) 20%,
+            rgba(#fff, 0.5) 60%,
+            rgba(#fff, 0));
+    animation: shimmer 2s infinite;
+    content: '';
+}
+
+.bookCarLeftSkeleton {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    position: relative;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.bookCarLeftSkeleton::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(90deg,
+            rgba(#fff, 0) 0,
+            rgba(#fff, 0.2) 20%,
+            rgba(#fff, 0.5) 60%,
+            rgba(#fff, 0));
+    animation: shimmer 2s infinite;
+    content: '';
+}
+
+.bookCarRightSkeletonOne {
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    position: relative;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+.bookCarRightSkeletonOne::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(90deg,
+            rgba(#fff, 0) 0,
+            rgba(#fff, 0.2) 20%,
+            rgba(#fff, 0.5) 60%,
+            rgba(#fff, 0));
+    animation: shimmer 2s infinite;
+    content: '';
+}
+
+.bookCarRightSkeletonTwo {
+    width: 300px;
+    height: 10px;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    position: relative;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+.bookCarRightSkeletonTwo::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(90deg,
+            rgba(#fff, 0) 0,
+            rgba(#fff, 0.2) 20%,
+            rgba(#fff, 0.5) 60%,
+            rgba(#fff, 0));
+    animation: shimmer 2s infinite;
+    content: '';
+}
+
+.bookCarRightSkeletonThree {
+    width: 144px;
+    height: 46px;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    position: relative;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+.bookCarRightSkeletonThree::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(90deg,
+            rgba(#fff, 0) 0,
+            rgba(#fff, 0.2) 20%,
+            rgba(#fff, 0.5) 60%,
+            rgba(#fff, 0));
+    animation: shimmer 2s infinite;
+    content: '';
+}
+
+.bookCarLeftSkeletonMain {
+    margin-top: 60px;
+    padding: 60px;
+}
+
+.homeKindPositionSkeleton {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+
+.popularSkeletonTitle {
+    border-radius: 6px;
+    width: 250px;
+    height: 41px;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    position: relative;
+    margin: 0 auto 35px auto;
+}
+
+.popularSkeletonTwoTitle {
+    border-radius: 6px;
+    width: 250px;
+    height: 41px;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    position: relative;
+    margin: 60px auto 35px auto;
+}
+.absoulte{
+    overflow: hidden;
+    width: 254px;
+    margin-left: 15px;
+    position: relative;
+}
+.skeletonContentButton {
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    background-color: #ececec;
+    position: relative;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.skeletonContentButton::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(90deg,
+            rgba(#fff, 0) 0,
+            rgba(#fff, 0.2) 20%,
+            rgba(#fff, 0.5) 60%,
+            rgba(#fff, 0));
+    animation: shimmer 2s infinite;
+    content: '';
+}
+.skeletonTopBox {
+    width: 90%;
+    height: 152px;
+    overflow: hidden;
+    background-color: #e4e4e4;
+    position: relative;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.skeletonTopBox::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(90deg,
+            rgba(#fff, 0) 0,
+            rgba(#fff, 0.2) 20%,
+            rgba(#fff, 0.5) 60%,
+            rgba(#fff, 0));
+    animation: shimmer 2s infinite;
+    content: '';
+}
+.sliderBgSkleton{
+    background: #f3f3f3;
+}
+@media (max-width: 1200px) {
+    .SkletonSliderPadding {
+        padding: 0 20px 0 20px;
+    }
+}
+
+@media (max-width:992px) and (min-width:768px) {
+    .homeKindOneSkeleton {
+        width: 270px !important;
+    }
+
+    .paddingLeftSkeleton {
+        padding-left: 95px !important;
+    }
+
+    .parentBgColor {
+        width: auto;
+        height: 229px;
+    }
+
+    .SkletonSliderPadding {
+        padding: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .SkletonSliderPadding:nth-child(2) {
+        display: none;
+    }
+
+    .SkletonSliderPadding:nth-child(3) {
+        display: none;
+    }
+
+    .SkletonSliderPadding:nth-child(4) {
+        display: none;
+    }
+
+    .newsBoxOneSkeleton {
+        width: 200px !important;
+    }
+
+    .homeKindOneSkeleton {
+        width: 200px !important;
+    }
+
+    .popularSkeletonTitle {
+        margin-top: 45px;
+    }
+    .SkletonSliderPadding {
+        padding: 0;
+    }
+    .parentBgColor {
+        width: auto;
+        height: 370px;
+        padding-top: 0;
+    }
+    .newsBoxOneSkeletonMain {
+     width: 100%;
+    }
+}

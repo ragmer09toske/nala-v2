@@ -1,0 +1,52 @@
+@import '../variables.css';
+
+.root {
+	background: #ffffff;
+	color: #333;
+	padding: 0px;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0px;
+	max-width: var(--max-container-width);
+}
+
+.alertContainer {
+	padding: 12px 25px;
+	position: relative;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 6px 6px 0 0;
+	font-weight: 400;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.alertDanger {
+	background: #000000c4;
+}
+
+.dangerIcon {
+	padding-right: 8px;
+}
+
+.alertSuccess {
+	background: #14a64acc;
+}
+
+.successIcon {
+	padding-right: 8px;
+}
+
+.mapSection {
+	position: relative;
+}
+
+@media screen and (max-width: 991px) {
+	.tabViewMap {
+		height: 75vh !important;
+	}
+}

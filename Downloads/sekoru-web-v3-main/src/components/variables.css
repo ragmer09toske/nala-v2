@@ -1,0 +1,61 @@
+:root {
+  /*
+   * Typography
+   * ======================================================================== */
+
+  --font-family-base: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;
+
+  /*
+   * Layout
+   * ======================================================================== */
+
+  --max-content-width: 1274px;
+  --max-listing-width: 1080px;
+  --max-container-width: 100%;
+
+  /*
+   * Media queries breakpoints
+   * ======================================================================== */
+
+  --screen-xs-min: 480px;  /* Extra small screen / phone */
+  --screen-sm-min: 768px;  /* Small screen / tablet */
+  --screen-md-min: 992px;  /* Medium screen / desktop */
+  --screen-lg-min: 1200px; /* Large screen / wide desktop */
+
+  --border-color: #E9E9E9;
+  --background-color: #ffffff;
+  --btn-color: #090B1E;
+  --btn-primary-bg: #090B1E;
+  --btn-primary-color: #ffffff;
+  --btn-primary-bg-hover:#090B1E;
+  --btn-primaryBorder-bg: #ffffff;
+  --btn-primaryBorder-color: #090B1E;
+  --btn-primaryBorder-hover-bg: #090B1E;
+  --btn-secondary-bg: #090B1E;
+  --btn-secondary-color: #ffffff;
+  --btn-secondary-hover-bg: #090B1E;
+  --common-background-color: #090B1E;
+  --common-border-color: #E9E9E9;
+  --common-text-color: #090B1E;
+  --common-text-linkcolor:#1852D8;
+  --common-gray-bg-color: #F9F9F9;
+  --dashBoard-info-bg: #F3F7FF;
+  --border-secondary-color: #E0E0E0;
+  --modal-header-bg: #F2F2F2;
+  --muted-text-color:#7D7D7D;
+  --cancel-bg-one:#F3FFF0;
+  --cancel-bg-two:#FFF8EF;
+  --cancel-bg-three:#FDF3F4;
+  --subNavbar-text-color: #B4B4B4;
+  --currency-text-color: #079118;
+  --badge-primary-color: #FF0000;
+  --inbox-successBtn-color: #0DB707;
+  --inbox-dangerBtn-color: #E02B07;
+  --inbox-primaryBtn-color: #075FB7;
+  --inbox-expiredBtn-color: #F0AD4E;
+  --inbox-completedBtn-color: #008976;
+  --inbox-instantBtn-color: #BD7600;
+  --inbox-inquiryBtn-color: #46A6F8;
+  --inbox-securityDepositBtn-color: #9D66FE;
+  --admin-lightBorder-color: #D9DDE3;
+}

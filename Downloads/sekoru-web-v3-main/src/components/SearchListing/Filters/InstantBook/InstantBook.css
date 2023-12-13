@@ -1,0 +1,25 @@
+@import '../../../../components/common.css';
+.btnSecondary img{
+	filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(104%) contrast(102%);
+}
+.searchFilterPopoverContent{
+	height: auto;
+}
+.floatRight{
+	float: right;
+}
+.infoPadding{
+	padding-top: 8px;
+}
+.instaFlex{
+	display: flex;
+	align-items: center;
+}
+.switchTop{
+margin-top: 18px;	
+}
+.filterDivider{
+    border-top:1px solid var(--common-border-color);
+    padding-bottom: 16px;
+    margin-top: 17px;
+}

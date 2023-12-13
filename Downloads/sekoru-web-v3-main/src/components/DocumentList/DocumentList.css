@@ -1,0 +1,46 @@
+@import '../../components/variables.css';
+ .listPhotoCover {
+	display: block;
+	height: 150px;
+	backface-visibility: hidden;
+	position: relative;
+	vertical-align: bottom;
+	overflow: hidden;
+	background-color: #f9f9f9;
+	text-align: center;
+	margin-top: 24px;
+}
+.listPhotoMedia {
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	top: 0;
+	padding: 5px;
+}
+.imgResponsive {
+	height: 100%;
+	width: auto;
+	max-width: 100%;
+	object-fit: contain;
+}
+.space2 {
+	margin-bottom: 12px;
+}
+.realtive{
+	position: relative;
+}
+.position{
+	position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 26px;
+    height: 26px;
+    background: #424856;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	padding-left: 1px;
+    filter: drop-shadow(0 2px 2px rgba(0, 0, 0, .2));
+}

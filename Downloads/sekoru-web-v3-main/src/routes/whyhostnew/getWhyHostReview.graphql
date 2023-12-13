@@ -1,0 +1,14 @@
+query getHomeWhyHostReview  {
+  getHomeWhyHostReview {
+    status
+    errorMessage
+    count
+    results{
+      id
+      userName
+      reviewContent
+      image
+      isEnable
+    }
+  }
+}

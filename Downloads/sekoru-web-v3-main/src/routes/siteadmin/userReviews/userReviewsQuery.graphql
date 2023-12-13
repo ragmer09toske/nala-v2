@@ -1,0 +1,40 @@
+query getReviewsDetails($currentPage:Int, $searchList: String){
+  	getReviewsDetails(currentPage: $currentPage, searchList: $searchList){
+      count
+      reviewsData{
+        id
+        reservationId
+        listId
+        authorId
+        userId
+        reviewContent
+        rating
+        privateFeedback
+        parentId
+        automated
+        isAdmin
+        createdAt
+        updatedAt
+        isAdminEnable
+        authorData {
+          userId
+          firstName
+          profileId
+        }
+        userData{
+          userId
+          profileId
+          firstName
+        }
+        listData {
+          title
+        }
+      singleReservationData{
+        id
+        checkIn
+        checkOut
+        confirmationCode
+      }
+      }
+    }
+}

@@ -1,0 +1,541 @@
+@import '../../components/variables.css';
+
+/* Common Helpers Style - Start */
+
+.landingContainer {
+	max-width: 1310px;
+	width: 100%;
+	display: block;
+}
+
+.landingContent {
+	margin-top: 60px;
+}
+
+.pullCenter {
+	text-align: center;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+/* Common Helpers Style - Start */
+.btnPrimary {
+	border-color: var(--common-border-color);
+	background-color: var(--common-background-color);
+	color: #fff;
+	border-radius: 6px;
+	padding: 12px 21px;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.btnlarge {
+	padding: 9px 27px;
+}
+
+.btnPrimary:hover,
+.btnPrimary:focus,
+.btnPrimary:active,
+.btnPrimary:active:hover,
+.btnPrimary:active:focus {
+	border-color: var(--common-border-color) !important;
+	background-color: var(--common-background-color) !important;
+	color: #fff;
+}
+
+.btnPrimaryBorder {
+	border-color: var(--common-border-color);
+	color: #090B1E;
+	background-color: #fff;
+}
+
+.btnPrimaryBorder:hover,
+.btnPrimaryBorder:focus,
+.btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover,
+.btnPrimaryBorder:active:focus {
+	border-color: var(--common-border-color);
+	color: #090B1E;
+	background-color: #fff;
+}
+
+.btnSmall {
+	padding: 5px 0px;
+}
+
+.previewLink {
+	color: #090B1E;
+	text-decoration: none;
+	margin-left: 40px;
+	font-size: 18px;
+	line-height: 42px;
+	vertical-align: middle;
+}
+
+.previewLink:hover,
+.previewLink:active,
+.previewLink:focus {
+	color: #090B1E;
+	text-decoration: none;
+}
+
+.previewLinkUserBan {
+	color: #090B1E;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 42px;
+	vertical-align: middle;
+}
+
+.previewLinkUserBan:hover,
+.previewLinkUserBan:active,
+.previewLinkUserBan:focus {
+	color: #090B1E;
+	text-decoration: none;
+}
+
+.formGroup {
+	margin-bottom: 6px;
+}
+
+.noPadding {
+	padding: 0px !important;
+}
+
+.pullRight {
+	float: right;
+}
+
+.pullLeft {
+	float: left;
+}
+
+.landingTitle {
+	font-size: 32px;
+	color: var(--common-text-color);
+	margin: 0px 0px 30px 0px;
+}
+
+.landingTitleStep {
+	font-size: 16px;
+	color: #2d2d2d;
+}
+
+.step {
+	font-size: 14px;
+	color: #bbbbbb;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.horizontalLineThrough {
+	display: block;
+	margin: 30px 0;
+	border-color: #f5f5f5;
+	border: 0;
+	height: 0;
+	border-top: 1px solid #dce0e0;
+	width: 100%;
+	font-size: 16px;
+}
+
+.modalCaptionLink,
+.modalCaptionLink:hover,
+.modalCaptionLink:active,
+.modalCaptionLink:focus {
+	color: var(--common-text-linkcolor) !important;
+	font-size: 18px;
+	cursor: pointer;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	padding: 0;
+	border: 0;
+	border-bottom: 1px solid var(--common-text-linkcolor) !important;
+	border-radius: 0;
+	background: transparent !important;
+	box-shadow: inherit !important;
+	white-space: nowrap;
+}
+
+.icon {
+	font-size: 2.4em;
+	line-height: 1;
+	top: 50%;
+	right: 0;
+	color: #008489;
+	display: block;
+}
+
+.spaceTop1 {
+	margin-top: 6px;
+}
+
+.spaceTop3 {
+	margin-top: 18px;
+}
+
+.spaceTop5 {
+	margin-top: 48px;
+}
+
+.stepGrid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background: linear-gradient(270deg, rgba(255,255,255,1) 50%, rgba(249,249,249,1) 48%);
+}
+
+.tickPosition {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.spaceBetween {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+}
+
+@media screen and (max-width: 640px) {
+	.previewLink {
+		margin: 0px;
+		display: inline-block;
+	}
+
+	.previewLinkUserBan {
+		margin: 0px;
+		display: inline-block;
+	}
+
+	.button {
+		display: block;
+	}
+}
+
+.step1Margin {
+	margin-top: 20px;
+}
+
+.imageSection {
+	width: 100%;
+	height: 100%;
+	margin-top: 90px;
+}
+
+.displayInline {
+	display: inline-block;
+}
+
+@media screen and (max-width: 640px) {
+	.displayInline {
+		display: inline-block;
+		padding-right: 10px;
+	}
+}
+
+/* Common Helpers Style - End */
+
+/* New Design */
+
+.displayTable {
+	display: table;
+	width: 100%;
+}
+
+.displayTableRow {
+	display: table-row;
+}
+
+.displayTableCell {
+	display: table-cell;
+}
+
+.vtrTop {
+	vertical-align: top;
+}
+
+.iconWidth {
+	width: 8%;
+	position: relative;
+}
+
+.borderLine::after {
+	content: '';
+	width: 5px;
+	height: 100%;
+	background-image: url('../../../public/SiteIcons/road.png');
+	position: absolute;
+	top: 0;
+	right: 25px;
+	z-index: 5;
+	box-shadow: 0px 0px 2px 1px #dedede;
+}
+
+.circle {
+	width: 100%;
+	background-image: url('../../../public/SiteIcons/steering-4.png');
+	height: 20px;
+	max-width: 20px;
+	position: absolute;
+	border: none;
+	left: 7px;
+	top: 0px;
+	z-index: 6;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	max-width: 32px;
+	background-size: contain;
+}
+
+.paddingBottom {
+	padding-bottom: 48px;
+}
+
+.paddingLeft {
+	padding-left: 18px;
+}
+
+.mainSectionPadding {
+	padding-top: 48px !important;
+	padding-bottom: 48px !important;
+	background: #fff;
+}
+
+.contentSection {
+	background: #F3F7FF;
+	padding: 24px;
+	border-radius: 12px;
+	border: 1px solid #B2CCFF;
+	display: grid;
+	grid-template-columns: auto auto;
+	align-items: baseline;
+	justify-content: space-between;
+	position: relative;
+	margin-left: 10px;
+	z-index: 0;
+}
+
+.borderLineActive::after {
+	background-image: url('../../../public/SiteIcons/road.png');
+}
+
+.positionRelative {
+	position: relative;
+}
+
+.mainSection {
+	padding: 43px 54px;
+}
+
+.mainSection::before {
+	content: " ";
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: auto;
+	top: 0;
+}
+
+.circleSuccess {
+	background-image: url('../../../public/SiteIcons/steering-3.png');
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	max-width: 32px;
+	background-size: contain;
+}
+
+.userRight img {
+	border: 2px solid var(--common-text-linkcolor);
+	border-radius: 50%;
+	display: inline-block;
+	padding: 5px;
+	background-color: transparent;
+}
+
+.sayCss {
+	width: 44px;
+}
+
+.leftBg {
+	background: #F9F9F9;
+	padding: 93px 54px 0;
+	position: relative;
+	height: 100vh;
+}
+
+.stepFooterImage {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.rightPadding {
+	padding: 43px 54px 150px;
+}
+
+.imgSection {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #B2CCFF;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.contentLeft {
+	padding-left: 24px;
+	padding-right: 12px;
+}
+
+.flexCenter {
+	display: grid;
+	grid-template-columns: 80px auto;
+	align-items: center;
+}
+
+.contentSection::after {
+	content: '';
+    width: 100%;
+    height: 130px;
+    background: #fff;
+    border: 1px solid #B2CCFF;
+    border-radius: 12px;
+    position: absolute;
+    left: 12px;
+    top: -12px;
+    z-index: -1;
+}
+
+.exitFooter {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background: #fff;
+	z-index: 4;
+	padding: 30px 54px;
+	max-width: 50%;
+	margin: 0px 0px 0px auto;
+	right: 0px;
+	left: 0px;
+	-webkit-box-shadow: 0px -7px 16px #00000008;
+	box-shadow: 0px -7px 16px #00000008;
+}
+
+.noMargin {
+	margin: 0;
+}
+@media (max-width: 1200px) and (min-width: 768px) { 
+	.stepGrid {
+		height: calc(100vh - 50vh);
+	}
+}
+@media screen and (max-width: 1199px) {
+	.circle {
+		width: 100%;
+		height: 20px;
+		max-width: 20px;
+		position: absolute;
+		left: 14px;
+		top: 0px;
+		z-index: 5;
+	}
+
+	.iconWidth {
+		width: 10%;
+		position: relative;
+	}
+	.contentSection::after {
+		display: none;
+	}
+
+	.contentSection {
+		background: #fff;
+	}
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+	.contentSection {
+		margin-left: 0;
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+	.modalCaptionLink{
+		margin-left: auto;
+	}
+}
+@media screen and (max-width: 991px) {
+	.circle {
+		width: 100%;
+		height: 20px;
+		max-width: 20px;
+		position: relative;
+		left: -37px;
+		top: 0px;
+		z-index: 5;
+	}
+
+	.iconWidth {
+		width: 8%;
+		position: relative;
+		padding-left: 50px;
+	}
+
+	.leftBg {
+		display: none;
+	}
+
+	.stepGrid {
+		grid-template-columns: 100%;
+		background: transparent;
+	}
+
+	.exitFooter {
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.rightPadding {
+		padding: 43px 20px 150px;
+	}
+
+	.contentSection {
+		margin-left: 0;
+		gap: 10px;
+		grid-template-columns: 100%;
+	}
+
+	.contentSection::after {
+		display: none;
+	}
+
+	.contentLeft {
+		padding-right: 10px;
+	}
+
+	.exitFooter {
+		padding: 30px 20px;
+	}
+
+	.mbMargin {
+		margin-bottom: 10px;
+	}
+	.modalCaptionLink{
+		margin-left: auto;
+	}
+	.stepGrid{
+		background: unset;
+	}
+
+}

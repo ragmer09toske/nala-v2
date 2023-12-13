@@ -1,0 +1,77 @@
+@import "../../variables.css";
+.container{
+	width: 100%;
+	max-width: var(--max-content-width);
+	margin: 0 auto;
+	padding: 0 15px;
+}
+ .bgColor {
+	background-color: #090B1E;
+	border-radius: 12px;
+	padding: 60px;
+}
+.heading {
+	font-size: 48px;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	margin: 0 0 32px;
+}
+.desc {
+	font-size: 18px;
+	color: #B4B4B4;
+	margin-bottom: 0;
+}
+.margintop20 {
+	margin-top: 20px;
+}
+.centerFlex {
+	display: flex;
+	color: #fff;
+	gap: 60px;
+}
+.imgWidth{
+	max-width: 140px;
+	object-fit: contain;
+}
+.columnPaddingOne {
+	padding-right: 45px !important;
+}
+
+.columnThreePadding {
+	padding-left: 45px !important;
+}
+.textWhite{
+	color: #fff;
+}
+@media (max-width:1024px) and (min-width:768px) {
+	.centerFlex{
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+}
+@media (max-width: 767px) {
+	.heading {
+		font-size: 40px;
+	}
+	.centerFlex{
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+	.bgColor {
+		padding: 30px;
+	}
+
+	.columnPaddingOne {
+		padding-right: 15px;
+		padding-bottom: 24px;
+	}
+	
+	.columnThreePadding {
+		padding-left: 15px;
+		padding-top: 24px;
+	}
+	.columnThreePadding {
+		padding-left: 15px !important;
+	}
+}

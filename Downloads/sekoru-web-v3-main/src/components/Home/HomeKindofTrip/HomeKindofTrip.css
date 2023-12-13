@@ -1,0 +1,60 @@
+@import url('../../variables.css');
+.container{
+  max-width: 1274px;
+  margin: 0 auto;
+}
+.homeFindBg {
+  width: 100%;
+  height: 100%;
+  background-position: top center;
+  background-size: cover;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  border-radius: 15px;
+}
+.bgCss{
+  background-color: #282828b3;
+  color: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  word-break: break-word;
+}
+.homeFind{
+  padding: 60px 0px;
+}
+.borderBottom{
+  position: relative;
+}
+.borderBottom::after{
+  content: '';
+  width: 55px;
+  height: 4px;
+  background: var(--common-link-color);
+  position: absolute;
+  bottom: 13px;
+  left: 0;
+}
+
+.bgSection {
+  position: relative;
+  height: auto;
+  min-height: 520px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.bgInnerSection {
+  position: relative;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .borderBottom::after{
+    display: none;
+  }
+  .homeFind{
+    padding: 60px 25px;
+  }
+}

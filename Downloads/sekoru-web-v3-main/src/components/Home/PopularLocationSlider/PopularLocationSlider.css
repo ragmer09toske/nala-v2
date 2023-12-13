@@ -1,0 +1,32 @@
+.positionRelative {
+	position: relative;
+}
+
+@media (max-width: 1199px) and (min-width: 1024px) {
+	.paddingRight {
+		padding-right: 15px;
+	}
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+	.paddingRight {
+		padding-right: 15px;
+	}
+}
+
+.paddingNone {
+	padding: 0 !important;
+}
+
+@media(max-width:1200px) {
+	.displayNone {
+		display: none !important;
+	}
+}
+
+@media(max-width:320px) {
+	.displayFlex {
+		display: flex;
+		justify-content: center;
+	}
+}

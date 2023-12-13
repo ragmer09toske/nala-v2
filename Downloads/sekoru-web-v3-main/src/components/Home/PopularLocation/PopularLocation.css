@@ -1,0 +1,50 @@
+@import '../../../components/variables.css';
+
+.container {
+    margin: 0 auto;
+    max-width: 1274px;
+}
+
+.displayGridTwo {
+    display: grid;
+    grid-template-columns: 192px 192px 192px 192px 192px 192px;
+    grid-gap: 25px;
+}
+
+.topBottomCss {
+    padding: 60px 0 0;
+}
+
+.containerTitle {
+    color: var(--common-text-color);
+    margin: 0 0 35px;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1170px) {
+    .containerTitle {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0 24px;
+    }
+}
+
+@media (max-width:767px) {
+    .displayGridTwo {
+        grid-template-columns: 100%;
+    }
+
+    .displayGridTwo div:nth-child(2),
+    .displayGridTwo div:nth-child(3),
+    .displayGridTwo div:nth-child(4),
+    .displayGridTwo div:nth-child(5),
+    .displayGridTwo div:nth-child(6) {
+        display: none;
+    }
+}

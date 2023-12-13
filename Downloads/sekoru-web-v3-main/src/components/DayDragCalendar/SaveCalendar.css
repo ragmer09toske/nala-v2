@@ -1,0 +1,118 @@
+@import '../ListPlaceStep1/ListPlaceStep1.css';
+@import '../../components/utils.css';
+@import '../variables.css';
+.saveCalendarContainer {
+    padding: 24px;
+    border: 1px solid var(--common-border-color);
+    border-radius: 12px;
+}
+
+.selectedDatesBox {
+    padding: 7px 10px 10px;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(72, 72, 72);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 43px;
+}
+
+.arrowIcon {
+    vertical-align: middle;
+    fill: rgb(72, 72, 72);
+    height: 24px;
+    width: 24px;
+    margin: 0px 12px;
+}
+
+.loaderContainer {
+    display: inline;
+    padding-right: 0px;
+}
+
+.landingContentTitle {
+    margin: 0px 0px 18px 0px;
+}
+
+.floatLeftInput {
+    float: left;
+}
+
+.buttonLeft {
+    margin: 0;
+    float: right;
+}
+
+/* .buttonLeft button{
+    margin: 0 !important;
+} */
+
+.inputHeight {
+    height: 48px;
+    box-shadow: inherit;
+    border: 1px solid var(--common-border-color)
+}
+.aBlockWrap{
+    overflow: hidden;
+}
+.aBWLeft,.aBWRight{
+    width: 50%;
+    float: left;
+}
+.aBWLeft .btnBg{
+    border-radius: 6px 0 0 6px;
+}
+.aBWRight .btnBg{
+    border-radius: 0 6px 6px 0;
+}
+.aBlockWrap .btnBg{
+    width:100%;
+    height: 48px;
+    border-color: var(--common-border-color);
+    color: var(--btn-primary-bg);
+    font-size: 18px;
+}
+.aBlockWrap .btnBg:hover,
+.aBlockWrap .btnBg:active,
+.aBlockWrap .btnBg:focus,
+.aBlockWrap .btnBg.active
+{
+background:var(--btn-primary-bg);
+color: #fff;
+}
+.textRight{
+    text-align: right;
+}
+.sDateWrap{
+    margin: 20px 0 10px;
+}
+.sDateWrap label{
+    margin:0;
+}
+.marginBottom{
+    margin-bottom: 0;
+}
+.flexBtn{
+    display: flex;
+    justify-content: flex-end;
+}
+@media (max-width: 1199.98px){
+    .saveCalendarContainer{
+        padding: 20px 15px 45px;
+        margin-top: 90px;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+.sDateWrap{
+    margin: 20px 0 10px;
+}
+.sDateWrap h4{
+    font-size: 14px;
+    margin: 0;
+}
+}
+@media screen and (max-width: 767.98px) {
+    .saveCalendarContainer{
+        margin-top: 50px;
+    }
+}
