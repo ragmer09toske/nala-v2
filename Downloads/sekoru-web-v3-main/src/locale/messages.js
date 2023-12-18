@@ -603,7 +603,7 @@ const messages = defineMessages({
   },
   aminities: {
     id: 'app.aminities',
-    defaultMessage: 'Car features',
+    defaultMessage: 'Trailer features',
     description: 'Amenities',
   },
   facilities: {
@@ -613,7 +613,7 @@ const messages = defineMessages({
   },
   houseRules: {
     id: 'app.houseRules',
-    defaultMessage: 'Car rules',
+    defaultMessage: 'Trailer rules',
     description: 'House Rules',
   },
   cancel: {
@@ -2354,7 +2354,7 @@ const messages = defineMessages({
   },
   declinedInfo: {
     id: 'app.declinedInfo',
-    defaultMessage: 'Make sure your calendar is up-to-date and that your vehicle page accurately reflects your car rules and requirements.',
+    defaultMessage: 'Make sure your calendar is up-to-date and that your vehicle page accurately reflects your Trailer rules and requirements.',
     description: 'Declined Info',
   },
   bookingIsConfirmed: {
@@ -2661,7 +2661,7 @@ const messages = defineMessages({
   },
   step1HeadingContent: {
     id: 'app.step1HeadingContent',
-    defaultMessage: 'Car details, car features & more',
+    defaultMessage: 'Car details, Trailer features & more',
     description: 'STEP 1 Heading Content',
   },
   step2HeadingContent: {
@@ -3751,7 +3751,7 @@ const messages = defineMessages({
   },
   similarListings: {
     id: 'app.similarListings',
-    defaultMessage: 'Similar cars',
+    defaultMessage: 'Similar trailers',
     description: 'similarListings',
   },
   overview: {
@@ -4570,8 +4570,8 @@ const messages = defineMessages({
   },
   carFeatures: {
     id: 'app.carFeatures',
-    defaultMessage: 'Car features',
-    description: 'View listing Car features',
+    defaultMessage: 'Trailer features',
+    description: 'View listing Trailer features',
   },
   carPhotos: {
     id: 'app.carPhotos',
@@ -4585,8 +4585,8 @@ const messages = defineMessages({
   },
   carRules: {
     id: 'app.carRules',
-    defaultMessage: 'car rules',
-    description: 'Car rules',
+    defaultMessage: 'Trailer rules',
+    description: 'Trailer rules',
   },
   delivery: {
     id: 'app.delivery',

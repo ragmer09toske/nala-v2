@@ -936,7 +936,7 @@
   {
     "id": "rentall.aminities",
     "description": "Amenities",
-    "defaultMessage": "Car Features",
+    "defaultMessage": "Trailer Features",
     "message": "",
     "files": [
       "src/locale/messages.js"
@@ -1790,8 +1790,8 @@
   },
   {
     "id": "rentall.carFeatures",
-    "description": "View listing Car Features",
-    "defaultMessage": "Car Features",
+    "description": "View listing Trailer Features",
+    "defaultMessage": "Trailer Features",
     "message": "",
     "files": [
       "src/locale/messages.js"
@@ -1898,8 +1898,8 @@
   },
   {
     "id": "rentall.carRules",
-    "description": "Car Rules",
-    "defaultMessage": "Car Rules",
+    "description": "Trailer Rules",
+    "defaultMessage": "Trailer Rules",
     "message": "",
     "files": [
       "src/locale/messages.js"
@@ -5355,7 +5355,7 @@
   {
     "id": "rentall.houseRules",
     "description": "House Rules",
-    "defaultMessage": "Car Rules",
+    "defaultMessage": "Trailer Rules",
     "message": "",
     "files": [
       "src/locale/messages.js"
@@ -10548,7 +10548,7 @@
   {
     "id": "rentall.similarListings",
     "description": "similarListings",
-    "defaultMessage": "Similar Cars",
+    "defaultMessage": "Similar trailers",
     "message": "",
     "files": [
       "src/locale/messages.js"
@@ -10791,7 +10791,7 @@
   {
     "id": "rentall.step1HeadingContent",
     "description": "STEP 1 Heading Content",
-    "defaultMessage": "Car Details, Car Features and more",
+    "defaultMessage": "Trailer Details, Trailer Features and more",
     "message": "",
     "files": [
       "src/locale/messages.js"

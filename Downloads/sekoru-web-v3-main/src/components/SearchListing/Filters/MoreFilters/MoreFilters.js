@@ -192,7 +192,7 @@ class MoreFilters extends Component {
                     />
                   </Col>
                   <Col lg={7} md={8} sm={8} xs={12} className={cx(s.paddingNone, s.toggleTop)}>
-                    <Transmission />
+                    {/* <Transmission /> */}
                   </Col>
                 </Row>
                 <CheckboxListItems
@@ -210,7 +210,7 @@ class MoreFilters extends Component {
                     fieldName={'houseRules'}
                     options={carRules}
                     captionTitle={formatMessage(messages.houseRules)}
-                    showLabel={formatMessage(messages.showMore)}
+                    showLabel={formatMessage ssages.showMore)}
                     hideLabel={formatMessage(messages.showLess)}
                     isActive={false}
                   />

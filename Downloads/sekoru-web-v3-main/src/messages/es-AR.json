@@ -596,7 +596,7 @@
   {
     "id": "app.aminities",
     "description": "Amenities",
-    "defaultMessage": "Car features",
+    "defaultMessage": "Trailer features",
     "message": "Características del coche"
   },
   {
@@ -1165,8 +1165,8 @@
   },
   {
     "id": "app.carFeatures",
-    "description": "View listing Car features",
-    "defaultMessage": "Car features",
+    "description": "View listing Trailer features",
+    "defaultMessage": "Trailer features",
     "message": "Características del coche"
   },
   {
@@ -1237,8 +1237,8 @@
   },
   {
     "id": "app.carRules",
-    "description": "Car rules",
-    "defaultMessage": "car rules",
+    "description": "Trailer rules",
+    "defaultMessage": "Trailer rules",
     "message": "Reglas de coche"
   },
   {
@@ -3338,7 +3338,7 @@
   {
     "id": "app.houseRules",
     "description": "House Rules",
-    "defaultMessage": "Car rules",
+    "defaultMessage": "Trailer rules",
     "message": "Reglas de coche"
   },
   {
@@ -6824,7 +6824,7 @@
   {
     "id": "app.similarListings",
     "description": "similarListings",
-    "defaultMessage": "Similar cars",
+    "defaultMessage": "Similar trailers",
     "message": "Autos similares"
   },
   {
@@ -6980,7 +6980,7 @@
   {
     "id": "app.step1HeadingContent",
     "description": "STEP 1 Heading Content",
-    "defaultMessage": "Car details, car features & more",
+    "defaultMessage": "Trailer details, Trailer features & more",
     "message": "Detalles del automóvil, características del automóvil y más"
   },
   {

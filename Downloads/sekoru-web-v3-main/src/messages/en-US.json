@@ -893,8 +893,8 @@
   {
     "id": "app.aminities",
     "description": "Amenities",
-    "defaultMessage": "Car features",
-    "message": "Car features",
+    "defaultMessage": "Trailer features",
+    "message": "Trailer features",
     "files": [
       "src/locale/messages.js"
     ]
@@ -1747,9 +1747,9 @@
   },
   {
     "id": "app.carFeatures",
-    "description": "View listing Car features",
-    "defaultMessage": "Car features",
-    "message": "Car features",
+    "description": "View listing Trailer features",
+    "defaultMessage": "Trailer features",
+    "message": "Trailer features",
     "files": [
       "src/locale/messages.js"
     ]
@@ -1855,9 +1855,9 @@
   },
   {
     "id": "app.carRules",
-    "description": "Car rules",
-    "defaultMessage": "car rules",
-    "message": "Car rules",
+    "description": "Trailer rules",
+    "defaultMessage": "Trailer rules",
+    "message": "Trailer rules",
     "files": [
       "src/locale/messages.js"
     ]
@@ -3008,7 +3008,7 @@
   {
     "id": "app.declinedInfo",
     "description": "Declined Info",
-    "defaultMessage": "Make sure your calendar is up-to-date and that your vehicle page accurately reflects your car rules and requirements.",
+    "defaultMessage": "Make sure your calendar is up-to-date and that your vehicle page accurately reflects your Trailer rules and requirements.",
     "message": "Make sure your calendar is up-to-date and that your vehicle page accurately reflects your car rules and requirements.",
     "files": [
       "src/locale/messages.js"
@@ -5006,8 +5006,8 @@
   {
     "id": "app.houseRules",
     "description": "House Rules",
-    "defaultMessage": "Car rules",
-    "message": "Car rules",
+    "defaultMessage": "Trailer rules",
+    "message": "Trailer rules",
     "files": [
       "src/locale/messages.js"
     ]
@@ -10235,8 +10235,8 @@
   {
     "id": "app.similarListings",
     "description": "similarListings",
-    "defaultMessage": "Similar cars",
-    "message": "Similar cars",
+    "defaultMessage": "Similar trailers",
+    "message": "Similar trailers",
     "files": [
       "src/locale/messages.js"
     ]
@@ -10469,8 +10469,8 @@
   {
     "id": "app.step1HeadingContent",
     "description": "STEP 1 Heading Content",
-    "defaultMessage": "Car details, car features & more",
-    "message": "Car details, car features & more",
+    "defaultMessage": "Car details, Trailer features & more",
+    "message": "Trailer details, Trailer features & more",
     "files": [
       "src/locale/messages.js"
     ]
