@@ -1,0 +1,48 @@
+@import '../../components/variables.css';
+ .incrementDecrementButton {
+	display: grid;
+    grid-template-columns: 32px 45px 32px;
+	align-items: center;
+}
+.incrementDecrementText {
+	word-wrap: break-word;
+	font-size: 16px;
+	color: var(--btn-color);
+	font-weight: normal;
+	margin: 0px 10px !important;
+	text-align: center;
+}
+.iconButton,
+.iconButton:hover,
+.iconButton:focus,
+.iconButton:active,
+.iconButton:active:hover {
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	line-height: 1;
+	position: relative;
+	touch-action: manipulation;
+	width: 32px;
+	height: 32px;
+	box-shadow: none;
+	border-radius: 50%;
+	border: 1px solid var(--btn-secondary-hover-bg);
+	background: transparent;
+	padding: 1px 6px;
+	color: var(--btn-secondary-hover-bg);
+	outline: 0 !important;
+}
+.iconButton:disabled,
+.iconButton:disabled:hover,
+.iconButton:disabled:focus,
+.iconButton:disabled:active,
+.iconButton:disabled:active:hover {
+	border: 1px solid var(--btn-secondary-hover-bg);
+	background: transparent;
+	padding: 1px 6px;
+	color: var(--btn-secondary-hover-bg);
+	cursor: default;
+	opacity: 0.65;
+	filter: alpha(opacity=65);
+}

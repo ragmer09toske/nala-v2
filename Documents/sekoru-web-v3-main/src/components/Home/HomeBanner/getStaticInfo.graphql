@@ -1,0 +1,8 @@
+{
+    getStaticInfo {
+        id
+        title
+        name
+        value
+      }
+  }

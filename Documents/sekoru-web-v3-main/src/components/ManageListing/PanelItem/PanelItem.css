@@ -1,0 +1,94 @@
+@import '../../../components/variables.css';
+
+
+.listContainer {
+  padding-left: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+.listContainer .panelBody:first-child {
+  padding-top: 0px;
+}
+
+.listContainer .panelBody:last-child {
+  border-bottom: 0px;
+  padding-bottom: 0px;
+}
+.linkCss{
+  padding: 10px 20px !important;
+}
+.plusIcon {
+  margin: 0px 6px 2px 0px;
+  width: 100%;
+  max-width: 14px;
+}
+.listFlex{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 30px 0 24px;
+}
+.formControlInput{
+  width:340px;
+  height: 48px;
+  border: 1px solid var(--common-border-color);
+  border-radius: 6px;
+  box-shadow: inherit;
+}
+.locationBgIcon{
+	background: url('../../../../public/SiteIcons/listSeaechIcon.svg');
+	background-repeat: no-repeat;
+	background-position: 5% 50%;
+	padding-left: 38px;
+  background-size: 14px;
+}
+.noListHeading{
+  font-size: 20px;
+  margin: 19px 0 10px;
+}
+.noListSubHeading{
+  color: var(--common-text-Secondry-color);
+}
+.textCenter{
+  text-align: center;
+}
+.addNewBtn{
+  padding: 13px 15px;
+  margin-top: 30px;
+  display: inline-block;
+}
+.noMargin{
+  margin: 0;
+}
+.btnMinWidth{
+  min-width: 131px;
+}
+@media (max-width:1023px) and (min-width:768px) {
+  .formControlInput{
+    width:330px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .formControlInput{
+    width:100%;
+    margin-bottom: 25px;
+  }
+  .listFlex{
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .mobileSearchWidth {
+    width: 100%;
+  }
+  .linkCss{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .locationBgIcon{
+    padding-left: 45px;
+    margin-bottom: 0px;
+  }
+}   

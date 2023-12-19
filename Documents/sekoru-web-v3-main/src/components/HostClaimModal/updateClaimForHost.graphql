@@ -1,0 +1,6 @@
+mutation updateClaimForHost($reservationId: Int!, $claimAmount: Float!, $claimImages: [String], $claimReason: String!) {
+  updateClaimForHost(reservationId: $reservationId, claimAmount: $claimAmount, claimImages: $claimImages, claimReason: $claimReason) {
+    status
+    errorMessage
+  }
+}

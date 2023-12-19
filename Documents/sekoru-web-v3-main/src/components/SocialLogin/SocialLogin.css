@@ -1,0 +1,11 @@
+.displayFlex {
+	display: flex;
+	align-items: center;
+}
+
+.marginRight {
+	margin-right: 23px;
+}
+.center{
+	justify-content: center;
+}

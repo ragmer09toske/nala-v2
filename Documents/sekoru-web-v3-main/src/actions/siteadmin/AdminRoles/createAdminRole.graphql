@@ -1,0 +1,6 @@
+mutation ($id: Int, $name: String!, $description: String, $privileges: [Int]!) {
+        createAdminRole (id: $id, name: $name, description: $description, privileges: $privileges) {
+            status
+            errorMessage
+        }
+    }

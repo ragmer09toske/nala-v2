@@ -1,0 +1,4 @@
+@import '../admin-common.css';
+.ChangeToUpperCase{
+    text-transform: uppercase;
+}

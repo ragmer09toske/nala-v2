@@ -1,0 +1,29 @@
+@import '../../variables.css';
+.redoContainer {
+  position: absolute;
+  bottom: 9px;
+  left: 0;
+  z-index: 1;
+  right: 0;
+  max-width: max-content;
+  margin: 0 auto;
+}
+.redoContent {
+  padding: 9px 15px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0px 8px 11px #3131310f;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--common-border-color);
+}
+
+.redoText {
+    font-weight: 500;
+    margin: 0px 0px 0px 10px;
+    word-wrap: break-word;
+    letter-spacing: 0.2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: var(--common-text-color);
+}

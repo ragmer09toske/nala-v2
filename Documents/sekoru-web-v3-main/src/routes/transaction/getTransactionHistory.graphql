@@ -1,0 +1,108 @@
+query getTransactionHistory ($mode: String, $payoutId: Int, $listId: Int, $currentPage: Int, $searchKey: String ){
+  getTransactionHistory(mode: $mode, payoutId: $payoutId, listId: $listId, currentPage: $currentPage, searchKey:$searchKey){
+    totalData {
+      id
+      hostServiceFee
+      total
+      currency
+      claimPayout
+      isClaimPaidOut
+      cancellationDetails {
+        id
+        refundToGuest
+        payoutToHost
+        cancelledBy
+        cancellationPolicy      
+        reservationId
+        hostServiceFee
+      }
+      hostTransaction {
+        id
+        payoutId
+        payoutEmail
+        amount
+        payoutType
+        currency
+        createdAt
+      }
+      claimTransaction {
+        id
+        payoutId
+        payoutEmail
+        amount
+        payoutType
+        currency
+        createdAt
+      }
+    }
+    reservationData {
+      id
+      listId
+      hostId
+      checkIn
+      checkOut
+      confirmationCode
+      guestServiceFee
+      hostServiceFee
+      reservationState
+      listTitle
+      total
+      claimPayout
+      isClaimPaidOut
+      currency
+      payoutId
+      createdAt
+      cancellationDetails {
+        id
+        refundToGuest
+        payoutToHost
+        cancelledBy
+        cancellationPolicy      
+        reservationId
+        hostServiceFee
+      }
+      listData {
+        id
+        title
+        street
+        city
+        state
+        country
+      }
+      hostTransaction {
+        id
+        payoutId
+        payoutEmail
+        amount
+        payoutType
+        currency
+        createdAt
+      }
+      claimTransaction {
+        id
+        payoutId
+        payoutEmail
+        amount
+        payoutType
+        currency
+        createdAt
+      }
+      hostPayout {
+        id
+        payEmail
+      }
+      hostData {
+        profileId
+        firstName
+        picture
+      }
+      guestData {
+        profileId
+        firstName
+        picture
+      }
+    }
+    count
+    totalCount
+  }
+}

@@ -1,0 +1,15 @@
+query($currentPage: Int, $searchList: String) {
+  getAllAdminRoles(currentPage: $currentPage, searchList: $searchList) {
+    count
+    status
+    errorMessage
+    results{
+      id
+      name
+      description
+      createdAt
+      updatedAt
+      privileges
+    }
+  }
+}

@@ -1,0 +1,128 @@
+.root {
+	margin: 0;
+}
+.navDropDown {
+	border: 0px;
+}
+.userAvatar {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	border: 2px solid #c4c4c4;
+}
+.breakPointScreen {
+	display: none !important;
+}
+.nonBreakPointScreen {
+	display: block !important;
+}
+.menuDivider {
+	border-top: 1px solid #e9e9e9;
+	padding-bottom: 20px;
+}
+.centerMenu {
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 50%;
+	max-width: 500px;
+    margin: 0 auto;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+     -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+}
+.centerLink {
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	margin-right: 50px;
+	font-weight: 600;
+}
+
+.centerLink a,
+.centerLink a:hover,
+.centerLink a:focus {
+	color: #fff;
+	text-decoration: none;
+}
+.dot {
+	position: relative;
+}
+.dot::after {
+	content: '';
+	width: 6px;
+	height: 6px;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 48%;
+	right: -26px;
+}
+
+.dot::before {
+	content: '';
+	width: 57px;
+	height: 1.5px;
+	background: #fff;
+	position: absolute;
+	bottom: -3px;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+}
+.menuDividerMobile {
+	border-top: 1px solid var(--common-border-color);
+
+}
+.listCarCss{
+	font-weight: 500;
+    padding-top: 19px !important;
+}
+.listCarCss a{
+	font-size: 18px;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 165px;
+	text-align: right;
+	
+}
+@media screen and (max-width: 1200px) {
+	.breakPointScreen {
+		display: block !important;
+	}
+	.nonBreakPointScreen {
+		display: none !important;
+	}
+}
+@media(max-width:1200px){
+
+.newMenu {
+	height: 100vh;
+	background: #fff !important;
+	overflow-y: scroll;
+}
+
+}
+@media(min-width:768px) and (max-width:1200px) {
+	.newMenu {
+		left: 0;
+	}
+}
+@media (min-width: 1200px){
+	.menuFlexContainer{
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:flex;
+		-webkit-box-align:center;
+		-ms-flex-align:center;
+		align-items:center;
+		flex-wrap: nowrap;
+	}
+	.menuFlexContainer li{
+		padding: 0 !important;
+	}
+}

@@ -1,0 +1,39 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+@import '../../helpers.css';
+.girdOne {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    column-gap: 22px;
+}
+.girdTwo {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 22px;
+}
+.headingMobile{
+    font-size: 20px;
+    margin-bottom: 18px;
+    margin-top: 0;
+    font-weight: 600;
+}
+.divider{
+    margin: 2px 0 18px;
+}
+@media screen and (max-width: 1199px) and (min-width: 1024px) {
+    .girdOne {
+        column-gap: 15px;
+    }
+    .girdTwo {
+        grid-template-columns: 49% 49%;
+        column-gap: 15px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .girdOne {
+        grid-template-columns: 100%;
+    }
+    .girdTwo {
+        grid-template-columns: 100%;
+    }
+}

@@ -1,0 +1,42 @@
+.displayFlex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.padding {
+    padding: 42px 0px 27px;
+}
+
+.alignItemEnd {
+    align-items: end;
+}
+
+.alignItemCenter {
+    align-items: center;
+}
+
+.lineHeight {
+    line-height: 20px;
+}
+.disGridTitle{
+    display: grid;
+    grid-template-columns:  65% auto;
+    align-items: center;
+}
+.textMinHeight{
+    min-height: 39px;
+}
+@media screen and (max-width: 768px) {
+    .disGridTitle{
+        grid-template-columns: 100%;
+    }
+    .justifyTab{
+        justify-content: unset;;
+    }
+}
+@media screen and (max-width: 767px) {
+    .mobilePadding {
+        padding-bottom: 6px;
+    }
+}

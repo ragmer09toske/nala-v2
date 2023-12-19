@@ -1,0 +1,24 @@
+ mutation UpdateClaimPayout(
+       $reservationId: Int!,
+       $claimPayout: Float!, 
+       $payoutId: Int!, 
+       $hostId: String!, 
+       $paymentCurrency: String!,
+       $paymentMethodId: Int!, 
+       $receiverEmail:String!,
+       $hostEmail :String!
+     ){
+        UpdateClaimPayout(
+            reservationId: $reservationId, 
+            claimPayout:  $claimPayout,
+            payoutId: $payoutId, 
+            hostId:$hostId, 
+            paymentCurrency: $paymentCurrency, 
+            paymentMethodId:$paymentMethodId, 
+            receiverEmail:$receiverEmail,
+            hostEmail:$hostEmail
+           ){
+            status
+            errorMessage    
+            }
+    }

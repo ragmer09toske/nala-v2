@@ -1,0 +1,2788 @@
+@import url('./variables.css');
+
+.rtl .textAlignLeftRTL {
+    text-align: left;
+}
+
+.rtl .textAlignRightRTL {
+    text-align: right;
+}
+
+.rtl .floatRightRTL {
+    float: right;
+}
+
+.rtl .floatLeftRTL {
+    float: left;
+}
+
+.rtl .directionLtr {
+    direction: ltr;
+}
+
+.rtl .navbar-right {
+    float: left !important;
+}
+
+.rtl .searchBtnContainerRTL {
+    left: 27px;
+    right: auto;
+}
+
+.rtl .imgShadowRTL {
+    float: left;
+}
+
+.rtl .textColumnRTL {
+    padding-left: 80px;
+    padding-right: 0;
+}
+
+.rtl .arrowPrevRTL {
+    right: -18px !important;
+    left: auto !important;
+    top: 31% !important;
+    transform: rotate(180deg);
+}
+
+.rtl .arrowPrevRTL svg {
+    transform: rotate(180deg);
+}
+
+.rtl .arrowNextRTL {
+    left: -18px !important;
+    right: auto !important;
+    top: 31% !important;
+    transform: rotate(180deg);
+}
+
+.rtl .secondBannerRTL {
+    clip-path: polygon(0% 0, 100% 0%, 90% 100%, 0% 100%) !important;
+}
+
+.rtl .firstBannerMarginRTL {
+    margin: 0px -110px 0px -75px;
+}
+
+.rtl .homeSearchForm .geosuggest__input {
+    padding-right: 0px !important;
+}
+
+.rtl .feedbackIconRTL {
+    float: right;
+    margin-left: 22px;
+    margin-right: 0;
+}
+
+.rtl .headerSearchRTL {
+    float: right !important;
+}
+
+.rtl .searchIconContainerRTL {
+    padding-right: 12px;
+    padding-left: 0;
+}
+
+.rtl .filterButtonContainerRTL {
+    float: left !important;
+}
+
+.rtl .searchFilterPopoverRTL {
+    right: 0;
+    left: auto;
+}
+
+.rtl .labelTextRTL {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.rtl .NhNameRTL {
+    padding: 0 10px 0 0px;
+}
+
+.rtl .searchMapContainerRTL {
+    left: 0;
+    right: auto;
+    padding: 24px;
+}
+
+.rtl select {
+    padding: 14px 19px 14px 40px !important;
+    background-position: calc(0% - -15px) !important;
+}
+
+.rtl .marginRight15RTL {
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.rtl .modal-dialog {
+    text-align: right;
+}
+
+.rtl .checkBoxSectionRTL {
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.rtl .iconContainerRTL {
+    left: 35px;
+    right: auto !important;
+}
+
+.rtl .PerDayRTL {
+    padding-right: 5px;
+}
+
+.rtl .HRDetailsRTL {
+    text-align: right;
+}
+
+.rtl .carTypeRTL {
+    display: inline-block;
+}
+
+.rtl .dotRTL {
+    display: inline-block;
+}
+
+.rtl .hiddentextSliderRTL {
+    width: 100%
+}
+
+.rtl .hiddentextSliderRTL h3 {
+    width: 100%;
+}
+
+.rtl .HRDetailsRTL h3 {
+    width: 100%;
+}
+
+.rtl .redoTextRTL {
+    margin: 0px 10px 0px 0px;
+}
+
+.rtl .redoContainerRTL {
+    right: 0;
+    left: 0;
+}
+
+.rtl .priceCssRTL {
+    left: 0;
+    right: auto;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 0;
+}
+
+.rtl .rc-pagination-next {
+    line-height: 27px;
+    float: right;
+    margin-right: 8px;
+}
+
+.rtl .rc-pagination-prev {
+    line-height: 27px;
+    float: right;
+}
+
+.rtl .displayInlineRTL {
+    display: inline-block;
+}
+
+.rtl .buttonPositionRTL {
+    right: 25px;
+    left: auto;
+}
+
+.rtl .buttonTextRTL {
+    padding-right: 3px;
+    padding-left: 0;
+}
+
+.rtl .buttonContainerSaveRTL {
+    left: 25px;
+    right: auto;
+}
+
+.rtl .bannerContainerShareRTL {
+    left: 155px;
+    right: auto;
+}
+
+.rtl .viewPhotosBtnRTL {
+    right: auto !important;
+    left: 30px;
+}
+
+.rtl .arrowIconListRTL {
+    transform: rotate(180deg);
+}
+
+.rtl .splitListRTL {
+    padding-right: 0;
+}
+
+.rtl .navbar-nav.listHeaderStepRTL {
+    float: right !important;
+}
+
+.rtl .navbar-nav.listHeaderStepRTL li a {
+    border-right: 1px solid #dce0e0;
+    border-left: inherit;
+}
+
+.rtl .navbar-nav.listHeaderSaveRTL li a {
+    border-right: 1px solid #dce0e0;
+    border-left: inherit;
+}
+
+.rtl .circleSuccessRTL {
+    right: 10px;
+    left: auto;
+}
+
+.rtl .previewLinkRTL {
+    margin-right: 40px;
+    margin-left: 0;
+}
+
+.rtl .listContainerRTL {
+    padding: 0;
+}
+
+.rtl .publishArrow select {
+    margin-right: 12px;
+    margin-left: 0;
+    background-position: 2% 9px;
+    padding: 8px 15px 8px 26px;
+
+}
+
+.rtl .spaceRight2RTL {
+    margin-left: 12px;
+    margin-right: 0px;
+
+}
+
+.rtl .mrListSpaceRight2RTL {
+    margin-left: 12px;
+    margin-right: 0px;
+}
+
+.rtl .iconRemoveRTL {
+    left: 20px;
+    right: auto;
+    top: 4px
+}
+
+.rtl .input-group-addon:first-child {
+    border: inherit !important;
+}
+
+.rtl .trashIconprofileRTL {
+    left: 2px;
+    right: auto;
+}
+
+.rtl .panel-footer {
+    text-align: left;
+}
+
+.rtl .payoutBackRTL {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.rtl .tripPagination .rc-pagination-item {
+    float: right;
+}
+
+.rtl .tripPagination .rc-pagination-prev {
+    float: right;
+    transform: inherit;
+    line-height: 28px;
+}
+
+.rtl .tripPagination .rc-pagination-next {
+    float: right;
+    transform: inherit;
+    line-height: 28px;
+    margin-right: 8px;
+}
+
+.rtl .tripPagination .rc-pagination-jump-next {
+    float: right;
+}
+
+.rtl .tripPagination .rc-pagination-jump-prev {
+    float: right;
+}
+
+.rtl .circleRTL {
+    right: 25px;
+    left: auto;
+}
+
+.rtl .profileAvatarSectionRTL {
+    margin: 0 6px 0 0;
+}
+
+.rtl .chevronIconRTL {
+    transform: rotate(180deg);
+}
+
+.rtl .StripeElement {
+    text-align: right !important;
+}
+
+.rtl .StripeElement input::-webkit-input-placeholder {
+    text-align: right;
+}
+
+.rtl .StripeElement input:-moz-placeholder {
+    text-align: right;
+}
+
+.rtl .StripeElement input::-moz-placeholder {
+    text-align: right;
+}
+
+.rtl .StripeElement input:-ms-input-placeholder {
+    text-align: right;
+}
+
+.rtl .cardNumberRtl {
+    padding: 15px 19px 10px 35px;
+    text-align: right !important;
+}
+
+.rtl .cardNumberRtlTwo {
+    padding: 10px 19px 10px 35px;
+    text-align: right;
+}
+
+.rtl .RTLcardNumberSectionFour::after {
+    right: auto;
+    left: 7px;
+}
+
+.rtl .homeSwiperArrow .nextRTL {
+    left: -12px !important;
+    right: auto !important;
+    transform: rotate(180deg);
+}
+
+.rtl .homeSwiperArrow .prevRTL {
+    right: -12px !important;
+    left: auto !important;
+    transform: rotate(180deg);
+}
+
+.rtl .commonInputPaddingRTL {
+    padding: 10px 19px 10px 15px;
+}
+
+.rtl .iconPositionRTL {
+    margin: -2px 0 0 8px;
+}
+
+.rtl .newModal .modal-header {
+    float: left;
+}
+
+.rtl .searchFilter .CalendarMonth {
+    padding: 0 10px !important;
+}
+
+.rtl .rightTopBannerRTL {
+    padding: 0 !important;
+}
+
+.rtl .popularLocation .swiper-slide {
+    padding-bottom: 15px;
+}
+
+.rtl .lauageContentRTL {
+    padding-right: 6px;
+    padding-left: 0;
+}
+
+.rtl .pagecontentWrapperRTL {
+    overflow-y: auto;
+}
+
+.rtl .adminCollapse button {
+    text-align: right;
+}
+
+.rtl .footerContainerRTL {
+    margin-right: 273px;
+    margin-left: 0;
+}
+
+.rtl .trashIconRTL {
+    left: 18px;
+    right: auto;
+}
+
+.rtl .exportTextRTL {
+    float: left;
+}
+
+.rtl .tableTwo select {
+    background-position: 9% 11px !important;
+    padding: 0px 19px 2px 20px;
+}
+
+.rtl .dv-star-rating-star {
+    float: left !important;
+}
+
+.rtl .radioBtnRTL {
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.rtl .radioBtnTextRTL {
+    margin-right: 3px;
+    margin-left: 0;
+}
+
+.rtl .btnModalDeleteRTL {
+    margin-left: 0px;
+    margin-right: 15px;
+}
+
+.rtl .radioBtnMakeRTL {
+    padding-left: 4px;
+    padding-right: 0px;
+}
+
+.rtl .staticPageUrl .input-group-addon {
+    border-radius: 0px 20px 20px 0px !important;
+}
+
+.rtl .ql-snow .ql-picker:not(.ql-color-picker):not(.ql-icon-picker) svg {
+    left: 28px;
+    right: auto;
+}
+
+.rtl .ql-editor:not(.frontend) {
+    text-align: right;
+}
+
+.rtl .exportLinkImgRTL {
+    margin-right: 12px;
+    margin-left: 0;
+}
+
+.rtl .searchMapSection .gm-bundled-control {
+    right: auto !important;
+    left: 12px !important;
+}
+
+.rtl .headerSearch .geosuggest__suggests {
+    text-align: right;
+}
+
+.rtl .rc-pagination-item {
+    float: right;
+}
+
+.rtl .spaceRight2RTL {
+    margin-right: 0px;
+    margin-left: 12px;
+}
+.rtl .verifyTipRTL{
+    right: -130px;
+    left: auto;
+}
+.rtl .verifyTipRTL::after{
+    left: 0;
+    right: 0;
+}
+@-moz-document url-prefix() {
+    .rtl .spaceRight2RTL {
+        margin-right: 0px;
+        margin-left: 12px;
+    }
+
+    .rtl .publishArrow select {
+        margin-right: 12px;
+
+    }
+}
+
+.rtl .carousel-control.right {
+    background-image: inherit !important;
+}
+
+.rtl .carousel-control.left {
+    background-image: inherit !important;
+}
+
+.rtl .ColorRTL {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.rtl .BecomeCalendar .DayPicker-Footer {
+    right: auto;
+    left: 0;
+}
+
+.rtl .blockRadioButtonRTL {
+    margin-right: 0px !important;
+    margin-left: 10px !important;
+}
+
+.rtl .reportModel .close {
+    float: right !important;
+}
+
+.rtl .wishListCloseBtn .close {
+    float: right !important;
+}
+
+.rtl .signupModal .close {
+    float: right !important;
+}
+
+.rtl .customClosebutton>button>span {
+    left: auto;
+    right: 33px;
+}
+
+.rtl .createBtnRTL {
+    margin-right: 12px;
+    margin-left: 0;
+}
+
+.rtl .rentAllHeader .dropdown-menu>li>a {
+    text-align: right;
+}
+
+.rtl .rentAllHeader .dropdown-menu>li>form>button {
+    text-align: right;
+}
+
+.rtl .errorMessagePositionRTL {
+    right: 0;
+    left: auto;
+}
+
+.rtl .locationRTL .gmnoprint.gm-bundled-control {
+    right: 40px;
+    left: auto !important;
+}
+
+.rtl .locationRTL .gm-fullscreen-control {
+    left: 0px;
+    right: auto !important;
+}
+
+.rtl .coverPhotoSelectionRTL {
+    right: 5px;
+    left: auto;
+}
+
+.rtl .iconButtonRTL {
+    border-width: 0px 1px 0px 0px;
+}
+
+.rtl .bookTextRTL {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.rtl .checkIconRTL {
+    margin: 0px 0px 5px 10px;
+}
+
+.rtl .Loader__message span {
+    direction: ltr !important;
+}
+
+.rtl .arButtonLoader span {
+    direction: ltr !important;
+}
+
+.rtl .dispalyTableRTL {
+    display: table;
+}
+
+.rtl .displayCellRTL {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.rtl .headerSearch .geosuggest__suggests {
+    right: -5px !important;
+    left: 0px !important;
+}
+
+.rtl .headerClose .close {
+    float: right !important;
+}
+
+.rtl .redux-toastr .top-right {
+    left: 0;
+    right: auto;
+}
+
+.rtl .viewListingMap .gm-control-active.gm-fullscreen-control {
+    left: 0px !important;
+    right: auto !important;
+}
+
+.rtl .viewListingMap .gmnoprint.gm-bundled-control {
+    left: 0px !important;
+    right: auto !important;
+}
+
+.rtl .declineRTL {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.rtl .similarRTL .homeSwiperArrow {
+    display: none;
+}
+
+.rtl .similarRTL .homeSwiperArrow {
+    display: none;
+}
+
+.rtl .threadSubjectUnread::before {
+    right: -15px;
+    ;
+}
+
+.rtl .flagIconRTL {
+    padding-right: 0;
+    padding-left: 5px;
+}
+
+.rtl .nopaddingRightRTL {
+    padding-left: 0 !important;
+}
+
+.rtl .resultsContainerRTL {
+    padding: 5px 10px 10px 0;
+}
+
+.rtl .sc-htpNat {
+    text-align: right;
+}
+
+.rtl .imgContainerRTL {
+    margin-left: 16px !important;
+    margin-right: 0px !important;
+}
+
+.rtl .homeSearchForm .geosuggest__item {
+    text-align: right !important;
+}
+
+.rtl .transactionSelectRTL .form-control {
+    padding: 6px 12px 6px 30px !important;
+}
+
+.rtl .contactInputRTL {
+    background-position: 4% 50%;
+    padding: 10px 20px 10px 10px;
+}
+
+.rtl .contactTextInputRTL {
+    background-position: 4% 20%;
+}
+
+.rtl .bookingAvatarRTL {
+    margin-left: 30px;
+    margin-right: 0;
+    float: left;
+}
+
+.rtl .cardNumberRtl::after {
+    left: 10px;
+    right: auto;
+}
+
+.rtl .messageThreadRTL {
+    background: #fff;
+    display: inline-block;
+}
+
+.rtl .threadSubjectUnreadRTL {
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.rtl .threadSubjectUnreadRTL::before {
+    right: 0;
+    left: auto;
+}
+
+.rtl .faqImageRTL {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.rtl .relativeSectionRTL::after {
+    right: 4px;
+}
+
+.rtl .verfiedRTL {
+    display: -webkit-box;
+}
+
+.rtl .hostClaminModal .modal-header .close {
+    right: 25px;
+    left: 0;
+}
+
+.rtl .closeIconRTL {
+    right: auto;
+    left: 10px;
+}
+
+.rtl .claimModalCss .modal-header .close {
+    left: 25px;
+    right: auto;
+}
+
+.rtl .listHeaderLogoRTL {
+    padding: 16px 19px;
+}
+
+.rtl .bookItPriceRTL {
+    padding-left: 5px;
+    padding-right: 0px;
+}
+
+.rtl .customSelectRTL {
+    padding-right: 15px;
+    padding-left: 30px;
+}
+
+.rtl .symbolCssRTL {
+    left: 0;
+}
+
+.rtl .claimAddon .input-group .form-control {
+    border-bottom-left-radius: 6px !important;
+    border-top-left-radius: 6px !important;
+}
+
+.rtl .rightBorderRTL::after {
+    left: 30px;
+    right: auto;
+}
+
+.rtl .homeDate .DateRangePickerInput_arrow {
+    padding-left: 30px;
+    padding-right: 0;
+}
+
+.rtl .viewArrowLeft {
+    padding-right: 0;
+    padding-left: 4px;
+    transform: rotate(180deg);
+}
+
+.rtl .paddingLeftBookRTL {
+    padding-right: 120px;
+    padding-left: 0;
+}
+
+.rtl .iconCssBookRTL {
+    padding-left: 6px;
+    padding-right: 0;
+}
+
+.rtl .carTypeIconRTL {
+    padding-left: 4px;
+    padding-right: 0;
+}
+
+.rtl .reviewCssSliderRTL {
+    padding: 0 0 0 12px;
+    border-right: inherit;
+    border-left: 1px solid var(--common-border-color);
+}
+
+.rtl .marginLeftBoxRTL {
+    margin-left: 0px;
+    margin-right: 25px;
+}
+
+.rtl .imgIconRight {
+    padding-right: 0px;
+    padding-left: 5px;
+}
+
+.rtl .borderRightFeedRTL::after {
+    left: 14px;
+    right: auto;
+}
+
+.rtl .dotHeaderRTL::after {
+    left: -26px;
+    right: auto;
+}
+
+.rtl .listTitlemarginLeftRTl {
+    margin-left: 30px;
+    margin-right: 0;
+    min-width: auto;
+}
+
+.rtl .viewListingTextSectionRTL {
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+.rtl .viewListingGridBoxRTL {
+    margin-left: 25px;
+    margin-right: 0px;
+}
+
+.rtl .viewListingGridBoxRTL:nth-child(4) {
+    margin-left: 0px;
+}
+
+.rtl .listGridPhotoFirstImageRTL {
+    margin-right: 0px;
+    margin-left: 10px;
+    border-radius: 0px 12px 12px 0px;
+}
+
+.rtl .listGridPhotoSecondImageRTL {
+    border-radius: 12px 0px 0px 0px;
+}
+
+.rtl .listGridPhotoThridImageRTL {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.rtl .listGridPhotoForthImageRTL {
+    border-radius: 0px 0px 0px 12px;
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.rtl .commonIconSpace {
+    margin-right: 0px;
+    margin-left: 7px;
+}
+
+.rtl .calendarPaddingLeftRTL {
+    padding-left: 0px;
+    padding-right: 6px;
+}
+
+.rtl .calendarPaddingRightRTL {
+    padding-left: 6px;
+    padding-right: 0px;
+}
+
+.rtl .viewlistDotSectionRTL {
+    padding-left: 0px;
+    padding-right: 14px;
+}
+
+.rtl .viewlistDotSectionRTL::before {
+    left: auto;
+    right: 5px;
+}
+
+.rtl .viewlistStarImage {
+    margin-left: 3px;
+    margin-right: 0px;
+}
+
+.rtl .contactHostPaddingRightRTL {
+    padding-right: 0px;
+    padding-left: 13px;
+}
+
+.rtl .contactHostPaddingLeftRTL {
+    padding-right: 13px;
+    padding-left: 0px;
+}
+
+.rtl .searchHeaderIcon {
+    padding-left: 4px;
+    padding-right: 0;
+}
+
+.rtl .searchGridRTL {
+    padding: 4px 5px 4px 5px;
+}
+
+.rtl .expandContainerRTL {
+    right: 25px;
+    left: auto;
+}
+
+.rtl .imageRotate {
+    transform: rotate(180deg)
+}
+
+.rtl .listItemRTL {
+    padding: 8px 0 12px 25px;
+}
+
+.rtl .imgIconRightTypeRTL {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.rtl .infoPaddingInstaRTL {
+    padding-right: 0;
+    padding-left: 6px;
+}
+
+.rtl .modal-header .close {
+    left: 28px;
+    right: auto;
+}
+
+.rtl .cancelFliterBtnRTL {
+    margin-right: 13px;
+    margin-left: 0;
+}
+
+.rtl .btnLinkItemRTL {
+    padding: 0 !important;
+}
+
+.rtl .iconStyleRTL {
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+.rtl .homeSearchForm .geosuggest__input-wrapper {
+    width: 253px;
+}
+
+.rtl .searchTextLeft {
+    padding-left: 0px;
+    padding-right: 4px;
+}
+
+.rtl .sliderArrowRTL {
+    padding-right: 0;
+    padding-left: 6px;
+    transform: rotate(180deg);
+}
+
+.rtl .borderBottomKindRTL::after {
+    left: auto;
+    right: 0;
+}
+
+.rtl .loginArrowRTL {
+    transform: rotate(180deg);
+}
+
+.rtl .contactHostAvatarRTL {
+    margin-right: 0px;
+    margin-left: 21px;
+}
+
+.rtl .contactHostDateSectionRTL {
+    margin-left: 0px;
+    margin-right: 21px;
+}
+
+.rtl .socialLoginMarginRightRTL {
+    margin-left: 23px;
+    margin-right: 0px;
+}
+
+.rtl .searchGridRTL .geosuggest__input-wrapper {
+    width: 100%;
+}
+
+.rtl .searchGridRTL .geosuggest__input {
+    width: 100%;
+    padding-right: 12px !important;
+    padding-left: 44px !important;
+}
+
+.rtl .Loader__message span,
+.rtl .buttonLoaderRTL span,
+.rtl .buttonLoaderRTL .Loader__message span {
+    direction: ltr !important;
+}
+
+.rtl .filterButtonContainerRTL {
+    margin: 0 0 0 18px !important;
+}
+
+.rtl .homeLocationSearchForm {
+    padding: 0px 23px 0px 7px
+}
+
+.rtl .homeLocationSearchForm .geosuggest__input {
+    padding: 0px 8px 0px 0px !important;
+}
+
+.rtl .filterButtonContainerRTL:last-child {
+    margin: 0 !important;
+}
+
+.rtl .rentAllHeader.searchFixedHeader .container-fluid {
+    padding: 0 22px;
+}
+
+.rtl .homeDate .DateInput_input:first-child {
+    padding: 0 0 0 16px !important;
+}
+
+.rtl .passwordIconRTL {
+    left: 18px;
+    right: auto;
+}
+
+.rtl .doorStepRTL {
+    border-right: 1px solid var(--common-border-color);
+    border-left: 0px;
+}
+
+.rtl .viewListingDate .DateInput_input__focused,
+.rtl .viewListingDate .DateInput_input {
+    padding: 4px 19px 4px 8px !important;
+}
+
+.rtl .doorStepImageRTL {
+    border-radius: 0px 6px 6px 0px;
+}
+
+.rtl .passwordInputPadding {
+    padding: 10px 19px 10px 45px !important;
+}
+
+.rtl .filtersFooterRTL {
+    flex-direction: row-reverse;
+}
+
+.rtl .searchHeaderIconRTL {
+    padding-left: 0;
+    padding-right: 4px;
+    transform: rotate(180deg);
+}
+
+.rtl .vidSearchForm .geosuggest__input {
+
+    padding: 0px 20px 0 10px !important;
+}
+
+.rtl .vidSearchForm .geosuggest__input-wrapper {
+    width: 100% !important;
+}
+
+.rtl .homeLocationSearchForm .geosuggest__suggests {
+    right: -41px !important;
+}
+
+.rtl .filtersFooterRTL {
+    flex-direction: row-reverse;
+}
+
+.rtl .searchHeaderIconRTL {
+    padding-left: 0;
+    padding-right: 4px;
+    transform: rotate(180deg);
+}
+
+
+.rtl .vidSearchForm .geosuggest__input-wrapper {
+    width: 100% !important;
+}
+
+.rtl .homeLocationSearchForm .geosuggest__suggests {
+    right: -41px !important;
+}
+
+.signUpCheckBoxTextRTl {
+    padding-left: 0px;
+    padding-right: 7px;
+}
+
+.rtl .paymentDetailsPadding {
+    padding-right: 0px;
+    padding-left: 51px !important;
+}
+
+.rtl .RTLPaymentFirstNamePadding {
+    padding-right: 0px;
+    padding-left: 12px;
+}
+
+.rtl .RTLPaymentLastNamePadding {
+    padding-left: 0px;
+    padding-right: 12px;
+}
+
+.rtl .RTLcancelBtn {
+    margin-right: 0px;
+    margin-left: 23px;
+}
+
+.rtl .rtlNavItem {
+    margin-right: 0px;
+    margin-left: 54px;
+}
+
+.rtl .tabFontRTL {
+    padding-left: 0;
+    padding-right: 18px;
+}
+
+.rtl .saveArrowCss {
+    transform: rotate(180deg);
+}
+
+.rtl .tabBorderRTL {
+    padding: 9px 9px 9px 24px;
+}
+
+.rtl .nextPositionRTL {
+    margin: 0 auto 0 0;
+}
+
+.rtl .backBtnRTL {
+    margin-right: 0px;
+    margin-left: 12px;
+
+}
+
+.rtl .dangerIconRTL {
+    padding-right: 0;
+    padding-left: 8px;
+}
+
+.rtl .stepPlaceMap .gm-bundled-control {
+    left: 10px !important;
+    right: auto;
+}
+
+.rtl .locationBgIconRTL {
+    background-position: 97% 16px;
+    padding-right: 38px !important;
+    padding-left: 10px !important;
+}
+
+.rtl .stepLocationBgIconRTL {
+    background-position: 97% 16px;
+    padding-right: 38px !important;
+    padding-left: 10px !important;
+}
+
+.rtl .fullAddressSection ul li {
+    text-align: right;
+}
+
+.rtl .newsBoxOneSkeletonRTL {
+    margin-right: 25px !important;
+}
+
+.rtl .homeKindPositionSkeletonRTL {
+    right: 40px !important;
+    left: auto !important;
+}
+
+.rtl .payoutTable .table {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.rtl .payoutTable .label-success {
+    margin-left: 0px;
+    margin-right: 5px;
+}
+
+.rtl .NewResponsiveTable table th,
+.rtl .NewResponsiveTable table td {
+    text-align: right;
+}
+
+.rtl .payoutTable .table>thead>tr>th:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 12px;
+}
+
+.rtl .payoutTable .table>thead>tr>th:last-child {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 12px;
+}
+
+.rtl .photoTickIconRTL {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.rtl .commonDateArrowRTLRotate {
+    transform: rotate(180deg);
+}
+
+.rtl .positionAvatarRTL {
+    left: 15px;
+    right: auto;
+}
+
+.rtl .skeletonTopBoxRTL {
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.rtl .absoulteSkeletonRTL {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.rtl .stepEditArrow {
+    transform: rotate(180deg);
+}
+
+.rtl .contentLeftStepRTL {
+    padding-left: 0px;
+    padding-right: 24px;
+}
+
+.rtl .contentSectionRTL {
+    margin-left: 0;
+    margin-right: 0px;
+}
+
+.rtl .contentSectionRTL::after {
+    left: auto;
+    right: 12px
+}
+
+.rtl .exitFooterRTL {
+    margin: 0 auto 0 0;
+}
+
+.rtl .tickPositionStepRTL {
+    right: auto;
+    left: 0;
+}
+
+.rtl .youcarsBg .nav-tabs>li>a {
+    margin-left: 30px !important;
+    margin-right: 0;
+}
+
+.rtl .addPlusIcon {
+    margin: 0px 0px 2px 6px;
+}
+
+.rtl .listLayoutArbic {
+    padding-right: 0;
+}
+
+.rtl .sideNav::after {
+    left: 20px;
+    right: auto;
+    transform: rotate(180deg);
+}
+
+.rtl .menuActive .sideNav::before,
+.rtl .sideNav:hover::before {
+    right: 26px;
+    left: auto;
+}
+
+.rtl .menuActive .spaceLeft18 {
+    margin-left: 0;
+    margin-right: 18px;
+    display: inline-block;
+}
+
+.rtl .menuNotActive .spaceLeft18 {
+    margin-left: 0;
+    margin-right: 0;
+    display: inline-block;
+}
+
+.rtl .menuActive .spaceLeft18 {
+    transition: margin-right 500ms;
+    -webkit-transition: margin-right 500ms;
+    -moz-transition: margin-right 500ms;
+    -ms-transition: margin-right 500ms;
+    -o-transition: margin-right 500ms;
+}
+
+.rtl .menuNotActive .spaceLeft18 {
+    transition: margin-right 1000ms;
+    -webkit-transition: margin-right 1000ms;
+    -moz-transition: margin-right 1000ms;
+    -ms-transition: margin-right 1000ms;
+    -o-transition: margin-right 1000ms;
+}
+
+.rtl .sideNavitem {
+    padding: 18px 24px 18px 36px;
+}
+
+.rtl .verifiedTickIconRTL {
+    margin-right: 0;
+    margin-left: 6px;
+}
+
+.rtl .btnSecAlignmentRTL {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.rtl .linkSpaceLeftRTL {
+    margin-left: 6px;
+    margin-right: 0;
+}
+
+.rtl .trustArrowIconRTL {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+}
+
+.rtl .tabLinkRTL {
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+.rtl .languageModalRTL ul li a {
+    margin-left: 29px;
+    margin-right: 0;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+
+.rtl .languageModalRTL .lanItemLinkSectionRTL {
+    padding: 0px 0px 0px 15px;
+}
+
+.rtl .relativeSectionRTL::after {
+    right: 12px;
+    left: 0;
+}
+
+.rtl .specialPriceIconRTL {
+    margin-right: 4px;
+    margin-left: 0;
+}
+
+.rtl .plusIconRTL {
+    margin-left: 4px;
+    margin-right: 0;
+}
+
+.rtl .addPhoneNumberRTL .input-group-addon {
+    border-radius: 0 6px 6px 0 !important;
+}
+
+.rtl .countryCodeSecRTL {
+    border-radius: 0 6px 6px 0;
+}
+
+.rtl .spaceLeftBtnRTL {
+    margin-left: 12px;
+    margin-right: 0;
+}
+
+.rtl .otpFieldSpaceRTL {
+    margin-left: 36px;
+    margin-right: 0;
+}
+
+.rtl .confirmedIconRTL {
+    margin-left: 3px;
+    margin-right: 0;
+}
+
+.rtl .tabBarViewRTL .nav-tabs>li>a,
+.rtl .tabBarViewRTL .nav-tabs>li>a:hover,
+.rtl .tabBarViewRTL .nav-tabs>li>a:active,
+.rtl .tabBarViewRTL .nav-tabs>li>a:focus,
+.rtl .tabBarViewRTL .nav-tabs>li>a:active:hover {
+    margin-left: 36px;
+    margin-right: 0;
+}
+
+.rtl .descListSpaceRightRTL {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.rtl .searchIconRTL {
+    right: 18px;
+    left: auto;
+}
+
+.rtl .transactionSelectRTL .form-control {
+    padding: 13px 36px 13px 13px !important;
+}
+
+.rtl .searchContainerRTL {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.rtl .searchExportBtnRTL {
+    margin-left: 6px;
+    margin-right: 0;
+}
+
+.rtl .transIconRTL {
+    margin-left: 6px;
+    margin-right: 0;
+}
+
+.rtl .plusIconRTL {
+    margin-left: 6px;
+    margin-right: 0;
+}
+
+.rtl .avatarSpaceLeftRTL {
+    margin-left: 19px;
+    margin-right: 0;
+}
+
+.rtl .reservationIconSpaceRTL {
+    margin-left: 4px;
+    margin-right: 0;
+}
+
+.rtl .tripDropDownRTL .btn-group>.btn {
+    padding-right: 20px;
+    padding-left: 10px !important;
+}
+
+.rtl .tripDropDownRTL button::before {
+    right: 0;
+    left: auto;
+}
+
+.rtl .tripDropDownRTL .dropdown-menu {
+    left: 0;
+    right: auto;
+}
+
+.rtl .modalcancelBtnRTL {
+    margin-right: 0;
+    margin-left: 12px;
+}
+
+.rtl .rightBgRTL,
+.rtl .rsMessageContainerRTL {
+    border-radius: 8px 0px 8px 8px;
+    -webkit-border-radius: 8px 0px 8px 8px;
+    -moz-border-radius: 8px 0px 8px 8px;
+    -ms-border-radius: 8px 0px 8px 8px;
+    -o-border-radius: 8px 0px 8px 8px;
+}
+
+.rtl .rightBgRTL::before,
+.rtl .rsMessageContainerRTL::before {
+    left: 100%;
+    right: auto;
+    transform: rotate(-91deg);
+}
+
+.rtl .rightBgRTL::after,
+.rtl .rsMessageContainerRTL::after {
+    left: auto;
+    right: -38px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.rtl .rsFromMessageContainerRTL,
+.rtl .lsSendMessageContainerRTL {
+    border-radius: 0 8px 8px 8px;
+    -webkit-border-radius: 0 8px 8px 8px;
+    -moz-border-radius: 0 8px 8px 8px;
+    -ms-border-radius: 0 8px 8px 8px;
+    -o-border-radius: 0 8px 8px 8px;
+}
+
+.rtl .rsFromMessageContainerRTL::before,
+.rtl .lsSendMessageContainerRTL::before {
+    left: auto;
+    right: 100%;
+    border-width: 0 24px 24px 0;
+    border-color: transparent var(--common-gray-bg-color) transparent transparent;
+}
+
+.rtl .rsFromMessageContainerRTL::after,
+.rtl .lsSendMessageContainerRTL::after {
+    left: -38px;
+    right: auto;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.rtl .checkBoxFlexRTL {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.rtl .selectContainerRTL {
+    padding: 4px 19px 4px 35px !important;
+}
+
+.rtl .modalFilterSelectFieldRTL {
+    padding-left: 40px !important;
+    padding-right: 19px !important;
+}
+
+.rtl .filterModalDatePicker .DateInput_fang {
+    right: 22px;
+    left: auto;
+}
+
+.rtl .claimImageCloseIconRTL {
+    left: -1px;
+    right: auto;
+}
+
+.rtl .claimAddonRTL .input-group-addon {
+    border-radius: 0 6px 6px 0;
+}
+
+.rtl .marginRightRTL {
+    margin-left: 6px;
+    margin-right: unset !important;
+}
+
+.rtl .searchReviewInputRTL {
+    background-position: 96% 50%;
+    padding-left: 12px;
+    padding-right: 38px;
+}
+
+.rtl .listStyleRTL {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.rtl .dropzoneImgSpaceRTL {
+    padding-right: 0;
+    padding-left: 5px;
+}
+
+.rtl .discountRightRTL {
+    padding-left: 0;
+    padding-right: 8px;
+}
+
+.rtl .listTipIcon {
+    padding-right: 0;
+    padding-left: 5px;
+}
+
+.rtl .reviewTickRTL {
+    margin: 0 0 0 10px;
+}
+
+.rtl .BecomeCalendar .DayPicker-NavBar {
+    right: 0;
+    left: auto;
+}
+
+.rtl .BecomeCalendar .DayPicker-Caption {
+    right: -11px;
+    left: auto;
+    margin: 0 0 0 auto;
+}
+
+.rtl .tripDropDownRTL .btn-group>.btn,
+.rtl .tripDropDownRTL .btn-group>.btn:active,
+.rtl .tripDropDownRTL .btn-group>.btn:hover,
+.rtl .tripDropDownRTL .btn-group>.btn:focus,
+.rtl .tripDropDownRTL .btn-group>.btn:active:hover {
+    padding-left: 0 !important;
+    padding-right: 20px;
+}
+
+.rtl .writeOverAllIconRTL .dv-star-rating-star {
+    margin-right: 0;
+    margin-left: 9px;
+}
+
+.rtl .noMarginLeftRTL {
+    margin-right: 0;
+}
+
+.rtl .writeReviewBtnMarginLeftRTL {
+    margin-right: 12px;
+}
+
+.rtl .reviewCssImgRTL {
+    margin-right: 0;
+    margin-left: 4px;
+}
+
+.rtl .bookedWidthRTL {
+    margin-right: 0;
+}
+
+.rtl .inputLeftNoRTL {
+    border-left: 0 !important;
+    border-right: 1px solid var(--common-border-color) !important;
+    border-radius: 0 6px 6px 0px !important;
+}
+
+.rtl .writeReviewTextRTL {
+    margin-right: 0;
+    margin-left: 24px;
+}
+
+.rtl .iconPadRightRTL {
+    padding-right: 0;
+    padding-left: 4px;
+}
+
+.rtl .publishListArrow select {
+    padding: 8px 15px 8px 35px !important;
+
+}
+
+.rtl .listCarCssRTL a {
+    text-align: left;
+}
+
+.rtl .blueLeftArrowRTL {
+    padding-left: 0;
+    padding-right: 6px;
+}
+
+.rtl .colReceiptSpaceLeftRTL {
+    padding-left: 15px;
+    padding-right: 0;
+}
+
+.rtl .receiptInfoDetailSpaceRTL {
+    padding: 0 0 0 4px;
+}
+
+.rtl .reservationSearchIconRTL {
+    background-position: 95% 50% !important;
+    padding-right: 40px !important;
+    padding-left: 10px !important;
+}
+
+.rtl .buttonLeftRTL {
+    float: left;
+}
+
+.rtl .mrLeftRTL {
+    margin-left: 12px;
+    margin-right: 0;
+}
+
+.rtl .infoContentRTL {
+    left: auto;
+    right: 0;
+}
+
+.rtl .inBoxContentSectionRTL {
+    padding-left: 0;
+    padding-right: 29px;
+}
+
+.rtl .inboxPaddingRightRTL {
+    padding-left: 24px;
+    padding-right: 0;
+}
+
+.rtl .countRTL {
+    right: auto;
+    left: -18px;
+}
+
+.rtl .vidSearchForm .DateRangePicker_picker {
+    right: -1px !important
+}
+
+
+.rtl .steeringIconRTL {
+    margin-left: 3px;
+    margin-right: 0;
+}
+
+.rtl .cancelTripStarIconRTL {
+    margin-right: 0;
+    margin-left: 3px;
+}
+
+.rtl .cancelTripAvatarSecRTL {
+    right: auto;
+    left: 12px;
+}
+
+.rtl .missedEarningsIconRTL {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+.rtl .cancelAvatarSpaceLeftRTL {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.rtl .marginLeftRTL {
+    margin-left: 0;
+    margin-right: 6px;
+}
+
+.rtl .rsFromMessageMarginRightRLT {
+    margin-right: 0;
+    margin-left: 6px;
+}
+
+.rtl .userDetailsMarginLeftRTL {
+    margin-left: 0;
+    margin-right: 12px;
+}
+
+.rtl .iconSpaceLeftRTL {
+    margin-left: 6px;
+    margin-right: 0;
+}
+
+.rtl .learnBtnCssRTL,
+.rtl .learnBtnCssRTL:hover,
+.rtl .learnBtnCssRTL:focus,
+.rtl .learnBtnCssRTL:active,
+.rtl .learnBtnCssRTL:active:hover {
+    margin-left: 0px;
+    margin-right: 12px;
+}
+
+.rtl .iconGap {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.rtl .passwordInputRTL {
+    padding: 10px 20px 10px 35px;
+}
+
+.rtl .infoBox {
+    left: -144.548px !important;
+}
+
+.rtl .showBtnGap {
+    margin-left: 0px;
+    margin-right: 6px;
+}
+
+/* ==============Admin RTL start=============*/
+.rtl .adminGoBackArrowRTL {
+    margin-right: 0;
+    margin-left: 6px;
+    transform: rotate(180deg);
+}
+
+.rtl .adminUserProfilePicRTL {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+.rtl .adminFormControlSelectRTL {
+    background-position: 50% 96%;
+}
+
+.rtl .leftBgRTL {
+    left: auto;
+    right: 0;
+}
+
+.rtl .stepFooterImageRTL {
+    left: auto;
+    right: 0;
+}
+
+.rtl .pngFontSizeRTL {
+    right: auto;
+    left: 22px;
+}
+
+.rtl .adminRightInputAddonRTL {
+    border-right-color: transparent !important;
+    border-radius: 6px 0 0 6px !important;
+    -webkit-border-radius: 6px 0 0 6px !important;
+    -moz-border-radius: 6px 0 0 6px !important;
+    -ms-border-radius: 6px 0 0 6px !important;
+    -o-border-radius: 6px 0 0 6px !important;
+}
+
+.rtl .adminRadioBtnRTL {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.rtl .spaceRight3RTL {
+    margin-left: 18px;
+    margin-right: 0;
+}
+
+.rtl .waveHandMarginRightRTL {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.rtl .marginRight8RTL {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.rtl .adminInputBoxRTL {
+    padding: 10px 10px 10px 35px !important;
+}
+
+.rtl .claimModalSlider .nextRTL {
+    left: -10px !important;
+    right: auto !important;
+    transform: rotate(180deg);
+}
+
+.rtl .claimModalSlider .nextRTL svg {
+    right: 5px !important;
+}
+
+.rtl .claimModalSlider .prevRTL {
+    right: -10px !important;
+    left: auto !important;
+    transform: rotate(180deg);
+}
+
+.rtl .stepGridRTL {
+    background: linear-gradient(270deg, rgba(249, 249, 249, 1) 50%, rgba(255, 255, 255, 1) 50%);
+}
+
+.rtl .textAlignLeftRtl {
+    text-align: left;
+}
+
+.rtl .searchPage .geosuggest__input {
+    background-position: 97% 50%;
+    padding: 10px 30px 10px 10px;
+}
+
+.rtl .searchPage .geosuggest__item {
+    text-align: right;
+}
+
+.rtl .dashboardUserListingMarginOneRTL {
+    margin: 0px 0px 30px 15px;
+}
+
+.rtl .dashboardUserListingMarginTwoRTL {
+    margin: 0px 15px 30px 0px;
+}
+
+.rtl .superPrevArrowRTL,
+.rtl .superNextArrowRTL {
+    transform: rotate(180deg);
+}
+
+.rtl .input-group-addon:last-child {
+    border-color: var(--border-color);
+}
+
+.rtl .dashboardDropzone.profileEditIconPosition {
+    position: absolute;
+    bottom: 0px;
+    left: 69px;
+    right: auto;
+}
+
+.rtl .goArrowRTL {
+    transform: rotate(180deg);
+}
+
+.rtl .profileAvatarSectionPayRTL {
+    right: auto;
+    left: 12px;
+}
+
+.rtl .input-group .form-control {
+    padding: 10px 19px 10px 19px;
+}
+
+.rtl .adminstyle .form-control {
+    padding: 12px 19px 10px 19px !important;
+}
+
+.rtl .adminstyle select {
+    background-position: 3% 58% !important;
+    padding: 12px 19px 10px 40px !important;
+}
+
+.rtl .adminstyle table select {
+    background-position: 12% 58% !important;
+    padding: 3px 19px 3px 40px !important;
+}
+
+.rtl .adminHeaderNavRtl li form button {
+    padding-left: 24px !important;
+    padding-right: 0 !important;
+}
+
+.rtl .adminstyle .searchInputControl {
+    background-position: calc(97% - 6px);
+    padding: 10px 45px 10px 20px !important;
+}
+
+.rtl .sideNavIconRtl {
+    transform: rotate(-180deg);
+}
+
+.rtl .form-control {
+    padding: 10px 19px 10px 15px;
+}
+
+.rtl .tableFixHead td:nth-child(2)::after {
+    box-shadow: -6px 0px 8px #B2BEC41A;
+}
+
+.rtl .tableFixHead td:nth-child(2),
+.rtl .tableFixHead th:nth-child(2) {
+    right: 120px;
+    left: auto;
+}
+.rtl .tableFixHead.payoutListTable td:nth-child(2),
+.rtl .tableFixHead.payoutListTable th:nth-child(2) {
+    right: 200px;
+    left: auto;
+}
+.rtl .tableFixHead td:first-child,
+.rtl .tableFixHead th:first-child {
+    right: 0;
+    left: auto;
+}
+
+.rtl .tableFixHead td:nth-child(2) div span {
+    padding-right: 0;
+    padding-left: 12px;
+}
+
+.rtl .payoutListTable .textCenterEmtyData {
+    text-align: right !important;
+}
+
+.rtl .navigationIconRtl {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.rtl .sidebarContainerRtl {
+    left: unset;
+    right: 0;
+}
+
+.rtl .forgetArrow {
+    margin-left: 0;
+    margin-right: 6px;
+    transform: rotate(180deg);
+}
+
+.rtl .adminRsContainerRTL {
+    margin-left: 0px;
+    margin-right: 273px;
+}
+
+.rtl .passwordIcon {
+    left: 15px;
+    right: auto;
+}
+
+.rtl .passwordInputIcon {
+    padding: 10px 19px 10px 45px !important;
+}
+
+.rtl .columnPaddingOneRTL {
+	padding-right: 0px !important;
+    padding-left: 45px !important;
+}
+
+.rtl .columnThreePaddingRTL {
+	padding-left: 0px !important;
+    padding-right: 45px !important;
+}
+
+.rtl .mobileTableSearchRTL div:nth-child(2){
+    margin-right: auto;
+    margin-left: unset;
+}
+@-moz-document url-prefix() {
+    .rtl .BecomeCalendar .DayPicker-Caption {
+        right: -58px;
+    
+    }
+}
+.rtl .itneraryTipRTL::after{
+    right: 6px;
+    top: 30px;
+}
+.rtl .positionDocumentRTL{
+    right: auto;
+    left: 6px;
+}
+/* ==============Admin RTL end=============== */
+@media (min-width: 1700px) and (max-width: 2000px) {
+    .rtl .tableFixHead.payoutListTable td:nth-child(2),
+    .rtl .tableFixHead.payoutListTable th:nth-child(2) {
+        right: 199px;
+        left: auto;
+    }
+}
+@media screen and (min-width: 1200px){
+.rtl .tableFixHead .table>thead>tr>th:first-child, .rtl .tableFixHead .table-responsive>.table>tbody>tr>td:first-child {
+    padding-right: 50px !important;
+    padding-left: 0 !important;
+}
+
+}
+
+/*********Responsive***********/
+@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
+    .rtl .searchPage .geosuggest__input {
+        padding: 10px 40px 10px 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .rtl .dashboardDropzone.profileEditIconPosition {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        right: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .rtl .searchExportBtnRTL {
+        margin: 0;
+        margin-bottom: 18px;
+    }
+
+    .rtl .modalFilterSelectFieldRTL {
+        padding-right: 10px !important;
+    }
+
+    .rtl .tripDropDownRTL .dropdown-menu {
+        left: auto;
+        right: 0;
+    }
+
+    .rtl .youcarsBg .nav-tabs>li {
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .rtl .youcarsBg .nav-tabs>li>a {
+        margin-left: 0 !important;
+        margin-right: 0;
+    }
+
+    .rtl .mrListSpaceRight2RTL {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .rtl .colReceiptSpaceLeftRTL {
+        padding-left: 0;
+    }
+
+    .rtl .reservationSearchIconRTL {
+        background-position: 94% 50% !important;
+    }
+
+    .rtl .passwordInputRTL {
+        padding: 10px 20px 10px 47px;
+    }
+
+    .rtl .adminUserProfilePicRTL {
+        margin-left: 0;
+    }
+
+    .rtl .NewResponsiveTable a {
+        text-align: right;
+        margin: 0;
+    }
+
+    .rtl .NewResponsiveTable table td::before {
+        text-align: right;
+    }
+
+    .rtl .dashboardUserListingMarginOneRTL {
+        margin: 0px 0px 30px 0px;
+    }
+
+    .rtl .dashboardUserListingMarginTwoRTL {
+        margin: 0px 0px 30px 0px;
+    }
+
+    .rtl .dashboardDropzone.profileEditIconPosition {
+        bottom: 0px;
+        left: 0;
+        right: auto;
+    }
+
+    .rtl .wishPopupBtnRTL {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .rtl .trashIconRTL {
+        left: 12px;
+        right: auto;
+    }
+
+    .rtl .columnPaddingOneRTL {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+    
+    .rtl .columnThreePaddingRTL {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .rtl .stepGridRTL {
+        background: transparent;
+    }
+}
+
+
+/*********Responsive***********/
+@media (min-width: 1800px) and (max-width: 2000px) {
+    @-moz-document url-prefix() {
+        .rtl .BecomeCalendar .DayPicker-Caption {
+            right: auto;
+            left: auto;
+            margin: 0 -55px 0 0;
+        }
+    }
+}
+
+@media (max-width: 2000px) and (min-width: 1445px) {
+    .rtl .stepLocationBgIconRTL {
+        background-position: 97% 16px !important;
+        padding-right: 50px !important;
+    }
+
+
+}
+
+@media (max-width: 640px) {
+    .rtl .locationBgIconRTL {
+        background-position: 97% 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rtl .rentAllHeader .navbar-brand {
+        margin-left: 0px !important;
+        margin-right: 15px !important;
+    }
+
+    .rtl .clearOptionRTL {
+        padding: 14px 0 14px 20px;
+    }
+
+    .rtl .filterBtnAlignRTL {
+        margin-right: auto;
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+    .rtl .loginModelSectionBlock {
+        max-width: 100%;
+        padding: 20px 20px 0px 0px;
+    }
+
+    .rtl .homeKindPositionSkeletonRTL {
+        right: 35px !important;
+        left: auto !important;
+    }
+
+    .rtl .stepGridRTL {
+        background: transparent;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rtl .rentAllHeader .navbar-brand {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .rtl .rentAllHeader .navbar-right {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .rtl .rentAllHeader .navbar-nav>li>a {
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 22px;
+    }
+}
+
+@media (max-width:1199px) and (min-width:768px) {
+    .rtl .navbar-header {
+        float: inherit !important;
+    }
+
+    .rtl .hamburgerButton {
+        left: 0;
+        right: auto;
+    }
+
+    .rtl .navbar-nav>li {
+        float: inherit !important;
+    }
+
+    .rtl .normalHeader.navbar-right {
+        float: inherit !important;
+    }
+
+    .rtl .rentAllHeader .navbar-nav>li>a {
+        padding: 0 30px;
+    }
+
+    .rtl .filterSectionTabRTL {
+        padding-right: 10px;
+    }
+
+
+    .rtl .searchMapContainerRTL {
+        left: 0;
+        right: auto;
+        padding: 0;
+    }
+
+    .rtl .searchGridRTL .rightBorderRTL::after {
+        left: 18px;
+        right: auto;
+    }
+
+    .rtl .BookWrapRTL {
+        right: 24px;
+    }
+}
+
+@media (max-width:1024px) and (min-width:768px) {
+    .headerSearch .DateRangePicker_picker {
+        left: auto !important;
+        right: -181.8px !important;
+    }
+}
+
+@media (max-width:991px) and (min-width:768px) {
+    .rtl .searchGridRTL {
+        grid-template-columns: 173px 267px 48px;
+    }
+
+    .rtl .searchGridRTL .rightBorderRTL::after {
+        left: 17px;
+        right: auto;
+    }
+
+    .rtl .resultsContainerRTL {
+        padding: 25px 10px 10px 0;
+    }
+
+    .rtl .homeLocationSearchForm .geosuggest__suggests {
+        right: -42px !important;
+        width: calc(100% + 155px);
+    }
+
+    .rtl .BecomeCalendar .DayPicker-NavBar {
+        right: 0;
+        left: auto;
+    }
+
+}
+
+
+@media screen and (max-width: 1199px) {
+    .rtl .pagecontentWrapperRTL {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .rtl .footerContainerRTL {
+        margin-right: 0px;
+    }
+
+    .rtl .sidebarContainerRtl {
+        left: unset;
+        right: -100%;
+    }
+
+    .rtl .menuOpenRtl {
+        left: unset;
+        right: 0;
+    }
+
+    .rtl .adminRsContainerRTL {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .rtl .paymentDetailsPadding {
+        padding-right: 0px;
+        padding-left: 15px !important;
+    }
+
+    .rtl .sideNavitem {
+        padding: 18px 38px 18px 46px;
+    }
+
+    .rtl .iconRemoveRTL {
+        left: 0;
+        right: auto;
+        top: 0;
+        float: left !important;
+    }
+
+    .rtl .bulbIconRTL {
+        margin-left: 7px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .floatRightRTLMb {
+        float: right !important;
+    }
+
+    .textAlignCenterRTLMb {
+        text-align: center !important;
+    }
+
+    .rtl .filterButtonContainerRTL {
+        margin: 0 0 0 18px !important;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .rtl .normalHeaderRTL {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .rtl .logoutIconRTL {
+        float: left;
+        margin: 23px 0px 0 15px;
+    }
+
+    .rtl .hamburger {
+        right: 25px;
+        left: auto;
+    }
+
+    .rtl .closeColorMbRTL {
+        text-align: left;
+        padding: 2px 0px 2px 12px;
+    }
+}
+
+
+@media (max-width: 991.98px) {
+    .rtl .menuActive .spaceLeft18 {
+        margin-left: 0;
+        margin-right: 8px;
+        display: inline-block;
+    }
+
+    @media print {
+        .rtl .printMobileArrow {
+            margin: 0px -5px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .rtl .sliderContentRTL {
+        padding-left: 0px;
+        padding-right: 0;
+    }
+
+    .rtl.rentAllHeader .navbar-brand {
+        float: none !important;
+    }
+
+    .rtl .normalPosition .navbar-brand.navBrandRTL {
+        float: left !important;
+    }
+
+    .rtl .headerNewDesign .navbar-default .navbar-nav {
+        float: none !important;
+    }
+
+    .rtl .headerNewDesign .navbar-default .navbar-nav>li>a {
+        text-align: right;
+    }
+
+    .rtl .closeColorRTL {
+        left: 22px;
+        right: auto;
+    }
+
+    .rtl .secondBannerRTL {
+        clip-path: inherit !important;
+    }
+
+    .rtl .firstBannerMarginRTL {
+        margin: 0;
+    }
+
+    .rtl .navbar-right.normalHeader {
+        float: none !important;
+        margin-top: 73px;
+    }
+
+    .rtl .rentAllHeader.navbar-default .navbar-nav>li>a {
+        text-align: right;
+    }
+
+    .rtl .borderNoneMb a {
+        border-top: 1px solid #dce0e0 !important;
+    }
+
+    .rtl .pagecontentWrapperRTL {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .rtl .listContainerRTLMb {
+        padding: 0;
+    }
+
+    .rtl .currencyPositionRTL {
+        left: 0;
+        right: auto;
+        border-top-right-radius: 30px;
+    }
+
+    .rtl .rentAllHeader.navbar-default .navbar-nav>li>form>button {
+        text-align: right;
+    }
+
+    .rtl .circleRTL {
+        right: -9px;
+        left: auto;
+        position: absolute;
+    }
+
+    .rtl .manageCloseIconRTL {
+        display: block;
+        float: left;
+    }
+
+
+
+    .rtl .circleSuccessRTL {
+        right: -33px;
+    }
+
+    .rtl .exitToggleRTL {
+        float: left !important;
+    }
+
+    .rtl .navBarToggleListRTL {
+        float: right !important;
+        border-left: 1px solid #dce0e0;
+        border-right: inherit;
+    }
+
+    .rtl .searchMapContainerRTL {
+        left: 0;
+        right: auto;
+        padding: 0;
+    }
+
+    .rtl .normalPosition .navbar-brand.navBrandRTL {
+        float: right !important;
+    }
+
+    .rtl .socialIconsRTL {
+        margin-left: 15px;
+        margin-right: 0;
+    }
+
+    .rtl .hamburgerButton {
+        left: 0;
+        right: auto;
+    }
+
+    .rtl .textAlignRightMb {
+        text-align: right;
+    }
+
+    .rtl .footerContainerRTL {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .rtl .radioBtnRTL {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .rtl .btnModalDeleteRTL {
+        margin-left: 0px;
+        margin-right: 0;
+    }
+
+    .rtl .responsiveMonthRTL {
+        padding-right: 0px !important;
+    }
+
+    .rtl .publishArrow select {
+        margin-right: 0;
+    }
+
+    .rtl .paddingLeftBookRTL {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .rtl .viewListingGridBoxRTL {
+        margin-left: 0px;
+    }
+
+    .rtl .resultsContainerRTL {
+        padding: 130px 10px 10px 0;
+    }
+
+    .rtl .homeSearchForm .geosuggest__input-wrapper {
+        width: 100%;
+    }
+
+    .rtl .contactHostAvatarRTL {
+        margin-left: 0px;
+    }
+
+    .rtl .contactHostDateSectionRTL {
+        margin-right: 0px;
+    }
+
+    .rtl .contactHostPaddingRightRTL {
+        padding-left: 5px;
+    }
+
+    .rtl .contactHostPaddingLeftRTL {
+        padding-right: 5px;
+    }
+
+    .rtl .borderRightFeedRTL::after {
+        display: none;
+    }
+
+    .rtl .filterSectionTabRTL {
+        padding-right: 10px;
+    }
+
+    .rtl .homeLocationSearchForm {
+        padding: 0px 12px 0px 7px !important;
+    }
+
+    .rtl .BookWrapRTL {
+        right: -11px;
+    }
+
+    .rtl .homeLocationSearchForm .geosuggest__suggests {
+        right: -26px !important;
+    }
+
+    .rtl .RTLPaymentFirstNamePadding {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .rtl .RTLPaymentLastNamePadding {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .rtl .payoutBackRTL {
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .rtl .btnSecAlignmentRTL {
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .rtl .relativeSectionRTL {
+        right: -9px;
+        left: auto;
+    }
+
+    .rtl .clearOptionRTL {
+        left: 15px;
+        right: auto;
+    }
+
+    .rtl .phoneNumberSecRTL {
+        padding-left: 50px;
+        padding-right: 12px;
+    }
+
+    .rtl .countryCodeSecRTL {
+        border-radius: 6px 6px 0 0;
+    }
+
+    .rtl .tabBarViewRTL .nav-tabs>li>a,
+    .rtl .tabBarViewRTL .nav-tabs>li>a:hover,
+    .rtl .tabBarViewRTL .nav-tabs>li>a:active,
+    .rtl .tabBarViewRTL .nav-tabs>li>a:focus,
+    .rtl .tabBarViewRTL .nav-tabs>li>a:active:hover {
+        margin-left: 0;
+    }
+
+    .rtl .imgIconRightMb {
+        padding-left: 0;
+    }
+
+    .rtl .searchExportBtnRTL {
+        margin: 0;
+        margin-bottom: 18px;
+    }
+
+    .rtl .modalFilterSelectFieldRTL {
+        padding-right: 10px !important;
+    }
+
+    .rtl .claimImageCloseIconRTL {
+        left: 0;
+        right: auto;
+    }
+
+
+    .rtl .BecomeCalendar .DayPicker-NavBar {
+        right: auto;
+    }
+
+    .rtl .calenderColorTextRTL {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .rtl .languageModalRTL .nav-pills li a {
+        margin: 0;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+
+    .rtl .writeReviewTextRTL {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .rtl .stepLocationBgIconRTL {
+        background-position: 95% 16px !important;
+        padding-right: 44px !important;
+    }
+
+    .rtl .modalCaptionLinkStepRTL {
+        margin-left: unset;
+        margin-right: auto;
+    }
+
+    .rtl .vidSearchForm .geosuggest__input {
+        padding: 0px 10px 0 10px !important;
+    }
+
+    .rtl .vidFormsearch .DateInput {
+        padding: 12px 10px 10px 10px !important;
+    }
+
+    .rtl .floatRightTransRTL {
+        float: right;
+    }
+
+    .rtl .mobTextLeftRTL {
+        text-align: left;
+    }
+
+    .rtl .tabBar2Slider .swiper-wrapper {
+        left: 0;
+    }
+
+    .rtl .stepGridRTL {
+        background: unset;
+    }
+
+    .rtl .deleteWishListModel .modal-dialog {
+        margin: 0;
+    }
+
+    .rtl .learnBtnCssRTL,
+    .rtl .learnBtnCssRTL:hover,
+    .rtl .learnBtnCssRTL:focus,
+    .rtl .learnBtnCssRTL:active,
+    .rtl .learnBtnCssRTL:active:hover {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .rtl .relativeSectionRTL {
+        right: -100px;
+        left: auto;
+    }
+
+    .rtl .relativeSectionRTL::after {
+        right: 100px;
+        left: auto;
+    }
+    .rtl .itneraryTipRTL{
+        right: 0 !important;
+    }
+    .rtl .itneraryTipRTL::after{
+        right: 6px !important;
+        left: auto;
+    }
+    .rtl .verifyTipRTL {
+        right: -235px;
+    }
+    .rtl .verifyTipRTL::after {
+        left: 40px;
+        right: auto;
+    }
+
+}
+@media screen and (max-width: 360px) {
+    .rtl .btnSmallMb{
+        margin-right: auto;
+        margin-left: unset;
+    }
+}
+
+/*********Responsive***********/

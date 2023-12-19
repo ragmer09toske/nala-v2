@@ -1,0 +1,42 @@
+@import '../../../components/variables.css';
+@import '../../../components/common.css';
+
+.root {
+  padding-left: 0;
+  padding-right: 0;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background: #d4d7e5;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.errorMessage{
+  color: red
+}
+.checkBoxWidth{
+  width: 24px;
+  display: inline-block;
+  vertical-align: top;
+}
+.textWidth{
+    width: 84%;
+    vertical-align: middle;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 5px;
+    padding-right: 5px;
+}
+.btnPrimary{
+  padding: 6px 23px 3px 23px !important;
+  font-size: 15px;
+}
+.formControlInput{
+  height:58px;
+}
+.marginTop{
+  margin-top: 20px;
+}

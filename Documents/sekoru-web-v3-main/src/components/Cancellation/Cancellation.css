@@ -1,0 +1,251 @@
+@import '../../components/variables.css';
+@import '../../components/utils.css';
+@import '../../components/commonStyle.css';
+
+
+.Cancel-container-1VRb7 {
+	margin: 0px auto;
+	max-width: 1080px;
+}
+
+.textAreaInput {
+	height: 187px !important;
+	padding: 14px 19px;
+	border-color: var(--common-border-color);
+	border-radius: 6px;	
+	font-size: 16px !important;	
+	resize: none;
+	box-shadow: none;
+}
+
+.textTruncate {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.noPadding {
+	padding: 0px;
+}
+
+.profileAvatarSection {
+	position: absolute;
+	top: 11px;
+	right: 12px;
+
+}
+
+.profileAvatarLink {
+	backface-visibility: hidden;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 2px solid var(--common-text-linkcolor);
+}
+
+.textRight {
+	text-align: right;
+}
+
+.textLeft {
+	text-align: left;
+}
+
+.cancelBg {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border-radius: 6px;
+}
+
+.bgCover {
+	width: 100%;
+	height: 199px;
+	position: relative;
+	border-radius: 6px;
+}
+
+.profileAvatar {
+	background: transparent;	
+	border-radius: 50%;
+}
+
+.carTypeTextSec {
+	width: 100%;
+	margin-bottom: 8px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.steeringIcon {
+	width: 14px;
+	height: 14px;
+	object-fit: contain;
+	margin-right: 3px;
+}
+
+.cancelRightCol {
+	background: var(--common-gray-bg-color);
+	margin-top: 10px;
+}
+
+.carType {
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.dotStyle {
+	top: 0;
+	margin-inline: 4px;
+}
+
+.listingTitle,
+.listingTitle:hover,
+.listingTitle:focus,
+.listingTitle:active,
+.listingTitle:active:hover,
+.listingTitle:focus:hover {
+	color: var(--common-text-color);
+}
+
+.listingTitle:hover,
+.listingTitle:focus,
+.listingTitle:active,
+.listingTitle:active:hover,
+.listingTitle:focus:hover {
+	text-decoration: underline;
+}
+
+.listingTitleSec {
+	margin-bottom: 7px;
+}
+
+.starIcon {
+	width: 14px;
+	height: 14px;
+	object-fit: contain;
+	margin-right: 3px;
+}
+
+.cancelPayDetails {
+	padding: 24px;
+	border-radius: 12px;
+}
+
+.guestFundSec {
+	background-color: var(--cancel-refund-bg);
+	border: 1px solid var(--cancel-refund-border);
+}
+
+.hostFundSec {
+	background-color: var(--cancel-bg);
+	border: 1px solid var(--cancel-border);
+}
+
+.missedEarningsIcon {
+	width: 22px;
+	height: 22px;
+	margin-right: 8px;
+	object-fit: contain;
+}
+
+.rightSecWidth {
+	width: 45%;
+}
+
+.leftSecWidth{
+	width: 55%;
+}
+
+.strikeOutLine {
+	text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--strike-line);
+}
+
+.cancellationPolicySec {
+	text-align: center;
+}
+
+.cancelPolicyContent {
+	max-width: 307px;
+	width: 100%;
+	margin-inline: auto;
+}
+
+.lineBg {
+	background: var(--common-border-color);
+	margin-top: 22px;
+	margin-bottom: 22px;
+}
+
+.displayGridDate {
+	display: grid;
+	grid-template-columns: 36% 15% 36%;
+	gap: 15px;
+}
+
+.dateArrowIcon {
+	margin-top: -3px;
+}
+
+.horizontalLineStyle{
+	border-top: 1px solid var(--common-border-color);
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+.avatarSpaceRight{
+	margin-right: 20px;
+}
+
+.firstName{
+	text-decoration: none;
+}
+
+.firstName:hover,
+.firstName:focus,
+.firstName:active,
+.firstName:hover,
+.firstName:active:hover{
+	text-decoration: underline
+}
+
+.cancellationBtnSection{
+	justify-content: flex-end;
+}
+
+.spaceInline{
+	margin-inline: 0;
+}
+
+.profileLinkPadding {
+	padding: 1px !important;
+}
+
+@media screen and (max-width:767px) {
+	.cancelPolicyContent {
+		max-width: 100%;
+	}
+	.displayGridDate {
+		grid-template-columns: 40% 14% 40%;
+		gap: 8px;
+	}
+	.cancellationBtnSection{
+		display: block;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.mobMarginBtn{
+		margin-inline: 0 !important;
+		margin-bottom: 18px;
+	}
+	.cancelReservationBtn{
+		display: block;
+		margin-inline: auto;
+	}
+}

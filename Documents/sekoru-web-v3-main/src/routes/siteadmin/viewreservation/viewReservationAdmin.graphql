@@ -1,0 +1,88 @@
+query viewReservationAdmin ($id:Int!){
+  viewReservationAdmin(id:$id){
+    id
+    listId
+    hostId
+    guestId
+    checkIn
+    checkOut
+    listTitle
+    guestServiceFee
+    hostServiceFee
+    reservationState
+    total
+    delivery
+    currency
+    confirmationCode
+    createdAt
+    updatedAt
+    securityDeposit
+    claimAmount
+    claimPayout
+    claimRefund
+    listData {
+      id
+      title
+      bookingType
+    }
+    hostData {
+      profileId
+      firstName
+      lastName
+      phoneNumber
+    }
+    hostPayout {
+      id
+      payEmail
+    }
+    hostTransaction {
+      id
+      reservationId
+    }
+    guestData {
+      profileId
+      firstName
+      lastName
+      phoneNumber
+    }
+    transaction {
+      id
+      payerId
+      payerEmail
+      receiverEmail
+      receiverId
+      paymentType
+      total
+      currency
+      transactionId
+    }
+    refundStatus {
+      id
+      receiverEmail
+      total
+      currency
+      reservationId
+    }
+    cancellationDetails {
+      id
+      reservationId
+      refundToGuest
+      payoutToHost
+      guestServiceFee
+      hostServiceFee
+      total
+      currency
+      status
+      createdAt
+      cancellationPolicy
+      cancelledBy
+    }
+    hostUser{
+      email
+    }
+    guestUser{
+      email
+    }
+    status
+  }
+}

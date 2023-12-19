@@ -1,0 +1,9 @@
+@import '../admin-common.css';
+
+.sectionCenter{
+    display: block;
+	margin-inline: auto;
+    margin-top: 46px;
+    float: none !important;
+    max-width: 602px;
+}

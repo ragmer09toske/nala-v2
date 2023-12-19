@@ -1,0 +1,119 @@
+@import '../../variables.css';
+
+.btnBlock {
+	width: 100%;
+	position: relative;
+	white-space: normal;
+	display: block;
+}
+
+.btnLarge,
+.btnLarge:hover,
+.btnLarge:focus,
+.btnLarge:active:hover,
+.btnLarge:active:focus {
+	padding: 15px 16px !important;
+	line-height: 16px;
+	font-size: 18px;
+	font-weight: 400;
+	border-radius: 6px !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 8px 11px #31313126;
+}
+
+.geoSuggestContainer {
+	width: 100% !important;
+	margin: 0px !important;
+}
+
+/** Search Form - End **/
+
+.locationSection {
+	width: 100%;
+	height: 60px;
+}
+
+.searchFormContainer {
+	width: 100%;
+	background: #ffffff;
+	padding: 0px 10px;
+	border: 1px solid var(--common-border-color);
+	border-radius: 6px;
+}
+
+.searchBtnContainer {
+	position: absolute;
+	right: 27px;
+	top: 10px;
+	z-index: 4;
+}
+
+.locationGrid {
+	display: flex;
+	height: 60px;
+	background: #fff;
+	align-items: center;
+	border-radius: 6px;
+	padding: 0 6px 0 23px;
+	justify-content: space-between;
+}
+
+.iconWidth {
+	position: relative;
+	top: -2px;
+}
+
+.inputWidth {
+	width: 560px;
+}
+
+
+.steeringImage {
+	width: 35px;
+	height: 33px;
+}
+
+.paddingLeft {
+	padding-left: 10px;
+}
+.locationFlex{
+	display: flex;
+	align-items: center;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+	.locationGrid {
+		padding: 0 7px 0 15px;
+	}
+
+	.btnLarge,
+	.btnLarge:hover,
+	.btnLarge:focus,
+	.btnLarge:active:hover,
+	.btnLarge:active:focus {
+		padding: 15px 16px !important;
+	}
+}
+
+@media(max-width:767px) {
+	.paddingLeft {
+		padding-left: 3px;
+	}
+
+	.locationGrid {
+		padding: 0 7px 0 10px;
+	}
+
+	.LocationSearchForm {
+		width: 100%;
+	}
+
+	.searchIconContainer {
+		width: 28px;
+		padding-left: 0px;
+	}
+	.inputWidth {
+		width: auto;
+	}
+}

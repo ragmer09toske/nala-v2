@@ -1,0 +1,14 @@
+query getWhyHostAllReviews($currentPage: Int, $searchList: String)  {
+  getWhyHostAllReviews(currentPage: $currentPage, searchList: $searchList){
+    status
+    errorMessage
+    count
+    results{
+      id
+      userName
+      reviewContent
+      image
+      isEnable
+    }
+  }
+}

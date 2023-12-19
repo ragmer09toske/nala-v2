@@ -1,0 +1,109 @@
+@import url('../../../public/css/variables.css');
+@import url('../commonStyle.css');
+
+.cardSecBg {
+    border: 1px solid var(--common-border-color);
+    border-radius: 6px;
+    margin-bottom: 24px;
+}
+
+.cardSecBg:last-child {
+    margin-bottom: 0;
+}
+
+.trustGridSec {
+    display: grid;
+    grid-template-columns: 80px 4fr 2fr;
+    align-items: center;
+    gap: 18px;
+    margin-inline: 24px;
+    padding: 24px 0;
+    border-bottom: 1px solid var(--common-border-color);
+}
+
+.trustGridSec:last-child {
+    border-bottom: 0;
+}
+
+.iconSize {
+    max-width: 80px;
+    max-height: 80px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.btnVerified,
+.btnVerified:hover,
+.btnVerified:disabled,
+.btnVerified:disabled:hover {
+    min-width: 107px;
+    max-width: 100%;
+    border-radius: 19px;
+    background-color: var(--verified-color);
+    color: var(--btn-primary-color);
+    padding-inline: 15px;
+    text-align: center;
+    white-space: normal;
+    word-break: break-word;
+    border-color: var(--verified-color);
+    opacity: 1;
+    display: flex;
+    align-items: center;
+}
+
+.btnSecAlignment {
+    margin-left: auto;
+}
+
+.tickIcon {
+    width: 14px;
+    height: 10px;
+    object-fit: contain;
+    margin-right: 6px;
+}
+
+.titleText {
+    margin-bottom: 8px !important;
+}
+
+.textLink,
+.textLink:hover,
+.textLink:active,
+.textLink:focus,
+.textLink:active:hover {
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    word-break: break-word;
+}
+
+.linkSpaceRight {
+    margin-right: 6px;
+}
+
+.arrowIcon {
+    width: 15px;
+    height: 12px;
+}
+
+.marginBottmNone {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:767px) {
+    .trustGridSec {
+        grid-template-columns: 1fr;
+    }
+
+    .btnSecAlignment {
+        margin-right: auto;
+        margin-left: 0;
+    }
+
+    .iconSize {
+        max-width: 50px;
+        max-height: 50px;
+    }
+}

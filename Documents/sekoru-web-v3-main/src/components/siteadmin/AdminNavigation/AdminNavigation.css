@@ -1,0 +1,31 @@
+@import '../../../components/variables.css';
+
+.root {
+  margin: 0;
+}
+
+.navDropDown {
+  border: 0px;
+}
+.languageIcon{
+  width: 100%;
+  margin-right: 3px;
+  position: relative;
+  top: -1px;
+}
+
+.displayTabel{
+  display: table;
+  position: relative;
+  top: 10px;
+}
+.displayTabelCell{
+  display: table-cell;
+  vertical-align: middle;
+}
+.languageIconLeft{
+  width: 13px;
+}
+.lauageContent{
+  padding-left: 3px;
+}

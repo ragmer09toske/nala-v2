@@ -1,0 +1,247 @@
+@import '../variables.css';
+.root {
+	background: #fff;
+}
+
+.container {
+	width: 100%;
+	max-width: 1274px;
+	margin: 0 auto;
+	display: block;
+}
+
+.rentAllHeader {
+	background: #fff;
+	border-width: 0px 0px 1px 0px;
+	border-color: #dce0e0;
+	border-radius: 0px;
+	height: 97px;
+	width: 100%;
+	box-shadow: none;
+	margin-bottom: 0px;
+	z-index: 7;
+	padding: 18px 0px 0px;
+}
+
+.rentAllHeaderBorderLess {
+	border: 0px;
+	box-shadow: none;
+}
+
+.brand {
+	line-height: inherit;
+	vertical-align: middle;
+	text-decoration: none;
+	height: 81px;
+	float: left;
+	padding: 0px 19px;
+	color: var(--common-text-color);
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.brand:hover,
+.brand:focus {
+	text-decoration: none;
+	backface-visibility: hidden !important;
+}
+
+.brandImg {
+	display: table-cell;
+	padding-left: 12px;
+	padding-right: 12px;
+	max-width: 180px;
+	backface-visibility: hidden !important;
+}
+
+.brandImg img {
+	max-width: 180px;
+	backface-visibility: hidden !important;
+}
+
+.brandImgToggle {
+	padding-left: 12px;
+	padding-right: 12px;
+	backface-visibility: hidden !important;
+}
+
+.navBarToggle {
+	color: var(--common-text-color);
+	float: right;
+	font-size: inherit;
+	line-height: inherit;
+	vertical-align: middle;
+	border: 0px;
+	border-radius: 0px;
+	margin: 0px;
+	padding: 0px 19px 0px 0px;
+	backface-visibility: hidden;
+	height: 81px;
+	margin-right: 10px;
+}
+
+.rentAllHeaderAdmin {
+	background: #fff;
+	border-width: 0px 0px 1px 0px;
+	border-color: #dce0e0;
+	border-radius: 0px;
+	min-height: 63px;
+	line-height: 63px;
+	width: 100%;
+	box-shadow: none;
+	margin-bottom: 0px;
+	z-index: 7;
+}
+
+.navBarToggle:hover,
+.navBarToggle:focus,
+.navBarToggle:hover:focus {
+	background: none !important;
+}
+
+.brandAdmin {
+	line-height: inherit;
+	vertical-align: middle;
+	text-decoration: none;
+	height: 63px;
+	float: none;
+	padding: 0px 19px;
+	color: var(--common-text-color);
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.hamburgerIcon {
+	font-size: 20px;
+	margin-top: 20px;
+	float: right;
+}
+
+.heightAuto {
+	height: auto !important;
+}
+
+.heightFixed {
+	height: 81px !important;
+}
+
+
+.searchHeader {
+	width: 100%;
+	max-width: 100%;
+	padding: 0px;
+}
+
+.adminRoot{
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1030;
+}
+.headerFlexContainer{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-align:center;
+	-ms-flex-align:center;
+	align-items:center;
+	flex-wrap: nowrap;
+}
+.headerFlexBox{
+	position: relative;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-align:center;
+	-ms-flex-align:center;
+	align-items:center;
+	-webkit-box-pack:space-between;
+	-ms-flex-pack:space-between;
+	justify-content:space-between;
+	flex-wrap: nowrap;
+}
+.homeLogo{
+	height: 100% !important;
+}
+.homeLogo img{
+	height: 60px !important;
+}
+.homeLogo img{
+	object-fit: contain;
+    object-position: left;
+}
+.paddingBottom18{
+	padding-bottom: 18px !important;
+}
+
+@media screen and (max-width: 1200px) {
+
+	.heightAuto {
+		height: auto !important;
+	}
+
+	.heightFixed {
+		height: 81px !important;
+	}
+}
+@media (max-width: 991.98px) and (min-width: 768px) {
+	.brandImg img {
+		max-width: 90px;
+	}
+	.brand{
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.breakPoint {
+		display: none !important;
+	}
+
+	.mobileMenu {
+		position: fixed;
+		width: 100%;
+		background: #fff;
+		top: 0px;
+		height: auto;
+		z-index: 5;
+		right: -100%;
+		transition: 0.5s;
+		height: 100vh;
+	}
+
+	.menuOpen {
+		right: 0;
+		transition: 0.5s;
+	}
+
+	.menuClose {
+		right: -100%;
+	}
+	.menuOpen ul li>a{
+		opacity: 1;
+	}
+	.menuClose ul li>a{
+		opacity: 0;
+	}
+	.closeColor {
+		color: #0009;
+		font-size: 36px;
+		position: absolute;
+		display: block;
+		top: 15px;
+		padding: 0;
+		right: 22px;
+		z-index: 8;
+	}
+}
+
+@media screen and (max-width: 767.98px) {
+	.breakPoint {
+		display: none !important;
+	}
+	.closeColor {
+		top: 5px;
+	}
+}

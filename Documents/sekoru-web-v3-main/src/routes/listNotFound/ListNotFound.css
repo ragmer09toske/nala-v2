@@ -1,0 +1,22 @@
+@import '../../components/variables.css';
+@import '../../components/helpers.css';
+@import '../../components/common.css';
+ .root {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.container {
+	margin: 0 auto;
+	padding: 0 0 40px;
+	max-width: var(--max-content-width);
+}
+.textJumbo {
+	font-size: 145px;
+	font-weight: bold;
+	margin: 0;
+}
+.textMedium {
+	font-size: 85px;
+	font-weight: bold;
+	margin: 0;
+}

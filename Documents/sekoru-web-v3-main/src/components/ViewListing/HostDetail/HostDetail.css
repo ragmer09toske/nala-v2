@@ -1,0 +1,19 @@
+.showHideBtn,
+.showHideBtn.focus,
+.showHideBtn:active,
+.showHideBtn:hover {
+  padding: 0px !important;
+  font-weight: 500;
+  word-wrap: break-word;
+  line-height: 18px;
+  letter-spacing: normal;
+  font-size: 18px;
+  border: 0px !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid var(--common-text-linkcolor) !important;
+  color: var(--common-text-linkcolor) !important;
+}
+.displayFlex {
+    display: flex;
+    align-items: flex-start;
+  }

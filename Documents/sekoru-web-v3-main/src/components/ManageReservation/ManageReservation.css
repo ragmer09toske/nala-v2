@@ -1,0 +1,102 @@
+@import '../../components/variables.css';
+
+.panelHeader {
+    border-radius: 12px;
+    width: 100%;
+    display: block;
+    border: 1px solid var(--common-border-color);
+    background: var(--background-color);
+    padding: 15px 24px 48px 24px;
+}
+
+.formControlInput {
+    width: 340px;
+    max-width: 100%;
+    height: 48px;
+    border: 1px solid var(--search-input-border);
+    border-radius: 6px;
+}
+
+.locationBgIcon {
+    background-repeat: no-repeat;
+    background-position: 18px 50%;
+    padding-left: 40px;
+    padding-right: 18px;
+    background-size: 13px;
+    background-image: url('../../../public/SiteIcons/searchIcon.svg');
+}
+
+
+.filterBtn {
+    width: max-content;
+    max-width: 100%;
+    white-space: normal;
+    display: flex;
+    align-items: center;
+    word-break: break-word;
+    border-radius: 6px;
+    background-color: transparent !important;
+    border: 1px solid var(--border-color) !important;
+    padding: 10px 19px !important;
+    color: var(--common-text-color) !important;
+    box-shadow: inherit !important;
+    justify-content: center;
+}
+
+.linkCssActive {
+    background-color: var(--btn-primary-bg) !important;
+    border: 1px solid var(--btn-primary-bg) !important;
+    color: var(--btn-primary-color) !important;
+    padding: 10px 19px !important;
+    border-radius: 6px !important;
+    box-shadow: inherit !important;
+}
+
+.linkCssActive img {
+    filter: invert(89%) sepia(100%) saturate(27%) hue-rotate(8deg) brightness(109%) contrast(107%);
+}
+
+.plusIcon {
+    margin-right: 6px;
+    width: 16px;
+    height: 15px;
+    object-fit: contain;
+}
+
+.noMargin {
+    margin: 0;
+}
+
+.searchFilterGrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .mobileSearchWidth,
+    .formControlInput {
+        width: 100%;
+    }
+
+    .linkCss {
+        display: block;
+        text-align: center;
+    }
+
+    .locationBgIcon {
+        padding-left: 45px;
+        margin-bottom: 0px;
+    }
+
+    .searchFilterGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .filterBtnAlign {
+        margin-left: auto;
+    }
+}

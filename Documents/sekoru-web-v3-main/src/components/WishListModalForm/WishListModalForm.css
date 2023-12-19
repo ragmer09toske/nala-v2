@@ -1,0 +1,44 @@
+.displayFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.listHeight {
+    max-height: 40vh;
+    overflow-y: auto;
+}
+
+.imgContainer {
+    width: 100%;
+    max-width: 54px;
+    height: 54px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 14%;
+    background-color: var(--common-gray-bg-color);
+    border-radius: 6px;
+}
+.defaultImage{
+    background-color: #F3F3F3;
+    background-size: 30px;
+}
+.heartBtn, .heartBtn:hover, .heartBtn:active, .heartBtn:focus{
+    background-color: transparent !important;
+    box-shadow: unset !important;
+    border: unset !important;
+    padding: 0 !important;
+    color: var(--common-text-linkcolor) !important;
+    cursor: pointer;
+}
+.namePadding{
+    padding: 0 18px;
+}
+.marginBottom{
+    margin-bottom: 18px;
+}
+.marginBottom:last-child{
+    margin-bottom: 0;
+}

@@ -1,0 +1,5 @@
+@import '../../../../../components/common.css';
+
+.capitalizeText {
+    text-transform: capitalize;
+}

@@ -1,0 +1,138 @@
+@import '../../../components/variables.css';
+.container{
+	width: 100%;
+	max-width: var(--max-content-width);
+    margin: 0 auto;
+	padding: 0 20px;
+}
+ .easyImage {
+	padding: 90px 0 0px;
+}
+
+.heading {
+	font-size: 48px;
+	font-weight: 600;
+	margin: 0 0 12px;
+	text-align: center;
+}
+.desc {
+	font-size: 18px;
+	text-align: center;
+	margin: 0 0 38px;
+}
+/** RentAll - Begin **/
+
+.whybnb {
+	padding-top: 15px;
+	margin-bottom: 84px;
+}
+h4.common {
+	font-size: 24px;
+	font-weight: 800;
+	text-align: center;
+	margin-bottom: 10px;
+}
+p.common {
+	font-size: 16px;
+	line-height: 1.7;
+	text-align: center;
+	font-weight: 400;
+}
+.whybnb .whyblock {
+	padding-right: 45px;
+}
+.whiteBox{
+	background-color: #fff;
+	padding: 40px 36px 36px;
+	box-shadow: 0px 10px 21px #BFBFBF24;
+border-radius: 6px;
+}
+.grayText{
+	color: var(--muted-text-color);
+}
+.iconCss{
+	width: 100%;
+	max-width: 55px;
+}
+.gap{
+	gap: 12px;
+}
+.arrowCenter{
+	display: flex;
+	justify-content: center;
+	margin-top: 24px;
+}
+.displayInline{
+	cursor: pointer;
+}
+.btnCss, .btnCss:hover, .btnCss:focus, .btnCss:active, .btnCss:active:hover{
+	box-shadow: 0px 21px 41px #31313126 !important;
+}
+.flexCenter{
+	display: flex;
+	justify-content: center;
+}
+.shareIconCss{
+	width: 26px;
+}
+@media screen and (max-width: 991px) {
+	.whybnb {
+		padding-top: 45px;
+		margin-bottom: 0px;
+	}
+	h4.common {
+		font-size: 23px;
+		font-weight: 600;
+	}
+	.whyblock {
+		margin-bottom: 85px;
+		padding-right: 0px!important;
+		padding-left: 0px;
+	}
+	.mainhedding h1 {
+		font-size: 36px;
+		line-height: 51px;
+		margin-bottom: 13px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.whybnb {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.common {
+		font-size: 23px;
+		font-weight: 600;
+	}
+	.whyblock {
+		margin-bottom: 35px;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.mainhedding h1 {
+		font-size: 32px;
+		line-height: 51px;
+		text-align: left;
+		margin-bottom: 5px;
+		text-align: left;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.steps {
+		margin-top: 24px;
+	}
+	h4.common {
+		font-size: 20px;
+	}
+	p.common {
+		font-size: 14px;
+		line-height: 1.7;
+		font-weight: 400;
+	}
+}
+
+@media (max-width: 450px) {
+	.heading {
+		font-size: 30px;
+	}
+}

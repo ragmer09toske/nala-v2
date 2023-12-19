@@ -1,0 +1,116 @@
+@import '../../../components/variables.css';
+@import '../../../components/utils.css';
+
+.listText {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.alertBlock {
+	text-transform: none;
+	padding: 12px 20px;
+	border-radius: 6px;
+}
+
+.alertBlockSuccess {
+	background-color: #F3F7FF;
+}
+
+.alertBlockError {
+	background-color: var(--btn-primary-bg);
+	color: #ffffff;
+}
+
+.displayGrid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.mainPadding {
+	padding: 8px;
+}
+
+.avatarSection {
+	background-color: #F9F9F9;
+	border: 1px solid #E9E9E9;
+	border-radius: 12px;
+	padding: 30px 0px;
+	margin-right: 21px;
+}
+
+.dateSection {
+	margin-left: 21px;
+}
+
+.displayTimeGrid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.paddingRight {
+	padding-right: 13px;
+}
+
+.paddingLeft {
+	padding-left: 13px;
+}
+
+.streeingImage {
+	width: 100%;
+	max-width: 18px;
+}
+
+.displayFlex {
+	display: flex;
+	align-items: flex-start;
+}
+
+.paddingCommon {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+.errorCss{
+	color: red;
+	font-size: 16px;
+}
+.arrowIconCss{
+	padding-left: 6px;
+}
+.contactLine{
+	margin: 30px 0 25px;
+}
+@media screen and (max-width: 767px) {
+	.displayGrid {
+		grid-template-columns: 100%;
+	}
+
+	.avatarSection {
+		margin-right: 0px;
+	}
+
+	.paddingRight {
+		padding-right: 5px;
+	}
+	
+	.paddingLeft {
+		padding-left: 5px;
+	}
+	
+	.dateSection {
+		margin-left: 0px;
+	}
+
+	.mainPadding {
+		padding: 0px;
+	}
+
+	.mobileMargin {
+		margin-top: 18px;
+	}
+
+	.paddingCommon {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

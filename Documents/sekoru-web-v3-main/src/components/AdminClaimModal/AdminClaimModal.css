@@ -1,0 +1,63 @@
+@import '../helpers.css';
+@import '../common.css';
+
+.formGroup {
+	margin-bottom: 20px;
+}
+
+.landingStep3 {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.errorMessage {
+	color: red;
+}
+.headerTitle{
+	font-size: 20px;
+    font-weight: 600;
+}
+.textCss{
+	font-size: 16px;
+}
+.cancelBtn{
+	color: #090B1E !important;
+	background-color: transparent !important;
+	border: inherit !important;
+	display: inline-block;
+	margin-right: 36px;
+	font-size: 16px;
+}
+.submitBtn{
+	background-color: var(--common-background-color) !important;
+	border-radius: 18px;
+	color: #fff !important;
+	padding: 8px 22px !important;
+	display: inline-block;
+	font-size: 16px;
+}
+.disPlayInline{
+	display: inline-block;
+}
+.alignRight{
+	text-align: right;
+}
+.checkText{
+	margin: 10px 0 25px;
+}
+.symbolCss{
+	position: relative;
+	top: 1px;
+	left: 2px;
+}
+.hostClaimFieldStyle {
+	height: 48px;
+	border-radius: 6px;
+	border: 1px solid var(--common-border-color);
+	padding: 14px 19px;
+	box-shadow: none;
+	background-color: #F9F9F9;
+}
+.marginLeft{
+	margin-left: 12px;
+}

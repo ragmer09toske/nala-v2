@@ -1,0 +1,16 @@
+@import '../admin-common.css';
+@import '../../variables.css';
+
+.cardHeader{
+    padding: 18px 24px;
+    border-bottom: 1px solid var(--common-border-color);
+}
+
+.cardBodyStyle{
+    padding: 24px;
+}
+
+.adminRadioBtn{
+    margin-right: 8px;
+}
+

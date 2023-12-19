@@ -1,0 +1,68 @@
+@import '../../components/variables.css';
+
+.lineThrough {
+	position: relative;
+	z-index: 1;
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-weight: 600;
+	font-size: 18px;
+	margin: 18px 0px;
+}
+
+.lineThrough::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: -1;
+	margin-top: -5px;
+	margin-left: -20px;
+	width: 40px;
+	height: 10px;
+	background-color: #fff;
+	content: '';
+}
+
+.lineThrough::after {
+	position: absolute;
+	top: 49%;
+	z-index: -2;
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	content: '';
+}
+
+.sectionBlock {
+	width: 100%;
+	max-width: 358px;
+	margin: 0 auto;
+	padding: 20px 0px 0px;
+}
+
+.carImage {
+	max-width: 480px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	border-radius: 12px;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+	.sectionBlock {
+		max-width: 100%;
+		padding: 20px 0px 0px 20px;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.sectionBlock {
+		max-width: 100%;
+	}
+
+	.carImage {
+		display: none;
+	}
+}

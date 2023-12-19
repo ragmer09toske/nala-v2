@@ -1,0 +1,196 @@
+@import '../../components/variables.css';
+
+.listLayout {
+	list-style: none;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+.currencyColor {
+	color: var(--currency-text-color);
+}
+
+.tabItem {
+	display: block;
+	padding: 0px 0px 7px;
+	position: relative;
+	text-align: center;
+	font-size: 18px;
+	color: #7D7D7D;
+	cursor: pointer;
+	border-bottom: 1px solid transparent;
+	margin-right: 30px;
+}
+
+.tabItem:hover {
+	text-decoration: none;
+	color: var(--common-text-color);
+}
+
+.active .tabItem {
+	color: var(--common-text-color);
+	border-color: var(--common-text-linkcolor);
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.listContainer {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+    border-bottom: 1px solid var(--common-border-color);
+}
+.marginBottom{
+	margin-bottom: 25px;
+}
+.marginRight{
+	margin-right: 6px;
+}
+.searchWidth{
+	width: 100%;
+	max-width: 310px;
+	height: 48px;
+}
+.transactionSearchInput{
+	width: 100%;
+    height: 100%;
+    padding: 13px 13px 13px 36px;
+    border: 1px solid var(--border-secondary-color);
+    border-radius: 6px;
+    background: var(--background-color) 0% 0% no-repeat padding-box;
+	box-shadow: unset !important;
+}
+.filterBtn{
+	height: 48px;
+	padding: 13px 24px;
+	font-size: 18px;
+	font-weight: 500;
+	color: var(--btn-primary-bg);
+	background-color: var(--background-color);
+	border-color: var(--border-secondary-color);
+}
+.filterBtn:hover,.filterBtn:active,.filterBtn:focus,.filterBtn:active:hover{
+	color: var(--btn-primary-bg);
+	background-color: var(--background-color);
+	border-color: var(--border-secondary-color);
+	box-shadow: unset;
+}
+.plusIcon{
+	margin-right: 6px;
+}
+.csvExport{
+    border: 1px solid var(--border-secondary-color);
+    border-radius: 6px;
+    padding: 12px 19px;
+    margin-right: 12px;
+	height: 48px;
+}
+.csvExportLink{
+  font-size: 18px;
+  color: var(--btn-primary-bg);
+  font-weight: 500;
+}
+.csvExportLink:hover,.csvExportLink:active,.csvExportLink:focus,.csvExportLink:active:hover{
+	color: var(--btn-primary-bg);
+	text-decoration: unset !important;
+}
+.searchMarginRight{
+	margin-right: auto;
+}
+.searchBox{
+	position: relative;
+}
+.searchIcon{
+	position: absolute;
+    top: 17px;
+    left: 18px;
+}
+.searchFlexBox{
+	flex-wrap: wrap;
+}
+.linkCssActive{
+    background: var(--btn-primary-bg) !important;
+    color: var(--background-color) !important;
+    border-radius: 6px !important;
+    -webkit-border-radius: 6px !important;
+    -moz-border-radius: 6px !important;
+    -ms-border-radius: 6px !important;
+    -o-border-radius: 6px !important;
+}
+.linkCssActive .plusIcon{
+	filter: invert(89%) sepia(100%) saturate(27%) hue-rotate(8deg) brightness(109%) contrast(107%);
+	-webkit-filter: invert(89%) sepia(100%) saturate(27%) hue-rotate(8deg) brightness(109%) contrast(107%);
+}
+.confirmCodeColor{
+	color: var(--common-text-linkcolor);
+}
+.confirmCodeColor:hover,.confirmCodeColor:focus,.confirmCodeColor:active,.confirmCodeColor:active:hover,.confirmCodeColor:focus:hover{
+	text-decoration: none;
+	color: var(--common-text-linkcolor)
+}
+.locationBgIcon{
+	background: url('../../../public/SiteIcons/listSeaechIcon.svg');
+	background-repeat: no-repeat;
+	background-position: 18px 49%;
+	padding-left: 40px;
+  	background-size: 15px;
+}
+.detailsWidth{
+	min-width: 250px;
+}
+.wordBreak{
+	word-break: break-word !important;
+}
+.noDataIconSec{
+	width: 114px;
+	height: 110px;
+}
+
+.noTransactionSecSpace{
+	margin-top: 76px;
+	margin-bottom: 119px;
+}
+.iconTop{
+	position: relative;
+	top: -2px
+}
+@media screen and (max-width: 767px) {
+	.mobileWidth {
+		width: 100% !important;
+	}
+	.listContainer{
+		border-bottom: unset;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.listContainer li .tabItem{
+		margin-right: 0;
+		margin-left: 0;
+		margin-bottom: 12px;
+	}
+	.listFlex,.csvExport{
+		margin-right: 0;
+		width: 100%;
+		margin-bottom: 18px;
+		justify-content: center;
+	}
+	.filterBtn{
+		width: 100%;
+	}
+	.filterBtn{
+		justify-content: center;
+	}
+	.detailsWidth{
+		min-width: 230px;
+	}	
+	.noTransactionSecSpace{
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+	.searchWidth{
+		max-width: 240px;
+	}
+}

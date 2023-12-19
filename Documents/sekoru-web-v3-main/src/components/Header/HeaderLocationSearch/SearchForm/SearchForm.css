@@ -1,0 +1,109 @@
+/** Common - Start **/
+
+@import '../../../variables.css';
+ .btn {
+	padding: 7px 21px;
+	border-color: #c4c4c4;
+	background: white;
+	color: var(--common-text-color);
+	font-size: 18px;
+}
+.btnBlock {
+	width: 100%;
+	position: relative;
+	white-space: normal;
+	display: block;
+}
+.btn:hover,
+.btn:focus,
+.btn:hover:focus {
+	background: white;
+	color: var(--common-text-color);
+}
+.btnPrimary {
+	border-color: var(--btn-primary-bg);
+	background-color: var(--btn-primary-bg);
+	color: #fff;
+	box-shadow: 0px 8px 11px #31313126;
+}
+.btnlarge {
+	padding: 9px 27px;
+}
+.btnPrimary:hover,
+.btnPrimary:focus,
+.btnPrimary:active,
+.btnPrimary:active:hover,
+.btnPrimary:active:focus {
+	border-color: var(--btn-primary-bg-hover);
+	background-color: var(--btn-primary-bg-hover);
+	color: #fff;
+	box-shadow: 0px 8px 11px #31313126;
+}
+.btnPrimaryBorder {
+	border-color: var(--btn-primary-bg);
+	color: var(--btn-primary-bg);
+	background-color: #fff;
+}
+.btnPrimaryBorder:hover,
+.btnPrimaryBorder:focus,
+.btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover,
+.btnPrimaryBorder:active:focus {
+	border-color: var(--btn-primary-bg-hover);
+	color: var(--btn-primary-bg-hover);
+	background-color: #fff;
+	box-shadow: 0px 8px 11px #31313126;
+	
+}
+.searchGrid{
+	display: grid;
+	grid-template-columns: 219px auto auto;
+	align-items: center;
+	background-color: #ffffff;
+	padding: 4px 5px 4px 17px;
+	border: 1px solid #E0E0E0;
+    border-radius: 6px;
+	box-shadow: 0px 4px 11px #0000000D;
+}
+.searchButton{
+	display: flex;
+    align-items: center;
+    padding: 9px 0px;
+	justify-content: center;
+	box-shadow: 0px 8px 11px #31313126;
+	border-radius: 6px;
+}
+.rightBorder{
+	position: relative;
+}
+.rightBorder::after{
+	content: '';
+	position: absolute;
+	width: 1px;
+	height: 29px;
+	background: var(--common-border-color);
+	right: 25px;
+	top:0px;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+	.searchGrid {
+		grid-template-columns: 173px 256px 48px;
+	}
+}
+@media screen and (max-width: 767px) {
+    .rightBorder::after{
+		display: none;
+	}
+	.searchGrid{
+		grid-template-columns: auto;
+	}
+	.searchButton{
+		margin-top: 27px;
+	}
+	.rightBorder{
+		border-bottom: 1px solid var(--common-border-color);
+		padding-bottom: 15px;
+		margin-bottom: 15px;
+	}
+}
+/** Search Form - End **/

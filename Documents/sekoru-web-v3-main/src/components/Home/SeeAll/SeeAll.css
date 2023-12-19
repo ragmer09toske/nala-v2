@@ -1,0 +1,39 @@
+@import '../../variables.css';
+
+.seeAllContainer {
+	margin: 30px 0 0;
+	text-align: center;
+}
+
+.seeAllBtnIcon {
+	margin-top: -4px;
+}
+
+.seeAllBtnnew,
+.seeAllBtnnew:hover,
+.seeAllBtnnew:focus,
+.seeAllBtnnew:active {
+	color: var(--common-text-linkcolor) !important;
+	font-size: 16px;
+	outline: none !important;
+	background: transparent !important;
+	border: none;
+	font-size: 18px;
+	padding: 0;
+	border-bottom: 1px solid var(--common-text-linkcolor) !important;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+@media screen and (max-width: 1170px) {
+	.seeAllBtn {
+		position: absolute;
+		right: 0;
+	}
+}
+
+/* @media screen and (max-width: 767px) {
+	.seeAllContainer {
+		display: none;
+	}
+} */

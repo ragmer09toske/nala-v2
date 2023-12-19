@@ -1,0 +1,81 @@
+query getAllReservation ($userType: String, $currentPage: Int, $dateFilter: String, $listId:Int, $startDate:String, $endDate:String, $orderBy:String, $searchKey: String  ){
+  getAllReservation(userType: $userType, currentPage: $currentPage, dateFilter: $dateFilter, listId:$listId, startDate:$startDate, endDate:$endDate, orderBy:$orderBy, searchKey:$searchKey  ){
+    reservationData {
+      id
+      listId
+      hostId
+      guestId
+      checkIn
+      checkOut
+      guests
+      listTitle
+      guestServiceFee
+      hostServiceFee
+      reservationState
+      total
+      currency
+      createdAt
+      startTime
+      endTime
+      securityDeposit
+      claimAmount
+      claimStatus
+      claimPayout
+      claimRefund
+      claimReason
+      claimImages
+      messageData {
+        id
+      }
+      listData {
+        id
+        title
+        street
+        city
+        state
+        country
+        zipcode
+      }
+      hostData {
+        profileId
+        displayName
+        firstName
+        picture
+        phoneNumber
+        countryCode
+        userData {
+          email
+        }
+        userVerification{
+          isPhoneVerified
+          isEmailConfirmed
+        }
+      }
+      guestData {
+        profileId
+        displayName
+        firstName
+        picture
+        phoneNumber
+        countryCode
+        userData {
+          email
+        }
+        userVerification{
+          isPhoneVerified
+          isEmailConfirmed
+        }
+      }
+      cancellationDetails {
+        id
+        createdAt
+        reservationId
+        refundToGuest
+        payoutToHost
+      }
+    }
+    count
+    currentPage
+    totalCount
+  }
+}

@@ -1,0 +1,12 @@
+@import '../../../components/variables.css';
+
+.container {
+    margin: 0 auto;
+    max-width: 1274px;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0 24px;
+    }
+}

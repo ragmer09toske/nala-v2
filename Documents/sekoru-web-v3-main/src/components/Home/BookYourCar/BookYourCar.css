@@ -1,0 +1,34 @@
+@import '../../variables.css';
+.bookGrid{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: center;
+  padding: 60px 0px;
+}
+.iconCss{
+  width: 20px;
+  padding-right: 6px;
+}
+.bookFlex{
+  display: flex;
+  align-items: baseline;
+  word-break: break-word;
+}
+.paddingLeft{
+  padding-left: 120px;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .paddingLeft {
+    padding-left: 60px;
+}
+}
+@media screen and (max-width: 767px) {
+  .bookGrid{
+    grid-template-columns: 100%;
+    padding: 60px 0px;
+  }
+  .paddingLeft {
+    padding-left: 0;
+    padding-top: 22px;
+}
+}

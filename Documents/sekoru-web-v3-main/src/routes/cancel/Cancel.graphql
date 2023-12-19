@@ -1,0 +1,110 @@
+query cancellationData($reservationId: Int!, $userType: String!){
+  cancelReservationData(reservationId: $reservationId, userType: $userType){
+    id
+    listId
+    hostId
+    guestId
+    checkIn
+    checkOut
+    guests
+    basePrice
+    delivery
+    listTitle
+    hostServiceFee
+    guestServiceFee
+    total
+    currency
+    confirmationCode
+    reservationState
+    discount
+    cancellationPolicy
+    startTime
+    endTime
+    bookingSpecialPricing {
+      id
+      listId
+      blockedDates
+      isSpecialPrice      
+    }
+    cancellation {
+          id
+          policyName
+          policyContent
+          priorDays
+          accommodationPriorCheckIn
+          accommodationBeforeCheckIn
+          accommodationDuringCheckIn
+          guestFeePriorCheckIn
+          guestFeeBeforeCheckIn
+          guestFeeDuringCheckIn
+          hostFeePriorCheckIn
+          hostFeeBeforeCheckIn
+          hostFeeDuringCheckIn
+          isEnable
+        }
+    listData {
+      id
+      title
+      settingsData{
+        id
+        settingsId
+        listsettings {
+            id
+            itemName
+            isEnable
+            settingsType {
+            typeName
+           }
+        }
+      }
+      reviewsCount
+      reviewsStarRating
+      transmission
+      listingData {
+        cancellation {
+          id
+          policyName
+          policyContent
+          priorDays
+          accommodationPriorCheckIn
+          accommodationBeforeCheckIn
+          accommodationDuringCheckIn
+          guestFeePriorCheckIn
+          guestFeeBeforeCheckIn
+          guestFeeDuringCheckIn
+          hostFeePriorCheckIn
+          hostFeeBeforeCheckIn
+          hostFeeDuringCheckIn
+          isEnable
+        }
+      }
+      listPhotos{
+         id,
+         listId,
+         name,
+         type,
+      }
+    }
+    messageData {
+      id
+    }
+    hostData {
+      profileId
+      firstName
+      picture
+      createdAt
+      userData {
+        email
+      }
+    }
+    guestData {
+      profileId
+      firstName
+      picture
+      createdAt
+      userData {
+        email
+      }
+    }
+  }
+}

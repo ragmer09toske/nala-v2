@@ -1,0 +1,48 @@
+@import '../admin-common.css';
+@import '../../../../public/css/variables.css';
+
+.profileHeader {
+    background-color: var(--common-gray-bg-color);
+    padding: 14px 24px;
+    border-radius: 4px 4px 0 0;
+}
+
+.profileAvatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: transparent;
+    object-fit: cover;
+    margin-right: 25px;
+}
+
+.dataListItem {
+    padding: 16px 24px;
+    border-top: 1px solid var(--common-border-color);
+}
+
+.profileViewGrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+.noProfilePadding {
+    padding: 0;
+}
+
+@media screen and (max-width:767px) {
+    .profileViewGrid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .profileAvatar {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .gobackMobileSpace {
+        margin-top: 15px;
+    }
+}

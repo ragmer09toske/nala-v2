@@ -1,0 +1,41 @@
+query WriteReviewData($reservationId: Int!){
+  writeReviewData(reservationId: $reservationId){
+    id
+    listId
+    hostId
+    guestId
+    listData {
+      id
+      title
+      street
+      city
+      state
+      country
+      coverPhoto
+      reviewsCount,
+      reviewsStarRating,
+      transmission
+      listPhotos {
+        id
+        name
+      }
+      settingsData {
+        id
+        settingsId
+        listsettings {
+          id
+          itemName
+          isEnable
+          settingsType {
+            typeName
+          }
+        }
+      }
+    }
+    hostData{
+      firstName
+      picture
+      profileId
+    }
+  }
+}
