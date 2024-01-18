@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200&family=Ubuntu:wght@300&display=swap');
+
+.CTA {
+  /* background-color: #1a73e8; */
+  background-color: #4caf50;
+  position: absolute;
+  padding: 10px 80px 10px 80px;
+  border-radius: 30px;
+  color: white;
+}
+.CTA-primary {
+  background-color: #1a73e8;
+  position: absolute;
+  padding: 10px 80px 10px 80px;
+  border-radius: 30px;
+  color: white;
+}
+.CTA-outlined {
+  border: 1px solid rgba(0, 0, 0, 0.322);
+  padding: 2px 20px 2px 20px;
+  border-radius: 30px;
+  color: rgba(0, 0, 0, 0.322);
+}
+.JobsDetailsHeader {
+  background-color: #ffffff !important;
+}
+.nu-searchBar {
+  border-radius: 15px;
+  display: flex;
+  color: rgba(11, 11, 11, 0.296);
+  padding: 10px;
+  align-items: center;
+  font-size: 30px;
+  gap: 15px;
+}
+.nu-avatar {
+  position: relative;
+  width: 12vh;
+  height: 12vh;
+  border: 1px solid rgba(0, 0, 0, 0.055);
+  background-color: rgba(0, 0, 0, 0.066);
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 9;
+}
+
+.nu-avatar-small {
+  position: relative;
+  width: 7vh;
+  height: 7vh;
+  border: 1px solid rgba(0, 0, 0, 0.055);
+  background-color: rgba(0, 0, 0, 0.066);
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 9;
+}
+
+.nu-avatar-small img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 9;
+}
+.nu-avatar img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 9;
+}
+
+.Post {
+  font-size: small;
+}
+.Post:hover {
+  background-color: rgba(211, 211, 211, 0.272);
+  padding: 10px 10px 10px 10px;
+  border-radius: 3px;
+  font-size: large;
+}
+.p-tag {
+  font-size: small;
+}
+.round-full-Icon {
+  padding: 0px 13px 0px 13px;
+  border-radius: 50%;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  color: rgb(117, 211, 3);
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.278);
+}
+.Skills {
+  background-color: rgba(211, 211, 211, 0.808);
+  display: inline-flex; /* Use inline-flex instead of absolute positioning */
+  padding: 2px 7px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  color: rgba(0, 0, 0, 0.479);
+  font-size: 9px;
+  margin-top: 15px;
+  white-space: nowrap; /* Prevent text from wrapping in the skill tags */
+}
+/* styles/LoadingSpinner.module.css */
+.spinner {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.spinner:after {
+  content: " ";
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 8px;
+  border: 3px solid rgba(0, 0, 0, 0.367);
+  background: linear-gradient(135deg, #00ff00, #3498db);
+  border-radius: 5px;
+  animation: spin 1.2s linear infinite;
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.Welcome-top{
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #00c500;
+}
+.Playfair{
+  font-family: 'Playfair Display', serif;
+}
+.Welcome-Under{
+ color: #1c577e76;
+ font-size: 20px;
+}
+.card-join{
+  border: 1px solid rgba(255, 255, 255, 0.549);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(213, 213, 213);
+  background-color: white;
+}
+.Join-us-for-free{
+  font-family: 'Playfair Display', serif;
+  font-size: larger;
+}
+.ubuntu{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+}
+.hikeIcon{
+  font-size: larger;
+}
+
+
+/* Hide the default file input */
+input[type="file"] {
+  color: #00c500;
+}
+
+/* Style the container */
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+/* Style the custom "Choose file" button */
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Change the color of the button on hover */
+.upload-btn-wrapper:hover .btn {
+  color: white;
+  background-color: #4caf50;
+  cursor: pointer;
+}
+
+/* Style the file name display */
+.file-name {
+  margin-left: 10px;
+}
+/* ProgressBar.css */
+#progress-bar {
+  height: 20px;
+  width: 100%;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#progress-bar .bar {
+  height: 100%;
+  background-color: #4caf50;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+}
+
+/* In your existing CSS file or a new one */
+.animate-path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 2s ease-in-out forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.trends-catogries {
+  display: flex;
+  gap:5;
+  justify-content: space-between;
+  flex-direction: row;
+  overflow-x: hidden; /* Hide horizontal overflow content */
+}
+
+.trends-vectors {
+  display: flex;
+  flex-direction: column; /* Set direction to column */
+  align-items: center; /* Center align items horizontally */
+}
+
+.box-category {
+  margin-top: 3px; /* Added some top margin */
+  width: 10px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: #1a73e8;
+  margin-bottom: 10px; /* Add some spacing between boxes */
+}
+
+.line-category {
+  margin-top: -15px; /* Adjusted margin for better positioning */
+  width: 5px;
+  height: 100%; /* Set a height to fill its container */
+  background-color: #1a73e8;
+  border-radius: "0 0 5px 5px";
+}
