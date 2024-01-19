@@ -17,6 +17,7 @@ npm install
 npm start
 
 ```
+```bash
 Nala
     ├── public
     │   ├── nala-icon.png
@@ -59,7 +60,6 @@ Nala
     │   ├── footer.routes.js
     │   └── routes.js
     ├── .eslintrc.jsonnpm run lint
-
     ├── .prettierrc.json
     ├── jsconfig.json
     ├── package.json
