@@ -49,6 +49,7 @@ export const DMs = () => {
         borderLeftColor: 'rgba(0, 0, 0, 0.022)',
         borderRightColor: 'rgba(0, 0, 0, 0.022)',
         borderRadius: "20px 20px 0 0",
+        minHeight: "69.5vh"
     }}>
         <Box sx={{
         }}>
@@ -57,6 +58,7 @@ export const DMs = () => {
                 justifyContent:  "space-between",
                 alignItems: "center",
                 p: 2,
+                mt: 5
             }}>
                 <Box sx={{
                     mt: 2
@@ -86,211 +88,48 @@ export const DMs = () => {
             border: "solid",
             borderTopColor: 'rgba(0, 0, 0, 0.122)',
             borderLeftColor: 'rgba(0, 0, 0, 0.122)',
+            borderBottomColor: 'rgba(0, 0, 0, 0.122)',
             borderRightColor: 'rgba(0, 0, 0, 0.122)',
             borderRadius: "20px 20px 0 0",
             borderWidth: 0.5,
             color: "rgba(0, 0, 0, 0.422)",
-            fontSize: 15,
-            background: "rgb(240 242 245)"
-            
+            fontSize: 14,
+            background: "rgb(240 242 245)",
+            minHeight:"100vh"
         }}>
             <Box sx={{
                 display: "flex",
-                gap: 2
-
+                gap: 2,
             }}>
                 <Box
                     sx={{
                         borderRadius: 5,
                     }}
-                        >
-                        <img
-                            src={user?.avatar}
-                            style={{ borderRadius: 10 }}
-                            alt={user?.name}
-                            width={45}
-                        />
-                </Box>
-                <Box>
-                    <h5 style={{color: "rgba(0, 0, 0, 0.622)"}}>{user?.name}</h5>
-                    <p>You: Direct Messages</p>
-                </Box>
-            </Box>
-            
-            <Box sx={{
-                display: "flex",
-                gap: 2
+                >
+                    <img
+                        src={user?.avatar}
+                        style={{ borderRadius: 10 }}
+                        alt={user?.name}
+                        width={40}
+                    />
+                    <Box sx={{
+                        background: "#00c500",
+                        width: 15,
+                        height: 15,
+                        borderRadius: "50%",
+                        position: "absolute",
+                        top: 265,
+                        left: 45
 
-            }}>
-                <Box
-                    sx={{
-                        borderRadius: 5,
-                    }}
-                        >
-                        <img
-                            src={user?.avatar}
-                            style={{ borderRadius: 10 }}
-                            alt={user?.name}
-                            width={45}
-                        />
+                    }}></Box>  
                 </Box>
                 <Box>
-                    <h5 style={{color: "rgba(0, 0, 0, 0.622)"}}>{user?.name}</h5>
-                    <p>Direct Messages</p>
-                </Box>
-            </Box>
-
-            <Box sx={{
-                display: "flex",
-                gap: 2
-
-            }}>
-                <Box
-                    sx={{
-                        borderRadius: 5,
-                    }}
-                        >
-                        <img
-                            src={user?.avatar}
-                            style={{ borderRadius: 10 }}
-                            alt={user?.name}
-                            width={45}
-                        />
-                </Box>
-                <Box>
-                    <h5 style={{color: "rgba(0, 0, 0, 0.622)"}}>{user?.name}</h5>
-                    <p>Direct Messages</p>
-                </Box>
-            </Box>
-            <Box sx={{
-                display: "flex",
-                gap: 2
-
-            }}>
-                <Box
-                    sx={{
-                        borderRadius: 5,
-                    }}
-                        >
-                        <img
-                            src={user?.avatar}
-                            style={{ borderRadius: 10 }}
-                            alt={user?.name}
-                            width={45}
-                        />
-                </Box>
-                <Box>
-                    <h5 style={{color: "rgba(0, 0, 0, 0.622)"}}>{user?.name}</h5>
-                    <p>Direct Messages</p>
-                </Box>
-            </Box>
-            <Box sx={{
-                display: "flex",
-                gap: 2
-
-            }}>
-                <Box
-                    sx={{
-                        borderRadius: 5,
-                    }}
-                        >
-                        <img
-                            src={user?.avatar}
-                            style={{ borderRadius: 10 }}
-                            alt={user?.name}
-                            width={45}
-                        />
-                </Box>
-                <Box>
-                    <h5 style={{color: "rgba(0, 0, 0, 0.622)"}}>{user?.name}</h5>
-                    <p>Direct Messages</p>
-                </Box>
-            </Box>
-            <Box sx={{
-                display: "flex",
-                gap: 2
-
-            }}>
-                <Box
-                    sx={{
-                        borderRadius: 5,
-                    }}
-                        >
-                        <img
-                            src={user?.avatar}
-                            style={{ borderRadius: 10 }}
-                            alt={user?.name}
-                            width={45}
-                        />
-                </Box>
-                <Box>
-                    <h5 style={{color: "rgba(0, 0, 0, 0.622)"}}>{user?.name}</h5>
-                    <p>Direct Messages</p>
-                </Box>
-            </Box>
-            <Box sx={{
-                display: "flex",
-                gap: 2
-
-            }}>
-                <Box
-                    sx={{
-                        borderRadius: 5,
-                    }}
-                        >
-                        <img
-                            src={user?.avatar}
-                            style={{ borderRadius: 10 }}
-                            alt={user?.name}
-                            width={45}
-                        />
-                </Box>
-                <Box>
-                    <h5 style={{color: "rgba(0, 0, 0, 0.622)"}}>{user?.name}</h5>
-                    <p>Direct Messages</p>
-                </Box>
-            </Box>
-            <Box sx={{
-                display: "flex",
-                gap: 2
-
-            }}>
-                <Box
-                    sx={{
-                        borderRadius: 5,
-                    }}
-                        >
-                        <img
-                            src={user?.avatar}
-                            style={{ borderRadius: 10 }}
-                            alt={user?.name}
-                            width={45}
-                        />
-                </Box>
-                <Box>
-                    <h5 style={{color: "rgba(0, 0, 0, 0.622)"}}>{user?.name}</h5>
-                    <p>Direct Messages</p>
-                </Box>
-            </Box>
-            <Box sx={{
-                display: "flex",
-                gap: 2
-            }}>
-                <Box
-                    sx={{
-                        borderRadius: 5,
-                    }}
-                        >
-                        <img
-                            src={user?.avatar}
-                            style={{ borderRadius: 10 }}
-                            alt={user?.name}
-                            width={45}
-                        />
-                </Box>
-                <Box>
-                    <h5 style={{color: "rgba(0, 0, 0, 0.622)"}}>{user?.name}</h5>
-                    <p>Direct Messages</p>
+                    <h5 style={{color: "rgba(0, 0, 0, 0.622)", fontSize: 13}}>{user?.name}</h5>
+                    <Box sx={{
+                        mt: -1
+                    }}>
+                        <p>You: Direct Messages</p>
+                    </Box>
                 </Box>
             </Box>
         </Box>
