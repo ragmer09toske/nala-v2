@@ -101,7 +101,7 @@ export const BottomNavbar = ({setView, HomeActive, setHomeActive, JobsActive, se
                 >
                 {AlertsActive && (<Box sx={active}></Box>)}
                 <NotificationsOutlined/>
-                <p style={{ fontSize: "10px" }}><b>Alerts</b></p>
+                <p style={{ fontSize: "10px" }}><b>Activity</b></p>
             </Box>
         </Box>
     </div>

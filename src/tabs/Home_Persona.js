@@ -60,52 +60,7 @@ export const Home_Persona = () => {
         backgroundImage: "conic-gradient(from 315deg, #1A74E8, #FFFFFF)",
       }}
     >
-      {
-        !load ?
-      (<Card
-        sx={{
-          width: "60%",
-          position: "absolute",
-          top: 170,
-          ml: -1,
-          display: "flex",
-          flexDirection: "row",
-          alignItems: "center",
-          justifyContent: "space-between",
-          textAlign: "center",
-        }}
-      >
-        <Box
-          sx={{
-            pl: 3,
-            display: "flex",
-            alignItems: "center",
-            flexDirection: "row",
-            mt: 2,
-            justifyContent: "center",
-          }}
-        >
-          <p style={{ fontSize: 15, color: "#1a73e8" }}>
-            <b>{user?.name}</b>
-          </p>
-        </Box>
-        <Box
-          sx={{
-            borderRadius: 5,
-          }}
-        >
-          <img
-            src={user?.avatar}
-            style={{ borderRadius: 10 }}
-            alt={user?.name}
-            width={45}
-          />
-        </Box>
-      </Card>)
-      :
-
-      (<p></p>)
-      }
+      
       <Box
         sx={{
           width: "100%",
@@ -113,7 +68,12 @@ export const Home_Persona = () => {
           top: 250,
         }}
       >
-        <SearchBar />
+        <Box sx={{
+          position: "relative",
+          zIndex: 999,
+        }}>
+          <SearchBar />
+        </Box>
         <Box
           sx={{
             p: "5px 15px 5px 15px",
