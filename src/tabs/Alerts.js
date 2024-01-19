@@ -46,7 +46,7 @@ export const Alerts = () => {
   
   return (
     <Box sx={{
-      mt: 20,
+      mt: 10,
       position: "relative"
     }}>
       <Box sx={{
@@ -58,7 +58,7 @@ export const Alerts = () => {
         <ActivityBar setView={setView}/>
       </Box>
       <Box sx={{
-        p: 1
+        // p: 1
       }}>
         {View}
       </Box>

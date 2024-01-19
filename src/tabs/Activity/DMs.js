@@ -44,14 +44,18 @@ export const DMs = () => {
         minWidth: "100vw"
     }}>
         <Box sx={{
-            background: "black"
         }}>
             <Box sx={{
                 display: "flex",
                 justifyContent:  "space-between",
+                alignItems: "center",
                 p: 2,
             }}>
-                <p>Direct Messages</p>
+                <Box sx={{
+                    mt: 2
+                }}>
+                    <p>Direct Messages</p>
+                </Box>
                 <Box
                     sx={{
                         borderRadius: 5,
@@ -71,7 +75,15 @@ export const DMs = () => {
         <Box sx={{
             maxHeight: "47vh",
             overflow: "scroll",
-            p:2
+            p:2,
+            border: "solid",
+            borderTopColor: 'rgba(0, 0, 0, 0.122)',
+            borderLeftColor: 'rgba(0, 0, 0, 0.122)',
+            borderRightColor: 'rgba(0, 0, 0, 0.122)',
+            borderRadius: "20px 20px 0 0",
+            color: "rgba(0, 0, 0, 0.422)",
+            fontSize: 15
+            
         }}>
             <Box sx={{
                 display: "flex",
@@ -91,8 +103,8 @@ export const DMs = () => {
                         />
                 </Box>
                 <Box>
-                    <h5>{user?.name}</h5>
-                    <p>Direct Messages</p>
+                    <h5 style={{color: "rgba(0, 0, 0, 0.622)"}}>{user?.name}</h5>
+                    <p>You: Direct Messages</p>
                 </Box>
             </Box>
             
@@ -114,7 +126,7 @@ export const DMs = () => {
                         />
                 </Box>
                 <Box>
-                    <h5>{user?.name}</h5>
+                    <h5 style={{color: "rgba(0, 0, 0, 0.622)"}}>{user?.name}</h5>
                     <p>Direct Messages</p>
                 </Box>
             </Box>
@@ -137,7 +149,7 @@ export const DMs = () => {
                         />
                 </Box>
                 <Box>
-                    <h5>{user?.name}</h5>
+                    <h5 style={{color: "rgba(0, 0, 0, 0.622)"}}>{user?.name}</h5>
                     <p>Direct Messages</p>
                 </Box>
             </Box>
@@ -159,7 +171,7 @@ export const DMs = () => {
                         />
                 </Box>
                 <Box>
-                    <h5>{user?.name}</h5>
+                    <h5 style={{color: "rgba(0, 0, 0, 0.622)"}}>{user?.name}</h5>
                     <p>Direct Messages</p>
                 </Box>
             </Box>
@@ -181,7 +193,7 @@ export const DMs = () => {
                         />
                 </Box>
                 <Box>
-                    <h5>{user?.name}</h5>
+                    <h5 style={{color: "rgba(0, 0, 0, 0.622)"}}>{user?.name}</h5>
                     <p>Direct Messages</p>
                 </Box>
             </Box>
@@ -203,7 +215,7 @@ export const DMs = () => {
                         />
                 </Box>
                 <Box>
-                    <h5>{user?.name}</h5>
+                    <h5 style={{color: "rgba(0, 0, 0, 0.622)"}}>{user?.name}</h5>
                     <p>Direct Messages</p>
                 </Box>
             </Box>
@@ -225,7 +237,7 @@ export const DMs = () => {
                         />
                 </Box>
                 <Box>
-                    <h5>{user?.name}</h5>
+                    <h5 style={{color: "rgba(0, 0, 0, 0.622)"}}>{user?.name}</h5>
                     <p>Direct Messages</p>
                 </Box>
             </Box>
@@ -247,14 +259,13 @@ export const DMs = () => {
                         />
                 </Box>
                 <Box>
-                    <h5>{user?.name}</h5>
+                    <h5 style={{color: "rgba(0, 0, 0, 0.622)"}}>{user?.name}</h5>
                     <p>Direct Messages</p>
                 </Box>
             </Box>
             <Box sx={{
                 display: "flex",
                 gap: 2
-
             }}>
                 <Box
                     sx={{
@@ -269,7 +280,7 @@ export const DMs = () => {
                         />
                 </Box>
                 <Box>
-                    <h5>{user?.name}</h5>
+                    <h5 style={{color: "rgba(0, 0, 0, 0.622)"}}>{user?.name}</h5>
                     <p>Direct Messages</p>
                 </Box>
             </Box>
