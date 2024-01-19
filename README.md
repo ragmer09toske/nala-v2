@@ -65,6 +65,7 @@ Nala
     ├── jsconfig.json
     ├── package.json
     └── README.md
+```
 
 1. **Code Quality:**
 
