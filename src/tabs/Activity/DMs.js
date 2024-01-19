@@ -40,9 +40,10 @@ export const DMs = () => {
 
   return (
     <Card sx={{
-        position: 'absolute',
+        position: 'fixed',
+        top: 130,
         minWidth: "100vw",
-        background: "rgba(255, 255, 255, 0.308)",
+        background: "White",
         border: "solid",
         borderTopColor: 'rgba(0, 0, 0, 0.022)',
         borderLeftColor: 'rgba(0, 0, 0, 0.022)',
@@ -79,7 +80,7 @@ export const DMs = () => {
         </Box>
         {/* DMs */}
         <Box sx={{
-            maxHeight: "47vh",
+            maxHeight: "55vh",
             overflow: "scroll",
             p:2,
             border: "solid",
@@ -89,7 +90,7 @@ export const DMs = () => {
             borderRadius: "20px 20px 0 0",
             color: "rgba(0, 0, 0, 0.422)",
             fontSize: 15,
-            background: "white"
+            background: "#f3f3f3"
             
         }}>
             <Box sx={{

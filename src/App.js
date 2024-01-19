@@ -50,7 +50,6 @@ export default function App() {
       { route: "/register", component: <RegistrationForm /> },
       { route: "/user", component: <User /> },
       { route: "/profile", component: <Profile /> },
-      { route: "/sebabatso", component: <Sebabatso /> },
       { route: "/dropZone", component: <MyDropzone /> },
       { route: "/dropZone", component: <MyDropzone /> },
     ];

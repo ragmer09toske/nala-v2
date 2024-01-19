@@ -46,7 +46,6 @@ export const Alerts = () => {
   
   return (
     <Box sx={{
-      mt: 10,
       position: "relative"
     }}>
       <Box sx={{
