@@ -7,10 +7,13 @@ Welcome to the Nala React project! This is a basic setup guide to help you get s
 1. **Clone the Repository:**
 
 ```bash
-git clone https://github.com/your-username/Nala.git
+git clone https://github.com/ragmer09toske/nala-v2.git
 cd Nala
-
+```
+```bash
 npm install
+
+```bash
 npm start
 
 ```
