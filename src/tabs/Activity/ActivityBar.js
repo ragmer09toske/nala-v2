@@ -1,8 +1,9 @@
-import { Apps, BlindsClosed, HourglassBottom, MoreVert } from '@mui/icons-material'
+import { Apps, BlindsClosed, HourglassBottom, MoreVert, Schedule } from '@mui/icons-material'
 import { Box, Card } from '@mui/material'
 import React, { useEffect, useState } from 'react'
 import { FiGitPullRequest } from 'react-icons/fi'
 import { DMs } from './DMs'
+import { Schedules } from './Schedules'
 
 export const ActivityBar = ({setView}) => {
     let [ActivityState, setActivity] = useState("Linear");
@@ -29,7 +30,7 @@ export const ActivityBar = ({setView}) => {
         setView("ToDo")
     }
     const handleSchedules = () => {
-        setView("Schedules")
+        setView(<Schedules />)
     }
     useEffect (()=> {
         const savedActivity = localStorage.getItem("ActivityState")

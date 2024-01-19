@@ -41,7 +41,13 @@ export const DMs = () => {
   return (
     <Card sx={{
         position: 'absolute',
-        minWidth: "100vw"
+        minWidth: "100vw",
+        background: "rgba(255, 255, 255, 0.308)",
+        border: "solid",
+        borderTopColor: 'rgba(0, 0, 0, 0.022)',
+        borderLeftColor: 'rgba(0, 0, 0, 0.022)',
+        borderRightColor: 'rgba(0, 0, 0, 0.022)',
+        borderRadius: "20px 20px 0 0",
     }}>
         <Box sx={{
         }}>
@@ -82,7 +88,8 @@ export const DMs = () => {
             borderRightColor: 'rgba(0, 0, 0, 0.122)',
             borderRadius: "20px 20px 0 0",
             color: "rgba(0, 0, 0, 0.422)",
-            fontSize: 15
+            fontSize: 15,
+            background: "white"
             
         }}>
             <Box sx={{
