@@ -88,9 +88,10 @@ export const DMs = () => {
             borderLeftColor: 'rgba(0, 0, 0, 0.122)',
             borderRightColor: 'rgba(0, 0, 0, 0.122)',
             borderRadius: "20px 20px 0 0",
+            borderWidth: 0.5,
             color: "rgba(0, 0, 0, 0.422)",
             fontSize: 15,
-            background: "#f3f3f3"
+            background: "rgb(240 242 245)"
             
         }}>
             <Box sx={{
