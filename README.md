@@ -1,3 +1,18 @@
+# Nala React Project
+
+Welcome to the Nala React project! This is a basic setup guide to help you get started with the development of your React application.
+
+## Getting Started
+
+1. **Clone the Repository:**
+
+```bash
+git clone https://github.com/your-username/Nala.git
+cd Nala
+
+npm install
+npm start
+
 ```
 Nala
     ├── public
@@ -40,9 +55,32 @@ Nala
     │   ├── index.js
     │   ├── footer.routes.js
     │   └── routes.js
-    ├── .eslintrc.json
+    ├── .eslintrc.jsonnpm run lint
+
     ├── .prettierrc.json
     ├── jsconfig.json
     ├── package.json
     └── README.md
+
+1. **Code Quality:**
+
+```bash
+npm run lint
+
 ```
+2. **Use Prettier for code formatting**:
+```bash
+npm run format
+
+ ```
+3. **Use Prettier for code formatting:**
+```bash
+npm run format
+
+```
+4. **Deployment**:
+```bash
+npm run build
+
+```
+https://nala-web.vercel.app/
