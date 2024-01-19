@@ -83,10 +83,10 @@ npm run format
 npm run format
 
 ```
-4. **Deployment**:
+4. **Deployment:**
 ```bash
 npm run build
 
 ```
-**Nala deployment site: For Mobile Web app testing**
+**Nala deployment site: For Mobile Web app testing:**
 https://nala-web.vercel.app/
