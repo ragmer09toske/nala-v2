@@ -1,9 +1,10 @@
-import { Apps, BlindsClosed, HourglassBottom, MoreVert, Schedule } from '@mui/icons-material'
+import { Adjust, Apps, BlindsClosed, HourglassBottom, MoreVert, Public, Rocket } from '@mui/icons-material'
 import { Box, Card } from '@mui/material'
 import React, { useEffect, useState } from 'react'
 import { FiGitPullRequest } from 'react-icons/fi'
 import { DMs } from './DMs'
 import { Schedules } from './Schedules'
+import { Issues } from './Issues'
 
 export const ActivityBar = ({setView}) => {
     let [ActivityState, setActivity] = useState("Linear");
@@ -27,7 +28,9 @@ export const ActivityBar = ({setView}) => {
         )
     }
     const handleTodo = () => {
-        setView("ToDo")
+        setView(
+          <Issues />
+        )
     }
     const handleSchedules = () => {
         setView(<Schedules />)
@@ -56,12 +59,16 @@ export const ActivityBar = ({setView}) => {
                 display: "flex",
                 gap: 3
             }}>
-                <FiGitPullRequest onClick={handleDMs} />
-                <HourglassBottom  onClick={handleSchedules}/>
-                <BlindsClosed onClick={handleTodo}/>
+                <Public onClick={handleDMs} />
+                <Rocket onClick={handleSchedules}/>
+                <Adjust onClick={handleTodo}/>
             </Box>
             <Box>
-              <Apps onClick={handleActivityType_Tiles}/>
+              {ActivitySateButton ? 
+              (<Apps onClick={handleActivityType_Tiles}/>) : 
+              
+              (<MoreVert onClick={handleActivityType_Linear}/>)
+            }
             </Box>
           </Card>;
         break;

@@ -4,7 +4,7 @@ import { DMSearchBar } from 'components/SearchBar/DMSearch'
 import React, { useEffect, useState } from 'react'
 import URI_Server from 'uri'
 
-export const DMs = () => {
+export const Issues = () => {
     const [load, setLoading] = useState(false)
     const [user, setUser] = useState(null);
 
@@ -62,7 +62,7 @@ export const DMs = () => {
                 <Box sx={{
                     mt: 2
                 }}>
-                    <h3>Direct Messages</h3>
+                    <h3>Issues</h3>
                 </Box>
                 <Box
                     sx={{
