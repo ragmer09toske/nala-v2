@@ -1,10 +1,10 @@
-import { Box, Card } from '@mui/material'
+import { Box, Card, TextField } from '@mui/material'
 import axios from 'axios'
 import ProgressBarNala from 'layouts/pages/landing-pages/profile/ProgressBar'
 import React, { useEffect, useState } from 'react'
 import URI_Server from 'uri'
 import { useNavigate } from 'react-router-dom'
-import { ArrowBack } from '@mui/icons-material'
+import { ArrowBack, Mic } from '@mui/icons-material'
 
 export const DMsPage = () => {
     const [load, setLoading] = useState(false)
@@ -129,7 +129,68 @@ export const DMsPage = () => {
             borderRadius: "20px 20px 0 0",
             minHeight: "79vh"
         }}>
-            
+            <Box sx={{
+            position: 'fixed',
+            bottom: 0,
+            minWidth: "100vw",
+            background: "White",
+            border: "solid",
+            borderTopColor: 'rgba(0, 0, 0, 0.22)',
+            borderLeftColor: 'rgba(0, 0, 0, 0.22)',
+            borderRightColor: 'rgba(0, 0, 0, 0.22)',
+            borderRadius: "20px 20px 0 0",
+            minHeight: "10vh",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: 'center',
+            color: "rgba(0, 0, 0, 0.22)",
+            p:2
+            }}>
+                <Box sx={{
+                    background: "#f0f2f5",
+                    p: 2,
+                    width: 40,
+                    height: 40,
+                    borderRadius: "50%",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                }}
+                    onClick={goBack}
+                >
+                    <ArrowBack />
+                </Box>
+                <Box sx={{
+                    width: "70%"
+                }}>
+                    <TextField
+                        size="small"
+                        fullWidth
+                        label="Message..."
+                        variant="outlined"
+                        placeholder="Message"
+                        InputProps={{
+                        style: {
+                            color: "rgba(0, 0, 0, 0.0)',", // Text color
+                        },
+                    }}
+                    />
+                </Box>
+                <Box sx={{
+                    background: "#f0f2f5",
+                    p: 2,
+                    width: 40,
+                    height: 40,
+                    borderRadius: "50%",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                }}
+                    onClick={goBack}
+                >
+                    <Mic />
+                </Box>
+            </Box>
         </Card>
     </Box>
   )
