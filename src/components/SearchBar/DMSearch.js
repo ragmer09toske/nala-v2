@@ -35,7 +35,7 @@ export const DMSearchBar = () => {
             placeholder="Search"
             InputProps={{
               style: {
-                color: "gray", // Text color
+                color: "rgba(211, 211, 211, 0)", // Text color
               },
             }}
           />
