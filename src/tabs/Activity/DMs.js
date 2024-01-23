@@ -4,6 +4,7 @@ import { DMSearchBar } from 'components/SearchBar/DMSearch'
 import ProgressBarNala from 'layouts/pages/landing-pages/profile/ProgressBar'
 import React, { useEffect, useState } from 'react'
 import URI_Server from 'uri'
+import { OnlineUsers } from './OnlineUsers'
 
 export const DMs = () => {
     const [load, setLoading] = useState(false)
@@ -105,102 +106,8 @@ export const DMs = () => {
             minHeight:"100vh",
         }}>
             <ProgressBarNala />
-            <Box sx={{
-                maxWidth: "90vw",
-                display: "flex",
-                gap: 2,
-                overflow: "scroll"
-            }}>
-                <Box >
-                    <img
-                        src={user?.avatar}
-                        style={{ borderRadius: 10 }}
-                        alt={user?.name}
-                        width={40}
-                    />
-                </Box>
-                <Box >
-                    <img
-                        src={user?.avatar}
-                        style={{ borderRadius: 10 }}
-                        alt={user?.name}
-                        width={40}
-                    />
-                </Box>
-                <Box >
-                    <img
-                        src={user?.avatar}
-                        style={{ borderRadius: 10 }}
-                        alt={user?.name}
-                        width={40}
-                    />
-                </Box>
-                <Box >
-                    <img
-                        src={user?.avatar}
-                        style={{ borderRadius: 10 }}
-                        alt={user?.name}
-                        width={40}
-                    />
-                </Box>
-                <Box >
-                    <img
-                        src={user?.avatar}
-                        style={{ borderRadius: 10 }}
-                        alt={user?.name}
-                        width={40}
-                    />
-                </Box>
-                <Box >
-                    <img
-                        src={user?.avatar}
-                        style={{ borderRadius: 10 }}
-                        alt={user?.name}
-                        width={40}
-                    />
-                </Box>
-                <Box >
-                    <img
-                        src={user?.avatar}
-                        style={{ borderRadius: 10 }}
-                        alt={user?.name}
-                        width={40}
-                    />
-                </Box>
-                <Box >
-                    <img
-                        src={user?.avatar}
-                        style={{ borderRadius: 10 }}
-                        alt={user?.name}
-                        width={40}
-                    />
-                </Box>
-                <Box >
-                    <img
-                        src={user?.avatar}
-                        style={{ borderRadius: 10 }}
-                        alt={user?.name}
-                        width={40}
-                    />
-                </Box>
-                <Box >
-                    <img
-                        src={user?.avatar}
-                        style={{ borderRadius: 10 }}
-                        alt={user?.name}
-                        width={40}
-                    />
-                </Box>
-                <Box >
-                    <img
-                        src={user?.avatar}
-                        style={{ borderRadius: 10 }}
-                        alt={user?.name}
-                        width={40}
-                    />
-                </Box>
-            </Box>
-            <Divider sx={{background: "gray"}} />
+            {/* {"this is where the online users will go"} */}
+            <OnlineUsers />
             <Box sx={{
                 position: "relative",
                 display: "flex",
