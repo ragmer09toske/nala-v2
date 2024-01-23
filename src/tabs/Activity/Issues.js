@@ -1,11 +1,10 @@
 import { Box, Card } from '@mui/material'
 import axios from 'axios'
 import { DMSearchBar } from 'components/SearchBar/DMSearch'
-import ProgressBarNala from 'layouts/pages/landing-pages/profile/ProgressBar'
 import React, { useEffect, useState } from 'react'
 import URI_Server from 'uri'
 
-export const DMs = () => {
+export const Issues = () => {
     const [load, setLoading] = useState(false)
     const [user, setUser] = useState(null);
 
@@ -51,9 +50,6 @@ export const DMs = () => {
         borderRadius: "20px 20px 0 0",
         minHeight: "69.5vh"
     }}>
-        <Box>
-            
-        </Box>
         <Box sx={{
         }}>
             <Box sx={{
@@ -66,7 +62,7 @@ export const DMs = () => {
                 <Box sx={{
                     mt: 2
                 }}>
-                    <h3>Direct Messages</h3>
+                    <h3>Issues</h3>
                 </Box>
                 <Box
                     sx={{
@@ -106,7 +102,6 @@ export const DMs = () => {
             background: "#f0f2f5",
             minHeight:"100vh",
         }}>
-            <ProgressBarNala />
             <Box sx={{
                 position: "relative",
                 display: "flex",
