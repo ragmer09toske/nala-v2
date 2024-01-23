@@ -41,8 +41,11 @@ export const DMsPage = () => {
     }, [])
     const goBack = () => {
         window.history.back();
-      };
-      
+    };
+    
+    const toProfile = () => {
+        navigate("/profile")
+    }
   return (
     <Box>
         <Box sx={{
@@ -83,7 +86,7 @@ export const DMsPage = () => {
                     borderRadius: "50%",
                     position: "absolute",
                     right: 35,
-                    top: 43,
+                    top: 43 ,
                 }}></Box>  
                 <Box
                 sx={{
@@ -100,16 +103,17 @@ export const DMsPage = () => {
                 </p>
                 </Box>
                 <Box
-                sx={{
-                    borderRadius: 5,
-                }}
+                    sx={{
+                        borderRadius: 5,
+                    }}
+                    onClick={toProfile}
                 >
-                <img
-                    src={user?.avatar}
-                    style={{ borderRadius: 10 }}
-                    alt={user?.name}
-                    width={45}
-                />
+                    <img
+                        src={user?.avatar}
+                        style={{ borderRadius: 10 }}
+                        alt={user?.name}
+                        width={45}
+                    />
                 </Box>
             </Card>
         </Box>
