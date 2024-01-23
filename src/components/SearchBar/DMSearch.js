@@ -7,6 +7,7 @@ import { Mic, MicExternalOn } from "@mui/icons-material";
 
 export const DMSearchBar = () => {
   const [isBottomSheetOpen, setIsBottomSheetOpen] = useState(false);
+  
   const closeBottomSheet = () => {
     setIsBottomSheetOpen(false);
   };
@@ -23,7 +24,7 @@ export const DMSearchBar = () => {
         <SearchBottomSheet isOpen={isBottomSheetOpen} onClose={closeBottomSheet} />
         <div className="nu-searchBar">
           <Box>
-            <Mic  />
+            <Mic />
           </Box>
           <TextField
             onClick={()=>setIsBottomSheetOpen(true)}
