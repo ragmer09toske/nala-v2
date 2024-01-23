@@ -5,11 +5,16 @@ import ProgressBarNala from 'layouts/pages/landing-pages/profile/ProgressBar'
 import React, { useEffect, useState } from 'react'
 import URI_Server from 'uri'
 import { OnlineUsers } from './OnlineUsers'
+import { useNavigate } from 'react-router-dom'
 
 export const DMs = () => {
     const [load, setLoading] = useState(false)
     const [user, setUser] = useState(null);
-
+    const navigate = useNavigate()
+    const hadnleNavigate = () => {  
+        navigate("/dms")
+    }
+    const [onDmsRoute, setDMsRoute] = useState()
     const fetchCurrentUser = async () => {
         setLoading(true)
         const config = {
@@ -37,6 +42,9 @@ export const DMs = () => {
       useEffect(() => {
         // Fetch the current user when the component mounts
         fetchCurrentUser();
+        if(window.location.href === "/dms"){
+            setDMsRoute(true)
+        }
       }, []);
 
   return (
@@ -116,7 +124,9 @@ export const DMs = () => {
                 <Box sx={{
                     display: "flex",
                     gap: 2,
-                }}>
+                }}
+                onClick={hadnleNavigate}
+                >
                     <Box
                         sx={{
                             borderRadius: 5,
