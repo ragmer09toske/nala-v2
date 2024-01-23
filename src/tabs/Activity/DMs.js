@@ -1,4 +1,4 @@
-import { Box, Card } from '@mui/material'
+import { Box, Card, Divider } from '@mui/material'
 import axios from 'axios'
 import { DMSearchBar } from 'components/SearchBar/DMSearch'
 import ProgressBarNala from 'layouts/pages/landing-pages/profile/ProgressBar'
@@ -143,6 +143,7 @@ export const DMs = () => {
                     />
                 </Box>
             </Box>
+            <Divider sx={{background: "gray"}} />
             <Box sx={{
                 position: "relative",
                 display: "flex",
