@@ -25,7 +25,7 @@ export const Profile = () => {
   const [profileState, setProfileState] = useState(0)
   const navigate = useNavigate();
   const handleBack = () => {
-    navigate("/");
+    window.history.back();
   };
   useEffect(() => {
     if (!localStorage.getItem("AuthToken")) {
