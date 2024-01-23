@@ -42,174 +42,180 @@ export const DMs = () => {
       useEffect(() => {
         // Fetch the current user when the component mounts
         fetchCurrentUser();
-        if(window.location.href === "/dms"){
-            setDMsRoute(true)
+    
+        // Check if the URL is "/dms" and update the state variable
+        if (window.location.href.endsWith("/dms")) {
+          setDMsRoute(true);
+        } else {
+          setDMsRoute(false);
         }
-      }, []);
+      }, [])
 
   return (
-    <Card sx={{
-        position: 'fixed',
-        top: 130,
-        minWidth: "100vw",
-        background: "White",
-        border: "solid",
-        borderTopColor: 'rgba(0, 0, 0, 0.022)',
-        borderLeftColor: 'rgba(0, 0, 0, 0.022)',
-        borderRightColor: 'rgba(0, 0, 0, 0.022)',
-        borderRadius: "20px 20px 0 0",
-        minHeight: "69.5vh"
-    }}>
-        
-        <Box sx={{
-        }}>
-            <Box sx={{
-                display: "flex",
-                justifyContent:  "space-between",
-                alignItems: "center",
-                p: 2,
-                mt: 5
-            }}>
-                <Box sx={{
-                    mt: 2
-                }}>
-                    <h3>Direct Messages</h3>
-                </Box>
-                <Box
-                    sx={{
-                        borderRadius: 5,
-                    }}
-                        >
-                        <img
-                            src={user?.avatar}
-                            style={{ borderRadius: 10 }}
-                            alt={user?.name}
-                            width={35}
-                        />
-                </Box>
-            </Box>
-            <Box sx={{
-                position: "relative",
-                zIndex: 999,
-                mt: -2
-            }}>
-                <DMSearchBar />
-            </Box>
-        </Box>
-        {/* DMs */}
-        <Box sx={{
-            maxHeight: "55vh",
-            overflow: "scroll",
-            p:2,
+    <Box>
+        <Card sx={{
+            position: 'fixed',
+            top: 130,
+            minWidth: "100vw",
+            background: "White",
             border: "solid",
-            borderTopColor: '#e6e8ea',
-            borderLeftColor: '#e6e8ea',
-            borderBottomColor: '#e6e8ea',
-            borderRightColor: '#e6e8ea',
+            borderTopColor: 'rgba(0, 0, 0, 0.022)',
+            borderLeftColor: 'rgba(0, 0, 0, 0.022)',
+            borderRightColor: 'rgba(0, 0, 0, 0.022)',
             borderRadius: "20px 20px 0 0",
-            borderWidth: 0.5,
-            color: "rgba(0, 0, 0, 0.422)",
-            fontSize: 14,
-            background: "#f0f2f5",
-            minHeight:"100vh",
+            minHeight: "69.5vh"
         }}>
-            <ProgressBarNala />
-            {/* {"this is where the online users will go"} */}
-            <OnlineUsers />
+            
             <Box sx={{
-                position: "relative",
-                display: "flex",
-                justifyContent: "space-between",
             }}>
                 <Box sx={{
                     display: "flex",
-                    gap: 2,
-                }}
-                onClick={hadnleNavigate}
-                >
+                    justifyContent:  "space-between",
+                    alignItems: "center",
+                    p: 2,
+                    mt: 5
+                }}>
+                    <Box sx={{
+                        mt: 2
+                    }}>
+                        <h3>Direct Messages</h3>
+                    </Box>
                     <Box
                         sx={{
                             borderRadius: 5,
                         }}
-                    >
-                        <img
-                            src={user?.avatar}
-                            style={{ borderRadius: 10 }}
-                            alt={user?.name}
-                            width={40}
-                        />
-                        <Box sx={{
-                            background: "#00c500",
-                            width: 10,
-                            height: 10,
-                            borderRadius: "50%",
-                            position: "absolute",
-                            left: 32,
-                            top: 45,
-                        }}></Box>  
-                    </Box>
-                    <Box>
-                        <h5 style={{color: "rgba(0, 0, 0, 0.622)", fontSize: 13}}>{user?.name}</h5>
-                        <Box sx={{
-                            mt: -1
-                        }}>
-                            <p>You: Direct Messages</p>
-                        </Box>
+                            >
+                            <img
+                                src={user?.avatar}
+                                style={{ borderRadius: 10 }}
+                                alt={user?.name}
+                                width={35}
+                            />
                     </Box>
                 </Box>
-                <Box>
-                    <h6 style={{
-                        marginTop: 5
-                    }}>Dec 25</h6>
+                <Box sx={{
+                    position: "relative",
+                    zIndex: 999,
+                    mt: -2
+                }}>
+                    <DMSearchBar />
                 </Box>
             </Box>
-            <br/>
+            {/* DMs */}
             <Box sx={{
-                position: "relative",
-                display: "flex",
-                justifyContent: "space-between",
+                maxHeight: "55vh",
+                overflow: "scroll",
+                p:2,
+                border: "solid",
+                borderTopColor: '#e6e8ea',
+                borderLeftColor: '#e6e8ea',
+                borderBottomColor: '#e6e8ea',
+                borderRightColor: '#e6e8ea',
+                borderRadius: "20px 20px 0 0",
+                borderWidth: 0.5,
+                color: "rgba(0, 0, 0, 0.422)",
+                fontSize: 14,
+                background: "#f0f2f5",
+                minHeight:"100vh",
             }}>
+                <ProgressBarNala />
+                {/* {"this is where the online users will go"} */}
+                <OnlineUsers />
                 <Box sx={{
+                    position: "relative",
                     display: "flex",
-                    gap: 2,
+                    justifyContent: "space-between",
                 }}>
-                    <Box
-                        sx={{
-                            borderRadius: 5,
-                        }}
+                    <Box sx={{
+                        display: "flex",
+                        gap: 2,
+                    }}
+                    onClick={hadnleNavigate}
                     >
-                        <img
-                            src={user?.avatar}
-                            style={{ borderRadius: 10 }}
-                            alt={user?.name}
-                            width={40}
-                        />
-                        <Box sx={{
-                            background: "#00c500",
-                            width: 10,
-                            height: 10,
-                            borderRadius: "50%",
-                            position: "absolute",
-                            left: 32,
-                            top: 45,
-                        }}></Box>  
-                    </Box>
-                    <Box>
-                        <h5 style={{color: "rgba(0, 0, 0, 0.622)", fontSize: 13}}>{user?.name}</h5>
-                        <Box sx={{
-                            mt: -1
-                        }}>
-                            <p>You: Direct Messages</p>
+                        <Box
+                            sx={{
+                                borderRadius: 5,
+                            }}
+                        >
+                            <img
+                                src={user?.avatar}
+                                style={{ borderRadius: 10 }}
+                                alt={user?.name}
+                                width={40}
+                            />
+                            <Box sx={{
+                                background: "#00c500",
+                                width: 10,
+                                height: 10,
+                                borderRadius: "50%",
+                                position: "absolute",
+                                left: 32,
+                                top: 45,
+                            }}></Box>  
+                        </Box>
+                        <Box>
+                            <h5 style={{color: "rgba(0, 0, 0, 0.622)", fontSize: 13}}>{user?.name}</h5>
+                            <Box sx={{
+                                mt: -1
+                            }}>
+                                <p>You: Direct Messages</p>
+                            </Box>
                         </Box>
                     </Box>
+                    <Box>
+                        <h6 style={{
+                            marginTop: 5
+                        }}>Dec 25</h6>
+                    </Box>
                 </Box>
-                <Box>
-                    <h6 style={{
-                        marginTop: 5
-                    }}>Dec 25</h6>
-                </Box>
-            </Box> 
-        </Box>
-    </Card>
+                <br/>
+                <Box sx={{
+                    position: "relative",
+                    display: "flex",
+                    justifyContent: "space-between",
+                }}>
+                    <Box sx={{
+                        display: "flex",
+                        gap: 2,
+                    }}>
+                        <Box
+                            sx={{
+                                borderRadius: 5,
+                            }}
+                        >
+                            <img
+                                src={user?.avatar}
+                                style={{ borderRadius: 10 }}
+                                alt={user?.name}
+                                width={40}
+                            />
+                            <Box sx={{
+                                background: "#00c500",
+                                width: 10,
+                                height: 10,
+                                borderRadius: "50%",
+                                position: "absolute",
+                                left: 32,
+                                top: 45,
+                            }}></Box>  
+                        </Box>
+                        <Box>
+                            <h5 style={{color: "rgba(0, 0, 0, 0.622)", fontSize: 13}}>{user?.name}</h5>
+                            <Box sx={{
+                                mt: -1
+                            }}>
+                                <p>You: Direct Messages</p>
+                            </Box>
+                        </Box>
+                    </Box>
+                    <Box>
+                        <h6 style={{
+                            marginTop: 5
+                        }}>Dec 25</h6>
+                    </Box>
+                </Box> 
+            </Box>
+        </Card>
+    </Box>
   )
 }
