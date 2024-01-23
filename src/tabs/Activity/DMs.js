@@ -108,8 +108,65 @@ export const DMs = () => {
             <Box sx={{
                 maxWidth: "90vw",
                 display: "flex",
-                gap: 2
+                gap: 2,
+                overflow: "scroll"
             }}>
+                <Box >
+                    <img
+                        src={user?.avatar}
+                        style={{ borderRadius: 10 }}
+                        alt={user?.name}
+                        width={40}
+                    />
+                </Box>
+                <Box >
+                    <img
+                        src={user?.avatar}
+                        style={{ borderRadius: 10 }}
+                        alt={user?.name}
+                        width={40}
+                    />
+                </Box>
+                <Box >
+                    <img
+                        src={user?.avatar}
+                        style={{ borderRadius: 10 }}
+                        alt={user?.name}
+                        width={40}
+                    />
+                </Box>
+                <Box >
+                    <img
+                        src={user?.avatar}
+                        style={{ borderRadius: 10 }}
+                        alt={user?.name}
+                        width={40}
+                    />
+                </Box>
+                <Box >
+                    <img
+                        src={user?.avatar}
+                        style={{ borderRadius: 10 }}
+                        alt={user?.name}
+                        width={40}
+                    />
+                </Box>
+                <Box >
+                    <img
+                        src={user?.avatar}
+                        style={{ borderRadius: 10 }}
+                        alt={user?.name}
+                        width={40}
+                    />
+                </Box>
+                <Box >
+                    <img
+                        src={user?.avatar}
+                        style={{ borderRadius: 10 }}
+                        alt={user?.name}
+                        width={40}
+                    />
+                </Box>
                 <Box >
                     <img
                         src={user?.avatar}
