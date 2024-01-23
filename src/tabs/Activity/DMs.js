@@ -105,8 +105,17 @@ export const DMs = () => {
             minHeight:"100vh",
         }}>
             <ProgressBarNala />
-            <Box>
-                hello world
+            <Box sx={{
+                maxWidth: "90vw",
+            }}>
+                <Box>
+                    <img
+                        src={user?.avatar}
+                        style={{ borderRadius: 10 }}
+                        alt={user?.name}
+                        width={40}
+                    />
+                </Box>
             </Box>
             <Box sx={{
                 position: "relative",
