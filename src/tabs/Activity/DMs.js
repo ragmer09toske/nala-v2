@@ -51,9 +51,7 @@ export const DMs = () => {
         borderRadius: "20px 20px 0 0",
         minHeight: "69.5vh"
     }}>
-        <Box>
-            
-        </Box>
+        
         <Box sx={{
         }}>
             <Box sx={{
@@ -107,6 +105,9 @@ export const DMs = () => {
             minHeight:"100vh",
         }}>
             <ProgressBarNala />
+            <Box>
+                hello world
+            </Box>
             <Box sx={{
                 position: "relative",
                 display: "flex",
