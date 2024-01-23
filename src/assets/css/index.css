@@ -259,3 +259,28 @@ input[type="file"] {
 .none_for_Schemes_And_Testig {
   background: "rgb(240 242 245)"
 }
+
+/* --------- */
+/*Scrollbar   */
+/* --------- */
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #2d195000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1a73e800;
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1a73e8;
+  border-radius: 12px;
+}
