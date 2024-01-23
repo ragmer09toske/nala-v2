@@ -7,7 +7,7 @@ import URI_Server from 'uri'
 import { OnlineUsers } from './OnlineUsers'
 import { useNavigate } from 'react-router-dom'
 
-export const DMs = () => {
+export const DMsPage = () => {
     const [load, setLoading] = useState(false)
     const [user, setUser] = useState(null);
     const navigate = useNavigate()
@@ -54,7 +54,7 @@ export const DMs = () => {
   return (
     <Box>
         {onDmsRoute && (<Box>
-            hello world
+            hello world on test
         </Box>)}
         <Card sx={{
             position: 'fixed',
