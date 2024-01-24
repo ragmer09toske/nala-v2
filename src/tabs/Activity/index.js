@@ -171,7 +171,7 @@ export const DMsPage = () => {
                         placeholder="Message"
                         InputProps={{
                         style: {
-                            color: "rgba(0, 0, 0, 0.0)',", // Text color
+                            color: "rgba(0, 0, 0, 0)',", // Text color
                         },
                     }}
                     />
