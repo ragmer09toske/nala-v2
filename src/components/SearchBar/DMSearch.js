@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import SearchIcon from "@mui/icons-material/Search";
 import { Box, TextField } from "@mui/material";
 import "../../assets/css/index.css";
 import SearchBottomSheet from "components/Bottomsheets/Search";
-import { Mic, MicExternalOn } from "@mui/icons-material";
+import { Mic } from "@mui/icons-material";
 
 export const DMSearchBar = () => {
   const [isBottomSheetOpen, setIsBottomSheetOpen] = useState(false);
