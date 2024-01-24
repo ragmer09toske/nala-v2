@@ -79,7 +79,7 @@ export const DMsPage = () => {
                 textAlign: "center",
                 }}
             >
-                <Box sx={{
+                {load ? (<></>) : (<Box sx={{
                     background: "#00c500",
                     width: 12,
                     height: 12,
@@ -87,7 +87,7 @@ export const DMsPage = () => {
                     position: "absolute",
                     right: 35,
                     top: 43 ,
-                }}></Box>  
+                }}></Box>  )}
                 <Box
                 sx={{
                     pl: 3,
