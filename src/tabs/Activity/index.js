@@ -79,7 +79,7 @@ export const DMsPage = () => {
                 textAlign: "center",
                 }}
             >
-                <Box sx={{
+                {load ? (<></>): (<Box sx={{
                     background: "#00c500",
                     width: 12,
                     height: 12,
@@ -87,7 +87,7 @@ export const DMsPage = () => {
                     position: "absolute",
                     right: 35,
                     top: 43 ,
-                }}></Box>  
+                }}></Box>  )}
                 <Box
                 sx={{
                     pl: 3,
@@ -135,9 +135,9 @@ export const DMsPage = () => {
             minWidth: "100vw",
             background: "White",
             border: "solid",
-            borderTopColor: 'rgba(0, 0, 0, 0.22)',
-            borderLeftColor: 'rgba(0, 0, 0, 0.22)',
-            borderRightColor: 'rgba(0, 0, 0, 0.22)',
+            borderTopColor: 'rgba(0, 0, 0, 0.112)',
+            borderLeftColor: 'rgba(0, 0, 0, 0.122)',
+            borderRightColor: 'rgba(0, 0, 0, 0.122)',
             borderRadius: "20px 20px 0 0",
             minHeight: "10vh",
             display: "flex",
