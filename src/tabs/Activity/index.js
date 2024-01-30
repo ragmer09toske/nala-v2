@@ -1,11 +1,9 @@
 import { Box, Card, TextField } from '@mui/material'
 import axios from 'axios'
-import ProgressBarNala from 'layouts/pages/landing-pages/profile/ProgressBar'
 import React, { useEffect, useState } from 'react'
 import URI_Server from 'uri'
 import { useNavigate } from 'react-router-dom'
 import { ArrowBack, Mic } from '@mui/icons-material'
-import { Timeframe } from 'pages/LandingPages/Dms/Timeframe'
 import { Messages } from 'pages/LandingPages/Dms/Messages'
 
 export const DMsPage = () => {
@@ -132,7 +130,6 @@ export const DMsPage = () => {
             minHeight: "79vh"
         }}>
             {/* Content will go here */}
-            <Timeframe />
             <Messages />
             <Box sx={{
             position: 'fixed',

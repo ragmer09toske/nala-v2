@@ -1,6 +1,8 @@
+import { Box } from '@mui/material';
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import URI_Server from 'uri';
+import { Timeframe } from './Timeframe';
 
 export const Messages = () => {
     const [load, setLoading] = useState(false)
@@ -36,6 +38,29 @@ export const Messages = () => {
 
     }, [])
   return (
-    <div>Messages</div>
-  )
+    <Box
+        sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            height: '100%', // Set the height to 100% of the parent container
+            marginTop: 'auto',// Push the box to the bottom of the parent container
+            mb: 10
+        }}
+        >
+        <Box
+            sx={{
+            borderRadius: 5,
+            p: 2
+            }}
+        >
+            <img
+            src={user?.avatar}
+            style={{ borderRadius: 10 }}
+            alt={user?.name}
+            width={45}
+            />
+        </Box>
+        <Timeframe />
+    </Box>
+)
 }
