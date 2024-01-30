@@ -80,7 +80,7 @@ export const DMsPage = () => {
                 textAlign: "center",
                 }}
             >
-                {load ? (<></>): (<Box sx={{
+                {load ? (<></>) : (<Box sx={{
                     background: "#00c500",
                     width: 12,
                     height: 12,
@@ -130,11 +130,7 @@ export const DMsPage = () => {
             borderRadius: "20px 20px 0 0",
             minHeight: "79vh"
         }}>
-<<<<<<< HEAD
             {/* Content will go here */}
-=======
-            {/* Dms Content goes here" */}
->>>>>>> 934f5a6eabb6391ebb3354d15e5ff32a59d28a79
             <Timeframe />
             <Box sx={{
             position: 'fixed',
@@ -142,9 +138,9 @@ export const DMsPage = () => {
             minWidth: "100vw",
             background: "White",
             border: "solid",
-            borderTopColor: 'rgba(0, 0, 0, 0.112)',
-            borderLeftColor: 'rgba(0, 0, 0, 0.122)',
-            borderRightColor: 'rgba(0, 0, 0, 0.122)',
+            borderTopColor: 'rgba(0, 0, 0, 0.22)',
+            borderLeftColor: 'rgba(0, 0, 0, 0.22)',
+            borderRightColor: 'rgba(0, 0, 0, 0.22)',
             borderRadius: "20px 20px 0 0",
             minHeight: "10vh",
             display: "flex",
@@ -178,7 +174,7 @@ export const DMsPage = () => {
                         placeholder="Message"
                         InputProps={{
                         style: {
-                            color: "rgba(0, 0, 0, 0.0)',", // Text color
+                            color: "rgba(0, 0, 0, 0)',", // Text color
                         },
                     }}
                     />
