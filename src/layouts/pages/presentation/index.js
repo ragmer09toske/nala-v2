@@ -137,12 +137,11 @@ export const Presentation = () => {
         case "Alerts":
         content = (
         <>
-          <DefaultNavbar routes={routes} dark sticky />
-            <Box
-              width={"100%"}
-            >
-              <Alerts />
-            </Box>
+          <Box
+            width={"100%"}
+          >
+            <Alerts />
+          </Box>
           <BottomNavbar 
               setView={setView} 
               HomeActive = {HomeActive} 
