@@ -50,7 +50,6 @@ export const Alerts = () => {
     }}>
       <Box sx={{
         position: "fixed",
-        top: 70,
         minWidth: "100vw",
         zIndex: 999
       }}>
