@@ -21,6 +21,7 @@ import MyDropzone from "components/upload/update";
 import useIsDesktop from "hooks/Device";
 import { HelloWorld } from "components/Desktop";
 import { DMsPage } from "tabs/Activity";
+import { SelectedProfile } from "layouts/pages/landing-pages/selectedProfile";
 
 export default function App() {
   const isDesktop = useIsDesktop()
@@ -50,6 +51,7 @@ export default function App() {
       { route: "/register", component: <RegistrationForm /> },
       { route: "/user", component: <User /> },
       { route: "/profile", component: <Profile /> },
+      { route: "/userprofile", component: <SelectedProfile /> },
       { route: "/dms", component: <DMsPage /> },
       { route: "/dropZone", component: <MyDropzone /> },
       { route: "/dropZone", component: <MyDropzone /> },
