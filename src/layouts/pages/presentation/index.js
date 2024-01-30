@@ -77,19 +77,6 @@ export const Presentation = () => {
       content = (
         <>
           <DefaultNavbar routes={routes} dark sticky />
-          {/* <MKBox
-            minHeight="75vh"
-            width="100%"
-            sx={{
-              mt: -19,
-              backgroundSize: "cover",
-              backgroundPosition: "top",
-              display: "grid",
-              placeItems: "center",
-              borderWidth: 1,
-              borderColor: "black",
-            }}
-          > */}
             <Box
               width={"100%"}
             >
@@ -150,12 +137,11 @@ export const Presentation = () => {
         case "Alerts":
         content = (
         <>
-          <DefaultNavbar routes={routes} dark sticky />
-            <Box
-              width={"100%"}
-            >
-              <Alerts />
-            </Box>
+          <Box
+            width={"100%"}
+          >
+            <Alerts />
+          </Box>
           <BottomNavbar 
               setView={setView} 
               HomeActive = {HomeActive} 

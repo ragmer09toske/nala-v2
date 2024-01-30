@@ -5,6 +5,7 @@ import React, { useEffect, useState } from 'react'
 import URI_Server from 'uri'
 import { useNavigate } from 'react-router-dom'
 import { ArrowBack, Mic } from '@mui/icons-material'
+import { Timeframe } from 'pages/LandingPages/Dms/Timeframe'
 
 export const DMsPage = () => {
     const [load, setLoading] = useState(false)
@@ -129,6 +130,8 @@ export const DMsPage = () => {
             borderRadius: "20px 20px 0 0",
             minHeight: "79vh"
         }}>
+            {/* Content will go here */}
+            <Timeframe />
             <Box sx={{
             position: 'fixed',
             bottom: 0,
