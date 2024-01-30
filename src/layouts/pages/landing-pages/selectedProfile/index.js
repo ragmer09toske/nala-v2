@@ -116,7 +116,6 @@ export const SelectedProfile = () => {
                 alt="ionman"
                 className="avatar-image"
               />
-              
             </div>
             
             <Box sx={{

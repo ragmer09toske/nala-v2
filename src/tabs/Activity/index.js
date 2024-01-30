@@ -6,6 +6,7 @@ import URI_Server from 'uri'
 import { useNavigate } from 'react-router-dom'
 import { ArrowBack, Mic } from '@mui/icons-material'
 import { Timeframe } from 'pages/LandingPages/Dms/Timeframe'
+import { Messages } from 'pages/LandingPages/Dms/Messages'
 
 export const DMsPage = () => {
     const [load, setLoading] = useState(false)
@@ -132,15 +133,16 @@ export const DMsPage = () => {
         }}>
             {/* Content will go here */}
             <Timeframe />
+            <Messages />
             <Box sx={{
             position: 'fixed',
             bottom: 0,
             minWidth: "100vw",
             background: "White",
             border: "solid",
-            borderTopColor: 'rgba(0, 0, 0, 0.22)',
-            borderLeftColor: 'rgba(0, 0, 0, 0.22)',
-            borderRightColor: 'rgba(0, 0, 0, 0.22)',
+            borderTopColor: 'rgba(0, 0, 0, 0.10)',
+            borderLeftColor: 'rgba(0, 0, 0, 0.10)',
+            borderRightColor: 'rgba(0, 0, 0, 0.10)',
             borderRadius: "20px 20px 0 0",
             minHeight: "10vh",
             display: "flex",
