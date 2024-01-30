@@ -5,6 +5,7 @@ import React, { useEffect, useState } from 'react'
 import URI_Server from 'uri'
 import { useNavigate } from 'react-router-dom'
 import { ArrowBack, Mic } from '@mui/icons-material'
+import { Timeframe } from 'pages/LandingPages/Dms/Timeframe'
 
 export const DMsPage = () => {
     const [load, setLoading] = useState(false)
@@ -79,7 +80,11 @@ export const DMsPage = () => {
                 textAlign: "center",
                 }}
             >
+<<<<<<< HEAD
+                {load ? (<></>): (<Box sx={{
+=======
                 {load ? (<></>) : (<Box sx={{
+>>>>>>> acb4a0cb3c6d0a85b7ddcee53229360fddc89c84
                     background: "#00c500",
                     width: 12,
                     height: 12,
@@ -129,15 +134,17 @@ export const DMsPage = () => {
             borderRadius: "20px 20px 0 0",
             minHeight: "79vh"
         }}>
+            {/* Dms Content goes here" */}
+            <Timeframe />
             <Box sx={{
             position: 'fixed',
             bottom: 0,
             minWidth: "100vw",
             background: "White",
             border: "solid",
-            borderTopColor: 'rgba(0, 0, 0, 0.22)',
-            borderLeftColor: 'rgba(0, 0, 0, 0.22)',
-            borderRightColor: 'rgba(0, 0, 0, 0.22)',
+            borderTopColor: 'rgba(0, 0, 0, 0.112)',
+            borderLeftColor: 'rgba(0, 0, 0, 0.122)',
+            borderRightColor: 'rgba(0, 0, 0, 0.122)',
             borderRadius: "20px 20px 0 0",
             minHeight: "10vh",
             display: "flex",
