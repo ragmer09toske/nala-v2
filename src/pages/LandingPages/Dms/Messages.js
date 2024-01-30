@@ -47,20 +47,38 @@ export const Messages = () => {
             mb: 10
         }}
         >
+        <Box sx={{
+            p: 2,
+        }}>
         <Box
-            sx={{
+        sx={{
             borderRadius: 5,
-            p: 2
-            }}
+            width: 70, // Set the desired width
+            height: 70, // Set the desired height
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            overflow: 'hidden', // Ensure that any part of the image exceeding the container is hidden
+        }}
         >
-            <img
+        <img
             src={user?.avatar}
-            style={{ borderRadius: 10 }}
             alt={user?.name}
-            width={45}
-            />
+            style={{
+            borderRadius: 5,
+            width: '100%', // Ensure that the image takes up the entire container
+            height: '100%', // Ensure that the image takes up the entire container
+            objectFit: 'cover', // Maintain the aspect ratio without distortion
+            }}
+        />
         </Box>
-        <Timeframe />
+        <h4>{user?.name}::</h4>   
+        <p style={{
+            fontSize: 15
+        }}>
+            This area is designated for your use. You can create draft messages, organize your to-do list, store links and files, and even engage in a personal conversation with yourself. Please note that if you choose to have a conversation, you'll be responsible for generating content for both sides of the dialogue.
+        </p>
+        </Box>
     </Box>
 )
 }
