@@ -80,11 +80,7 @@ export const DMsPage = () => {
                 textAlign: "center",
                 }}
             >
-<<<<<<< HEAD
                 {load ? (<></>): (<Box sx={{
-=======
-                {load ? (<></>) : (<Box sx={{
->>>>>>> acb4a0cb3c6d0a85b7ddcee53229360fddc89c84
                     background: "#00c500",
                     width: 12,
                     height: 12,
@@ -178,7 +174,7 @@ export const DMsPage = () => {
                         placeholder="Message"
                         InputProps={{
                         style: {
-                            color: "rgba(0, 0, 0, 0)',", // Text color
+                            color: "rgba(0, 0, 0, 0.0)',", // Text color
                         },
                     }}
                     />
