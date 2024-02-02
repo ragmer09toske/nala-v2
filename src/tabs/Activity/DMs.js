@@ -7,10 +7,13 @@ import URI_Server from 'uri'
 import { OnlineUsers } from './OnlineUsers'
 import { useNavigate } from 'react-router-dom'
 
+
 export const DMs = () => {
     const [load, setLoading] = useState(false)
     const [user, setUser] = useState(null);
     const navigate = useNavigate()
+
+   
     const hadnleNavigate = () => {  
         navigate("/dms")
     }

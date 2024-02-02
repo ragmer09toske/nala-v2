@@ -3,13 +3,24 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import URI_Server from 'uri'
 import { useNavigate } from 'react-router-dom'
-import { ArrowBack, Mic } from '@mui/icons-material'
+import { Add, ArrowBack, Mic } from '@mui/icons-material'
 import { Messages } from 'pages/LandingPages/Dms/Messages'
+import io from "socket.io-client"
+const socket = io.connect("http://192.168.1.49:3001")
 
 export const DMsPage = () => {
     const [load, setLoading] = useState(false)
     const [user, setUser] = useState(null);
     const navigate = useNavigate()
+    const sendMessage = () => {
+        socket.emit("send_message", {message: "hello world"})
+    }
+    useEffect(() => {
+        socket.on("receive_message", (data)=> {
+            alert(data.message)
+        })
+    },[socket])
+
     const fetchCurrentUser = async () => {
         setLoading(true)
         const config = {
@@ -158,9 +169,8 @@ export const DMsPage = () => {
                     justifyContent: "center",
                     alignItems: "center",
                 }}
-                    onClick={goBack}
                 >
-                    <ArrowBack />
+                    <Add onClick={sendMessage} />
                 </Box>
                 <Box sx={{
                     width: "70%"
